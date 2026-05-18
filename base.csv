@@ -1,0 +1,1405 @@
+ID,Grupo,Torre,Ambiente,Nivel de presión sonora (dB),Nivel de iluminancia,Temperatura ambiental,N° de personas presentes,N° de tomacorrientes disponibles,Cant de luminarias,Fuente de luz,Fuente de ruido,Propósito,Distractores,Frecuencia de uso del ambiente,Nivel de conservación,Nivel de comodidad,Facilidad para estudiar,Intensidad de la luz
+9A3-2904-13,Grupo 1,A,3,-53.7,11.88,26,12,6,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,3,4,2
+9A3-3004-13,Grupo 1,A,3,131.29,435.16,22,5,10,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,1,4,4,2
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,4,4,4,1
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,2,2
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,3,1,2
+3A2-3004-13,Grupo 1,A,2,162.37,74.71,22,3,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,2,3,2
+9A3-3004-13,Grupo 1,A,3,131.29,435.16,22,5,10,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,4,3,4,2
+9A4-3004-13,Grupo 1,A,4,147.78,898.95,21,4,1,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,2,2,2
+9A3-3004-13,Grupo 1,A,3,131.29,435.16,22,5,10,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,3,3,2
+9A3-3004-13,Grupo 1,A,3,131.29,435.16,22,5,10,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,1,5,4,3,2
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,2,3,2,3
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,2,3,2,2
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,3,3,2
+9A1-3004-13,Grupo 8,A,1,05,05,25,20,24,Todos,Mixta,Tráfico vehicular,Estudio,Visuales,2,4,2,4,2
+9A1-3004-13,Grupo 1,A,1,138.74,147.04,21,8,10,4,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,2,4,2
+9A1-3004-13,Grupo 8,A,1,05,05,25,20,24,Todos,Mixta,Tráfico vehicular,Estudio,Visuales,2,5,2,5,2
+9A1-3004-13,Grupo 1,A,1,138.74,147.04,21,8,10,4,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,5,2,5,2
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,3,3,2
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,2,3,2
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,3,2,2
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,2
+3A1-3004-13,Grupo 1,A,1,145.18,347.06,21,1,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,2,5,2
+9A1-3004-13,Grupo 8,A,1,05,05,25,20,24,Todos,Mixta,Tráfico vehicular,Estudio,Visuales,2,4,4,4,2
+9A1-3004-13,Grupo 1,A,1,138.74,147.04,21,8,10,4,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,4,4,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,4,4,4,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,4,4,5,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,2,3,3,3,2
+1S3-2904-13,Grupo 3,S,3,146.4,185.5,24,2,1,3,Artificial,Pasillos,Tránsito,Visuales,2,3,4,2,2
+1S3-2904-13,Grupo 3,S,3,146,160,24,3,1,3,Artificial,Pasillos,Tránsito,Auditivos,2,3,4,2,2
+2A2-2904-13,Grupo 3,A,2,155,833.2,24,1,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,3,3,1,1,2
+2A2-2904-13,Grupo 3,A,2,155,840,23,3,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,3,3,1,1,2
+2A2-2904-09,Grupo 3,A,2,62,324,24,35,4,3,NA,Charla de estudiantes,Socialización,Tecnológicos,3,1,4,4,2
+2A2-2904-09,Grupo 3,A,2,-36,315,20,32,7,6,Mixta,Charla de estudiantes,Descanso,Tecnológicos,3,1,4,4,2
+2A2-2904-09,Grupo 3,A,2,-26,500,20,46,6,10,Natural,Charla de estudiantes,Esparcimiento,Visuales,3,1,4,4,2
+2A2-2904-09,Grupo 3,A,2,-40,450,20,26,5,5,Natural,Charla de estudiantes,Socialización,Tecnológicos,3,1,4,4,2
+2A2-2904-09,Grupo 3,A,2,62,324,24,35,4,3,NA,Charla de estudiantes,Socialización,Tecnológicos,3,3,1,1,1
+2A2-2904-09,Grupo 3,A,2,-36,315,20,32,7,6,Mixta,Charla de estudiantes,Descanso,Tecnológicos,3,3,1,1,1
+2A2-2904-09,Grupo 3,A,2,-26,500,20,46,6,10,Natural,Charla de estudiantes,Esparcimiento,Visuales,3,3,1,1,1
+2A2-2904-09,Grupo 3,A,2,-40,450,20,26,5,5,Natural,Charla de estudiantes,Socialización,Tecnológicos,3,3,1,1,1
+2A2-2904-09,Grupo 3,A,2,62,324,24,35,4,3,NA,Charla de estudiantes,Socialización,Tecnológicos,1,4,4,3,2
+2A2-2904-09,Grupo 3,A,2,-36,315,20,32,7,6,Mixta,Charla de estudiantes,Descanso,Tecnológicos,1,4,4,3,2
+2A2-2904-09,Grupo 3,A,2,-26,500,20,46,6,10,Natural,Charla de estudiantes,Esparcimiento,Visuales,1,4,4,3,2
+2A2-2904-09,Grupo 3,A,2,-40,450,20,26,5,5,Natural,Charla de estudiantes,Socialización,Tecnológicos,1,4,4,3,2
+2A2-2904-09,Grupo 3,A,2,62,324,24,35,4,3,NA,Charla de estudiantes,Socialización,Tecnológicos,2,3,4,3,2
+2A2-2904-09,Grupo 3,A,2,-36,315,20,32,7,6,Mixta,Charla de estudiantes,Descanso,Tecnológicos,2,3,4,3,2
+2A2-2904-09,Grupo 3,A,2,-26,500,20,46,6,10,Natural,Charla de estudiantes,Esparcimiento,Visuales,2,3,4,3,2
+2A2-2904-09,Grupo 3,A,2,-40,450,20,26,5,5,Natural,Charla de estudiantes,Socialización,Tecnológicos,2,3,4,3,2
+2B2-2904-09,Grupo 3,B,2,-30,450,24,12,10,9,Mixta,Charla de estudiantes,Descanso,Tecnológicos,3,5,3,5,3
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,2,3,2
+2A2-2904-09,Grupo 3,A,2,62,324,24,35,4,3,NA,Charla de estudiantes,Socialización,Tecnológicos,3,4,4,4,2
+2A2-2904-09,Grupo 3,A,2,-36,315,20,32,7,6,Mixta,Charla de estudiantes,Descanso,Tecnológicos,3,4,4,4,2
+2A2-2904-09,Grupo 3,A,2,-26,500,20,46,6,10,Natural,Charla de estudiantes,Esparcimiento,Visuales,3,4,4,4,2
+2A2-2904-09,Grupo 3,A,2,-40,450,20,26,5,5,Natural,Charla de estudiantes,Socialización,Tecnológicos,3,4,4,4,2
+2A2-2904-09,Grupo 3,A,2,62,324,24,35,4,3,NA,Charla de estudiantes,Socialización,Tecnológicos,2,3,3,4,2
+2A2-2904-09,Grupo 3,A,2,-36,315,20,32,7,6,Mixta,Charla de estudiantes,Descanso,Tecnológicos,2,3,3,4,2
+2A2-2904-09,Grupo 3,A,2,-26,500,20,46,6,10,Natural,Charla de estudiantes,Esparcimiento,Visuales,2,3,3,4,2
+2A2-2904-09,Grupo 3,A,2,-40,450,20,26,5,5,Natural,Charla de estudiantes,Socialización,Tecnológicos,2,3,3,4,2
+2A2-2904-09,Grupo 3,A,2,62,324,24,35,4,3,NA,Charla de estudiantes,Socialización,Tecnológicos,1,4,3,3,2
+2A2-2904-09,Grupo 3,A,2,-36,315,20,32,7,6,Mixta,Charla de estudiantes,Descanso,Tecnológicos,1,4,3,3,2
+2A2-2904-09,Grupo 3,A,2,-26,500,20,46,6,10,Natural,Charla de estudiantes,Esparcimiento,Visuales,1,4,3,3,2
+2A2-2904-09,Grupo 3,A,2,-40,450,20,26,5,5,Natural,Charla de estudiantes,Socialización,Tecnológicos,1,4,3,3,2
+2A2-2904-09,Grupo 3,A,2,62,324,24,35,4,3,NA,Charla de estudiantes,Socialización,Tecnológicos,2,4,4,4,2
+2A2-2904-09,Grupo 3,A,2,-36,315,20,32,7,6,Mixta,Charla de estudiantes,Descanso,Tecnológicos,2,4,4,4,2
+2A2-2904-09,Grupo 3,A,2,-26,500,20,46,6,10,Natural,Charla de estudiantes,Esparcimiento,Visuales,2,4,4,4,2
+2A2-2904-09,Grupo 3,A,2,-40,450,20,26,5,5,Natural,Charla de estudiantes,Socialización,Tecnológicos,2,4,4,4,2
+2A2-2904-09,Grupo 3,A,2,62,324,24,35,4,3,NA,Charla de estudiantes,Socialización,Tecnológicos,3,4,4,5,3
+2A2-2904-09,Grupo 3,A,2,-36,315,20,32,7,6,Mixta,Charla de estudiantes,Descanso,Tecnológicos,3,4,4,5,3
+2A2-2904-09,Grupo 3,A,2,-26,500,20,46,6,10,Natural,Charla de estudiantes,Esparcimiento,Visuales,3,4,4,5,3
+2A2-2904-09,Grupo 3,A,2,-40,450,20,26,5,5,Natural,Charla de estudiantes,Socialización,Tecnológicos,3,4,4,5,3
+2B2-2904-09,Grupo 3,B,2,-30,450,24,12,10,9,Mixta,Charla de estudiantes,Descanso,Tecnológicos,3,4,4,4,3
+2A1-2904-13,Grupo 3,A,1,45,400.45,23,35,6,4,Mixta,Obras de construcción,Descanso,Visuales,3,4,4,5,3
+2A1-2904-13,Grupo 3,A,1,45,400.45,23,35,6,4,Mixta,Obras de construcción,Descanso,Visuales,3,4,4,1,2
+2A1-2904-13,Grupo 3,A,1,45,400.45,23,35,6,4,Mixta,Obras de construcción,Descanso,Visuales,2,4,2,3,3
+2A1-2904-13,Grupo 3,A,1,45,400.45,23,35,6,4,Mixta,Obras de construcción,Descanso,Visuales,2,3,4,1,2
+2A2-2904-13,Grupo 3,A,2,155,833.2,24,1,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,2,4,4,4,2
+2A2-2904-13,Grupo 3,A,2,155,840,23,3,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,2,4,4,4,2
+2A2-2904-13,Grupo 3,A,2,155,833.2,24,1,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,3,4,5,1,2
+2A2-2904-13,Grupo 3,A,2,155,840,23,3,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,3,4,5,1,2
+2A1-2904-13,Grupo 3,A,1,45,400.45,23,35,6,4,Mixta,Obras de construcción,Descanso,Visuales,3,4,3,4,2
+2A1-2904-13,Grupo 3,A,1,45,400.45,23,35,6,4,Mixta,Obras de construcción,Descanso,Visuales,2,5,4,5,2
+2A2-2904-13,Grupo 3,A,2,155,833.2,24,1,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,2,5,3,5,2
+2A2-2904-13,Grupo 3,A,2,155,840,23,3,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,2,5,3,5,2
+1S3-2904-13,Grupo 3,S,3,146.4,185.5,24,2,1,3,Artificial,Pasillos,Tránsito,Visuales,3,5,5,5,3
+1S3-2904-13,Grupo 3,S,3,146,160,24,3,1,3,Artificial,Pasillos,Tránsito,Auditivos,3,5,5,5,3
+1S3-2904-13,Grupo 3,S,3,146.4,185.5,24,2,1,3,Artificial,Pasillos,Tránsito,Visuales,3,3,3,4,3
+1S3-2904-13,Grupo 3,S,3,146,160,24,3,1,3,Artificial,Pasillos,Tránsito,Auditivos,3,3,3,4,3
+1S3-2904-13,Grupo 3,S,3,146.4,185.5,24,2,1,3,Artificial,Pasillos,Tránsito,Visuales,1,4,3,3,2
+1S3-2904-13,Grupo 3,S,3,146,160,24,3,1,3,Artificial,Pasillos,Tránsito,Auditivos,1,4,3,3,2
+1S3-2904-13,Grupo 3,S,3,146.4,185.5,24,2,1,3,Artificial,Pasillos,Tránsito,Visuales,3,3,3,1,2
+1S3-2904-13,Grupo 3,S,3,146,160,24,3,1,3,Artificial,Pasillos,Tránsito,Auditivos,3,3,3,1,2
+1S2-2904-13,Grupo 3,S,2,146.5,602.4,25.3,50,144,6,Artificial,Charla de estudiantes,Estudio,Visuales,1,4,3,3,2
+1S2-2904-13,Grupo 3,S,2,146.8,602.2,25.3,40,20,6,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,3,3,2
+1S2-2904-13,Grupo 3,S,2,146.5,602.4,25.3,50,144,6,Artificial,Charla de estudiantes,Estudio,Visuales,2,5,4,4,2
+1S2-2904-13,Grupo 3,S,2,146.8,602.2,25.3,40,20,6,Artificial,Charla de estudiantes,Estudio,Auditivos,2,5,4,4,2
+1S2-2904-13,Grupo 3,S,2,146.5,602.4,25.3,50,144,6,Artificial,Charla de estudiantes,Estudio,Visuales,1,4,3,3,2
+1S2-2904-13,Grupo 3,S,2,146.8,602.2,25.3,40,20,6,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,3,3,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,3,4,5,5,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,1,4,3,4,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,2,4,4,3,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,3,1,4,3,3
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,1,3,2,2,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,2,4,4,4,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,2,5,2,4,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,2,4,5,3,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,3,5,5,5,3
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,3,3,3,3,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,1,3,3,3,1
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,2,4,3,3,2
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,3,2,2,2
+2A2-3004-09,Grupo 3,A,2,-36,450,24,30,10,9,Mixta,Obras de construcción,Socialización,Visuales,3,5,5,5,3
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,3,4,4,3
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,1,3,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,4,2,2
+1S2-3004-09,Grupo 8,S,2,24.3,4.816,20,15,20,0,Artificial,Charla de estudiantes,Estudio,Visuales,1,3,3,2,2
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,5,3,3,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,4,4,4,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,5,4,4,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,2,4,2,2,3
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,5,4,4,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,4,3,4,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,2,5,4,4,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,5,4,4,3
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,5,4,4,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,4,5,5,3
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,5,5,2,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,5,4,5,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,2,3,3,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,4,4,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,4,4,5,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,5,3,3,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,3,3,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,5,4,4,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,4,3,3,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,5,5,3,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,4,3,4,2
+5B1-2704-18,Grupo 4,B,1,58.7,496,22,154,96,194,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,5,3,5,3
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,3,4,2,2,2
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,3,3,3,3,2
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,1,4,5,3,2
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,2,5,4,3,2
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,3,2,2,2,1
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,1,4,3,3,3
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,2,3,2,3,2
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,2,4,1,2,2
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,2,4,4,4,2
+1A1-2804-09,Grupo 4,A,1,79.2,276,22.5,24,22,194,Artificial,Charla de estudiantes,Descanso,Auditivos,2,4,3,3,2
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,1,5,5,4,2
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,2,4,3,2,2
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,2,4,4,3,1
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,2,5,3,5,2
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,1,4,3,3,3
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,3,4,3,3,2
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,3,3,3,3,2
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,2,3,4,4,2
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,3,4,3,4,2
+1A1-2804-13,Grupo 4,A,1,161.6,425.63,21,43,11,66,Artificial,Charla de estudiantes,Socialización,Auditivos,3,4,4,3,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,4,4,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,4,4,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,4,3,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,4,3,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,3,3,2,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,3,3,2,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,3,4,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,3,4,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,3,2,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,3,2,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,3,3,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,3,3,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,2,2,1
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,2,2,1
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,2,2,3,4,3
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,2,2,3,4,3
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,1,3,2,2,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,1,3,2,2,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,3,1,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,3,1,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,4,4,3
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,4,4,3
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,3,2,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,3,2,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,2,3,1,2
+1A1-2804-18,Grupo 4,A,1,141.7,261.76,21,55,45,61,Artificial,Charla de estudiantes,Estudio,Auditivos,3,2,3,1,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,1,2,3,1,3
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,5,4,3,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,3,4,4,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,5,3,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,5,4,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,5,5,5,3
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,1,2,4,2,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,5,4,3,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,1,4,4,4,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,4,4,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,1,5,3,3,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,5,4,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,1,4,2,3,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,1,1,2
+1A2-2904-09,Grupo 4,A,2,135.58,80,23,46,15,16,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,3,3,3,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,3,3,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,1,1,1,4,3
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,3,3,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,3,2,4,3
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,2,2,4,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,5,1,3,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,4,3,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,1,4,3,2,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,5,4,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,3,4,1,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,3,3,3,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,3,3,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,4,4,3,2
+1A2-2904-13,Grupo 4,A,2,132.21,84,23.5,45,13,15,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,5,5,5,3
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,2,2,2,3,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,2,2,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,5,5,3
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,5,4,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,4,3,3
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,3,3,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,3,3,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,5,5,3
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,3,3,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,3,3,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,2,2,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,4,3,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,3,2,3,2,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,1,5,2,1,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,2,5,5,4,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,4,3,2
+1A2-2904-18,Grupo 4,A,2,165.4,66.47,23,209,11,15,Artificial,Charla de estudiantes,Estudio,Auditivos,2,5,5,3,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,4,4,3,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,3,5,5,5,3
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,1,3,2,2,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,3,4,4,4,1
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,3,4,4,5,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,4,4,3,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,4,3,3,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,1,5,3,3,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,3,4,3,3,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,3,4,5,4,3
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,1,3,2,2,3
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,1,5,4,1,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,1,5,1,1,1
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,1,5,3,1,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,1,4,1,1,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,1,4,3,1,1
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,3,4,2,1,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,2,5,4,1,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,1,4,4,1,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,1,4,4,1,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,1,3,3,1,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,2,3,2,2,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,1,3,5,1,3
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,2,4,1,4,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,4,3,3,3
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,5,4,5,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,1,4,3,1,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,3,4,5,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,1,5,4,3,1
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,1,5,4,4,3
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,1,5,4,4,3
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,5,5,5,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,4,4,5,2
+1A5-3004-09,Grupo 4,A,5,135.03,277,20,8,2,13,Artificial,Charla de estudiantes,Tránsito,Auditivos,2,4,4,4,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,4,3,4,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,5,4,3,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,3,5,4,5,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,2,4,4,3,3
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,3,4,4,4,2
+1A4-3004-09,Grupo 4,A,4,134.47,374,21.5,19,10,16,Artificial,Obras de construcción,Estudio,Auditivos,1,5,5,4,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,3,3,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,4,4,4,2
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,5,4,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,3,4,4,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,4,4,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,1,4,4,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,5,4,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,4,4,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,5,3,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,1,4,4,3,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,5,4,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,4,4,5,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,5,4,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,1,4,3,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,4,4,4,1
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,1,4,4,3,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,1,3,3,4,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,2,4,3,4,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,2,4,3,4,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,1,4,4,3,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,2,4,4,3,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,2,5,4,4,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,2,3,3,3,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,1,5,4,3,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,1,4,3,3,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,2,4,5,4,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,2,3,3,3,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,1,5,4,3,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,2,4,4,4,1
+5A2-2804-09,Grupo 5,A,2,144.16,2.12,24,15,5,0,Mixta,Tráfico vehicular,Estudio,Auditivos,1,3,3,3,1
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,2,4,4,2
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,1,3,3,3,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,5,5,5,3
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,3,3,3,1
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,4,4,2
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,3,4,3,2
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,1,3,3,4,1
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,3,4,5,2
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,3,3,4,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,2,3,3,4,2
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,3,3,3,2
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,3,5,3,4,3
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,3,3,3,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,2,3,3,4,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,4,3,4,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,3,3,3,2
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,3,4,4,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,3,3,3,2
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,4,4,2
+5A1-2804-13,Grupo 5,A,1,137.88,62.8,21,16,62,0,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,3,3,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,4,2,3,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,3,3,3,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,3,3,4,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,4,4,4,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,2,3,4,4,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,4,2,3,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,2,3,4,3,2
+5A2-2804-13,Grupo 5,A,2,130.56,28.1,23,14,4,8,Mixta,Pasillos,Estudio,Auditivos,1,4,3,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,3,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,4,4,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,3,3,3
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,1,4,3,4,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,2,3,3,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,1,3,2,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,1,4,3,3,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,2,3,3,3,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,1,3,4,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,4,4,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,1,3,3,3,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,2,3,3,3,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,2,3,3,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,4,4,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,2,3,3,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,3,3,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,2,3,3,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,2,3,3,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,1,3,2,3,3
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,1,2,2,2,3
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,2,4,4,4,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,2,4,4,5,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,2,3,3,3,2
+5A1-2804-18,Grupo 5,A,1,155.3,103.8,23,21,62,6,Natural,Charla de estudiantes,Estudio,Auditivos,1,3,2,3,3
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,1,2,3,3,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,1,3,3,3,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,1,3,4,3,2
+5A2-2804-18,Grupo 5,A,2,147.5,22.38,23,15,10,8,Artificial,Pasillos,Estudio,Auditivos,1,3,3,3,2
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,2,3,2,2,2
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,2,4,3,3,2
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,2,3,3,2,2
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,2,3,3,2,2
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,1,3,2,2,1
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,1,3,2,1,1
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,1,4,3,3,2
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,2,3,3,3,2
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,1,3,3,3,2
+1B2-2904-09,Grupo 5,B,2,149.25,2551.51,27,10,0,0,Natural,Pasillos,Descanso,Auditivos,1,3,3,2,2
+1B3-2904-13,Grupo 5,B,3,150.15,572.88,22,17,0,0,Natural,Charla de estudiantes,Alimentación,Auditivos,2,5,5,4,3
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,4,3,3,2
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,1,3,3,4,2
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,4,4,1
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,3,4,2
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,3,3,4,3,2
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,3,3,2
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,3,3,2
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,3,3,2
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,1,3,4,3,2
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,3,3,2
+1B2-2904-18,Grupo 5,B,2,148.64,35.01,19,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,3,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,3,3,2
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,3,4,3,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,4,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,3,4,3,3
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,4,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,4,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,4,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,4,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,3,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,3,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,3,3,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,3,3,2
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,1,4,2,2,1
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,3,3,2
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,3,3,2
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,1,4,2,2,1
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,3,3,1
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,1,4,2,2,1
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,3,3,1
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,3,2,1
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,3,3,2
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,1,4,3,2,1
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,2,5,3,2
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,5,5,4,3
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,3,2
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,4,3,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,3,3,3,3,2
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,5,3,2,3
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,2,3
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,4,3,2
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,3,3,1,3,2
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,1,3,3,2,2
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,1,4,3,2,1
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,1,5,3,2,1
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,5,3,2,1
+1B1-3004-09,Grupo 5,B,1,150.79,71.84,23,18,1,0,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,5,3,2,1
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,3,4,2,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,3,2,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,3,3,3,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,3,3,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,3,3,2,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,3,3,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,3,4,3,2,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,3,1,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,1,2,1
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,3,1,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,1,3,1,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,3,2,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,3,1,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,4,1,1,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,3,4,3,1,2
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,4,4,2
+1B1-3004-18,Grupo 5,B,1,137.77,177.87,26,6,0,31,Artificial,Pasillos,Alimentación,Auditivos,1,3,3,3,2
+1B1-3004-18,Grupo 5,B,1,137.77,177.87,26,6,0,31,Artificial,Pasillos,Alimentación,Auditivos,3,3,4,2,1
+1B1-3004-18,Grupo 5,B,1,137.77,177.87,26,6,0,31,Artificial,Pasillos,Alimentación,Auditivos,2,3,4,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,2,2,1,2
+1B1-3004-18,Grupo 5,B,1,137.77,177.87,26,6,0,31,Artificial,Pasillos,Alimentación,Auditivos,1,5,4,3,2
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,1,3,4,3,1
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,5,4,4,3
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,1,4,3,3,2
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,5,4,3,2
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,2,1,1
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,2,3,1
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,5,4,4,1
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,3,3,2
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,1,3,2,2
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,3,3,2
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,4,3,2
+1B1-3004-18,Grupo 5,B,1,137.77,177.87,26,6,0,31,Artificial,Pasillos,Alimentación,Auditivos,3,4,2,2,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,4,3,3,3
+5A1-2804-09,Grupo 5,A,1,137.4,17.39,22,14,62,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,3,5,3,2
+11A1-2804-09,Grupo 6,A,1,-16.97,6534,19.6,5,5,0,Natural,Charla de estudiantes,Descanso,Tecnológicos,2,4,3,2,2
+11A1-2804-13,Grupo 6,A,1,139.73,1976.88,25,16,4,0,Natural,Charla de estudiantes,Descanso,Tecnológicos,3,4,3,1,2
+11A2-2804-13,Grupo 6,A,2,126.13,1944.71,25,10,3,0,Natural,Charla de estudiantes,Descanso,Tecnológicos,2,5,1,2,2
+10A1-2804-13,Grupo 6,A,1,119.81,3338.86,22,13,20,11,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,5,3,3,2
+10A1-2804-13,Grupo 6,A,1,119.81,3338.86,22,13,20,11,Mixta,Charla de estudiantes,Estudio,Tecnológicos,1,4,2,2,3
+11A3-2804-13,Grupo 6,A,3,136.72,2293.45,25,9,2,0,Natural,Charla de estudiantes,Descanso,Tecnológicos,2,4,2,2,2
+10A1-2904-09,Grupo 6,A,1,"114,97",149.01,22,16,20,0,Natural,Pasillos,Estudio,Tecnológicos,3,5,3,5,2
+10A1-2904-09,Grupo 6,A,1,"114,97",149.01,22,16,20,0,Natural,Pasillos,Estudio,Tecnológicos,3,4,4,4,2
+10A1-2904-09,Grupo 6,A,1,"114,97",149.01,22,16,20,0,Natural,Pasillos,Estudio,Tecnológicos,2,5,5,5,2
+10A1-2904-09,Grupo 6,A,1,"114,97",149.01,22,16,20,0,Natural,Pasillos,Estudio,Tecnológicos,2,5,3,5,2
+10A1-2904-09,Grupo 6,A,1,"114,97",149.01,22,16,20,0,Natural,Pasillos,Estudio,Tecnológicos,2,5,4,3,2
+11A1-3004-18,Grupo 6,A,1,132.32,138.86,19,5,4,3,Artificial,Tráfico vehicular,Descanso,Auditivos,2,4,4,4,2
+11A1-3004-18,Grupo 6,A,1,132.32,138.86,19,5,4,3,Artificial,Tráfico vehicular,Descanso,Auditivos,3,5,5,4,3
+11A1-3004-18,Grupo 6,A,1,132.32,138.86,19,5,4,3,Artificial,Tráfico vehicular,Descanso,Auditivos,2,4,4,2,2
+11A1-3004-18,Grupo 6,A,1,132.32,138.86,19,5,4,3,Artificial,Tráfico vehicular,Descanso,Auditivos,1,3,3,4,3
+11A1-3004-18,Grupo 6,A,1,132.32,138.86,19,5,4,3,Artificial,Tráfico vehicular,Descanso,Auditivos,2,4,4,3,3
+10A1-3004-18,Grupo 6,A,1,124.17,149.86,20,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,2,5,2,4,3
+10A1-3004-18,Grupo 6,A,1,124.17,149.86,20,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,2,5,3,5,2
+11A2-3004-18,Grupo 6,A,2,134.42,131.78,19,4,4,3,Artificial,Tráfico vehicular,Descanso,Auditivos,2,3,3,3,3
+10A1-3004-18,Grupo 6,A,1,124.17,149.86,20,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,2,5,2,5,2
+10A1-3004-18,Grupo 6,A,1,124.17,149.86,20,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,2,4,3,5,2
+10A1-3004-18,Grupo 6,A,1,124.17,149.86,20,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,5,4,5,2
+10A1-3004-18,Grupo 6,A,1,124.17,149.86,20,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,5,3,5,2
+11A2-3004-18,Grupo 6,A,2,134.42,131.78,19,4,4,3,Artificial,Tráfico vehicular,Descanso,Auditivos,3,5,2,4,3
+11A2-3004-18,Grupo 6,A,2,134.42,131.78,19,4,4,3,Artificial,Tráfico vehicular,Descanso,Auditivos,1,4,2,2,2
+10A1-3004-18,Grupo 6,A,1,124.17,149.86,20,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,5,3,5,2
+11A2-3004-18,Grupo 6,A,2,134.42,131.78,19,4,4,3,Artificial,Tráfico vehicular,Descanso,Auditivos,1,4,1,2,3
+10A2-3004-18,Grupo 6,A,2,124.3,149.68,20,8,30,14,Artificial,Charla de estudiantes,Descanso,Tecnológicos,3,5,4,4,2
+10A2-3004-18,Grupo 6,A,2,124.3,149.68,20,8,30,14,Artificial,Charla de estudiantes,Descanso,Tecnológicos,2,5,4,3,2
+10A2-3004-18,Grupo 6,A,2,124.3,149.68,20,8,30,14,Artificial,Charla de estudiantes,Descanso,Tecnológicos,3,5,4,3,2
+10A2-3004-18,Grupo 6,A,2,124.3,149.68,20,8,30,14,Artificial,Charla de estudiantes,Descanso,Tecnológicos,2,4,4,4,2
+10A2-3004-18,Grupo 6,A,2,124.3,149.68,20,8,30,14,Artificial,Charla de estudiantes,Descanso,Tecnológicos,1,5,2,4,2
+10A2-3004-18,Grupo 6,A,2,124.3,149.68,20,8,30,14,Artificial,Charla de estudiantes,Descanso,Tecnológicos,2,5,3,3,2
+10A2-3004-18,Grupo 6,A,2,124.3,149.68,20,8,30,14,Artificial,Charla de estudiantes,Descanso,Tecnológicos,2,5,3,4,2
+10A2-3004-18,Grupo 6,A,2,124.3,149.68,20,8,30,14,Artificial,Charla de estudiantes,Descanso,Tecnológicos,1,5,4,3,2
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,4,2,3,3
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,3,4,4,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,5,4,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,5,4,5,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,5,4,3,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,4,5,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,4,3,5,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,3,2,4,5,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,3,3,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,4,5,4,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,3,2,5,2
+8A3-2904-09,Grupo 7,A,3,55.23,287,NA,15,53,5,Mixta,Charla de estudiantes,Estudio,Tecnológicos,2,3,3,3,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,4,3,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,3,4,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,4,3,3
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,3,4,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,4,3,1
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,3,4,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,1,3,4,5,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,3,3,4,3,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,3,3,4,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,4,4,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,2,1,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,5,5,3
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,4,4,3
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,5,5,2,3
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,4,4,3
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,3,3,5,3,3
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,4,4,3
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,3,3,3,3,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,4,4,3
+3B1-2904-18,Grupo 8,B,1,30.24,0.072,18,3,6,8,Artificial,Pasillos,Esparcimiento,Visuales,1,2,1,2,2
+3B1-2904-18,Grupo 8,B,1,23.2,0.072,18,4,8,8,Artificial,Pasillos,Esparcimiento,Visuales,1,2,1,2,2
+3B1-2904-18,Grupo 8,B,1,30.24,0.072,18,3,6,8,Artificial,Pasillos,Esparcimiento,Visuales,1,3,3,2,2
+3B1-2904-18,Grupo 8,B,1,23.2,0.072,18,4,8,8,Artificial,Pasillos,Esparcimiento,Visuales,1,3,3,2,2
+1B3-3004-09,Grupo 5,B,3,144.63,7607.21,21,4,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,1,3,2,3,2
+1S2-3004-09,Grupo 8,S,2,24.3,4.816,20,15,20,0,Artificial,Charla de estudiantes,Estudio,Visuales,2,3,2,3,2
+1B1-3004-13,Grupo 5,B,1,152.67,28.74,23,126,1,2,Mixta,Charla de estudiantes,Alimentación,Auditivos,2,5,5,3,1
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,5,2,4,3
+1B3-3004-13,Grupo 5,B,3,133.27,5575.21,23,21,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,4,3,2
+1B3-3004-18,Grupo 5,B,3,133.11,118,24,24,10,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,5,5,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,4,3,2
+8A3-0105-09,Grupo 7,A,3,122.27,54.5,21,21,12,9,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,4,4,3
+5B1-2704-09,Grupo 4,B,1,52.8,503.35,22,62,214,94,Mixta,Charla de estudiantes,Estudio,Auditivos,3,5,4,5,3
+3B1-0205-18,Grupo 8,B,1,24.7,0.00069,18,3,8,5,Mixta,Pasillos,Esparcimiento,Auditivos,1,3,3,3,2
+3B2-0205-18,Grupo 8,B,2,60,200.17,18,2,6,6,Mixta,Tráfico vehicular,Esparcimiento,Auditivos,2,3,1,1,2
+10A1-0405-09,Grupo 6,A,1,128.17,21.5,23,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,1,4,3,3,2
+10A1-0405-09,Grupo 6,A,1,128.17,21.5,23,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,2,4,4,4,2
+10A1-0405-09,Grupo 6,A,1,128.17,21.5,23,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,3,3,3,2
+10A1-0405-09,Grupo 6,A,1,128.17,21.5,23,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,1,4,4,4,2
+10A1-0405-09,Grupo 6,A,1,128.17,21.5,23,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,4,3,4,2
+10A1-0405-09,Grupo 6,A,1,128.17,21.5,23,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,1,4,3,4,2
+10A1-0405-09,Grupo 6,A,1,128.17,21.5,23,7,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,4,4,5,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,2,3,2,3,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,3,4,3,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,1,4,4,3,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,2,4,2,2,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,2,3,3,3,1
+11A1-0405-09,Grupo 6,A,1,128.45,2.71,24,7,4,0,Natural,Charla de estudiantes,Esparcimiento,Auditivos,2,3,2,2,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,2,3,3,3,1
+11A1-0405-09,Grupo 6,A,1,128.45,2.71,24,7,4,0,Natural,Charla de estudiantes,Esparcimiento,Auditivos,1,3,1,1,2
+11A1-0405-09,Grupo 6,A,1,128.45,2.71,24,7,4,0,Natural,Charla de estudiantes,Esparcimiento,Auditivos,2,3,3,2,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,4,3,2,1
+11A1-0405-09,Grupo 6,A,1,128.45,2.71,24,7,4,0,Natural,Charla de estudiantes,Esparcimiento,Auditivos,3,2,3,3,2
+11A1-0405-09,Grupo 6,A,1,128.45,2.71,24,7,4,0,Natural,Charla de estudiantes,Esparcimiento,Auditivos,1,2,2,2,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,2,3,3,3,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,4,4,4,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,1,3,3,2,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,2,4,4,4,2
+10A2-0405-09,Grupo 6,A,2,128.29,30.3,23,12,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,4,4,3,2
+11A3-0405-13,Grupo 6,A,3,131.42,1775,24,10,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,1,2,2,1,3
+11A3-0405-13,Grupo 6,A,3,131.42,1775,24,10,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,3,3,3
+11A3-0405-13,Grupo 6,A,3,131.42,1775,24,10,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,2,3,3,3
+11A3-0405-13,Grupo 6,A,3,131.42,1775,24,10,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,2,3,2,3
+11A3-0405-13,Grupo 6,A,3,131.42,1775,24,10,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,2,1,1,3
+11A3-0405-13,Grupo 6,A,3,131.42,1775,24,10,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,2,2,3
+11A3-0405-13,Grupo 6,A,3,131.42,1775,24,10,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,2,3,3
+11A3-0405-13,Grupo 6,A,3,131.42,1775,24,10,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,1,3,3,1,2
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,2,3,3,3
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,2,4,2,3
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,1,2,2,1,3
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,2,2,3
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,3,3,2
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,3,2,3
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,3,3,3,3,2
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,2,3,3,2
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,3,2,3
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,3,2,3
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,3,3,3
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,1,4,3,3,2
+10A1-0405-13,Grupo 6,A,1,131.53,296.77,23,15,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,2,4,5,2
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,2,3,3
+10A1-0405-13,Grupo 6,A,1,131.53,296.77,23,15,20,11,Mixta,Pasillos,Estudio,Tecnológicos,2,4,4,5,3
+10A1-0405-13,Grupo 6,A,1,131.53,296.77,23,15,20,11,Mixta,Pasillos,Estudio,Tecnológicos,2,4,5,4,3
+10A1-0405-13,Grupo 6,A,1,131.53,296.77,23,15,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,5,2,3,1
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,3,3,3,2,3
+10A1-0405-13,Grupo 6,A,1,131.53,296.77,23,15,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,4,4,5,3
+10A1-0405-13,Grupo 6,A,1,131.53,296.77,23,15,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,3,3,2,1
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,3,3,3
+10A1-0405-13,Grupo 6,A,1,131.53,296.77,23,15,20,11,Mixta,Pasillos,Estudio,Tecnológicos,2,3,3,4,1
+10A1-0405-13,Grupo 6,A,1,131.53,296.77,23,15,20,11,Mixta,Pasillos,Estudio,Tecnológicos,3,4,4,5,2
+10A1-0405-13,Grupo 6,A,1,131.53,296.77,23,15,20,11,Mixta,Pasillos,Estudio,Tecnológicos,2,5,5,4,1
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,2,3,2,2,3
+11A2-0405-13,Grupo 6,A,2,131,1968.98,24,22,4,0,Natural,Charla de estudiantes,Alimentación,Tecnológicos,1,3,3,3,3
+10A1-0405-18,Grupo 6,A,1,121.63,152.15,20,11,20,11,Artificial,Pasillos,Estudio,Tecnológicos,3,4,3,4,3
+10A1-0405-18,Grupo 6,A,1,121.63,152.15,20,11,20,11,Artificial,Pasillos,Estudio,Tecnológicos,2,4,2,4,2
+10A1-0405-18,Grupo 6,A,1,121.63,152.15,20,11,20,11,Artificial,Pasillos,Estudio,Tecnológicos,2,3,2,4,3
+10A1-0405-18,Grupo 6,A,1,121.63,152.15,20,11,20,11,Artificial,Pasillos,Estudio,Tecnológicos,3,5,4,5,3
+10A1-0405-18,Grupo 6,A,1,121.63,152.15,20,11,20,11,Artificial,Pasillos,Estudio,Tecnológicos,3,4,3,2,2
+10A1-0405-18,Grupo 6,A,1,121.63,152.15,20,11,20,11,Artificial,Pasillos,Estudio,Tecnológicos,3,5,5,5,3
+10A1-0405-18,Grupo 6,A,1,121.63,152.15,20,11,20,11,Artificial,Pasillos,Estudio,Tecnológicos,1,3,3,2,2
+10A1-0405-18,Grupo 6,A,1,121.63,152.15,20,11,20,11,Artificial,Pasillos,Estudio,Tecnológicos,1,4,3,3,3
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,2,4,5,3,3
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,2,4,5,4,2
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,3,5,4,5,3
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,1,4,4,3,3
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,2,4,4,2,2
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,3,4,5,5,3
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,1,3,3,3,2
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,3,5,5,5,3
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,3,3,4,4,2
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,3,4,5,5,2
+10A2-0405-18,Grupo 6,A,2,129.82,153.79,20,13,30,14,Artificial,Pasillos,Descanso,Tecnológicos,2,3,5,2,2
+11A2-0505-09,Grupo 6,A,2,65,1000,22,5,4,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,4,3,3
+11A2-0505-09,Grupo 6,A,2,65,1000,22,5,4,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,3,3,2,3
+11A2-0505-09,Grupo 6,A,2,65,1000,22,5,4,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,5,4,2
+11A2-0505-09,Grupo 6,A,2,65,1000,22,5,4,0,Natural,Charla de estudiantes,Socialización,Auditivos,1,3,3,3,2
+1S1-0505-13,Grupo 8,S,1,120.45,593.48,25,17,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,4,5,3,3
+1S1-0505-13,Grupo 8,S,1,134.45,594.56,24,17,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0505-13,Grupo 8,S,1,136.78,567.34,24,19,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,5,3,3
+1S1-0505-13,Grupo 8,S,1,124.67,678.93,24,24,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,5,3,3
+1S1-0505-13,Grupo 8,S,1,107.45,652.71,24,23,8,0,Natural,Tráfico vehicular,Socialización,Auditivos,3,4,5,3,3
+1S1-0505-13,Grupo 8,S,1,120.45,593.48,25,17,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,4,5,5,3
+1S1-0505-13,Grupo 8,S,1,134.45,594.56,24,17,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0505-13,Grupo 8,S,1,136.78,567.34,24,19,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,5,5,3
+1S1-0505-13,Grupo 8,S,1,124.67,678.93,24,24,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,5,5,3
+1S1-0505-13,Grupo 8,S,1,107.45,652.71,24,23,8,0,Natural,Tráfico vehicular,Socialización,Auditivos,3,4,5,5,3
+1S1-0505-13,Grupo 8,S,1,120.45,593.48,25,17,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,3,5,2,3
+1S1-0505-13,Grupo 8,S,1,134.45,594.56,24,17,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,3,5,2,3
+1S1-0505-13,Grupo 8,S,1,136.78,567.34,24,19,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,3,5,2,3
+1S1-0505-13,Grupo 8,S,1,124.67,678.93,24,24,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,3,5,2,3
+1S1-0505-13,Grupo 8,S,1,107.45,652.71,24,23,8,0,Natural,Tráfico vehicular,Socialización,Auditivos,3,3,5,2,3
+1S1-0505-13,Grupo 8,S,1,120.45,593.48,25,17,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,4,4,5,3
+1S1-0505-13,Grupo 8,S,1,134.45,594.56,24,17,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,4,5,3
+1S1-0505-13,Grupo 8,S,1,136.78,567.34,24,19,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,4,5,3
+1S1-0505-13,Grupo 8,S,1,124.67,678.93,24,24,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,4,5,3
+1S1-0505-13,Grupo 8,S,1,107.45,652.71,24,23,8,0,Natural,Tráfico vehicular,Socialización,Auditivos,3,4,4,5,3
+1S1-0505-13,Grupo 8,S,1,120.45,593.48,25,17,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,5,5,4,3
+1S1-0505-13,Grupo 8,S,1,134.45,594.56,24,17,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0505-13,Grupo 8,S,1,136.78,567.34,24,19,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,5,5,4,3
+1S1-0505-13,Grupo 8,S,1,124.67,678.93,24,24,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,5,5,4,3
+1S1-0505-13,Grupo 8,S,1,107.45,652.71,24,23,8,0,Natural,Tráfico vehicular,Socialización,Auditivos,3,5,5,4,3
+1S2-0505-13,Grupo 8,S,2,63.21,53,18,24,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,2,5,4,4,2
+1S2-0505-13,Grupo 8,S,2,108.65,87.32,18,30,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,2,5,4,4,2
+1S2-0505-13,Grupo 8,S,2,83.46,34.76,18,43,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,2,5,4,4,2
+1S2-0505-13,Grupo 8,S,2,69.42,136.87,18,56,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,2,5,4,4,2
+1S2-0505-13,Grupo 8,S,2,57.23,106.85,18,85,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,2,5,4,4,2
+1S2-0505-13,Grupo 8,S,2,63.21,53,18,24,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,1,5,4,4,3
+1S2-0505-13,Grupo 8,S,2,108.65,87.32,18,30,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,1,5,4,4,3
+1S2-0505-13,Grupo 8,S,2,83.46,34.76,18,43,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,1,5,4,4,3
+1S2-0505-13,Grupo 8,S,2,69.42,136.87,18,56,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,1,5,4,4,3
+1S2-0505-13,Grupo 8,S,2,57.23,106.85,18,85,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,1,5,4,4,3
+1S2-0505-13,Grupo 8,S,2,63.21,53,18,24,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,1,5,3,3,3
+1S2-0505-13,Grupo 8,S,2,108.65,87.32,18,30,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,1,5,3,3,3
+1S2-0505-13,Grupo 8,S,2,83.46,34.76,18,43,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,1,5,3,3,3
+1S2-0505-13,Grupo 8,S,2,69.42,136.87,18,56,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,1,5,3,3,3
+1S2-0505-13,Grupo 8,S,2,57.23,106.85,18,85,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,1,5,3,3,3
+1S2-0505-13,Grupo 8,S,2,63.21,53,18,24,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,2,5,5,5,3
+1S2-0505-13,Grupo 8,S,2,108.65,87.32,18,30,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,2,5,5,5,3
+1S2-0505-13,Grupo 8,S,2,83.46,34.76,18,43,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,2,5,5,5,3
+1S2-0505-13,Grupo 8,S,2,69.42,136.87,18,56,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,2,5,5,5,3
+1S2-0505-13,Grupo 8,S,2,57.23,106.85,18,85,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,2,5,5,5,3
+1S2-0505-13,Grupo 8,S,2,63.21,53,18,24,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,2,3,2
+1S2-0505-13,Grupo 8,S,2,108.65,87.32,18,30,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,2,4,2,3,2
+1S2-0505-13,Grupo 8,S,2,83.46,34.76,18,43,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,2,4,2,3,2
+1S2-0505-13,Grupo 8,S,2,69.42,136.87,18,56,60,12,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,2,3,2
+1S2-0505-13,Grupo 8,S,2,57.23,106.85,18,85,60,12,Artificial,Charla de estudiantes,Estudio,Visuales,2,4,2,3,2
+3B2-0505-13,Grupo 8,B,2,123.56,350.53,20,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,4,4,5,3
+3B2-0505-13,Grupo 8,B,2,130.78,386.59,20,3,2,0,Mixta,Tráfico vehicular,Esparcimiento,Auditivos,2,4,4,5,3
+3B2-0505-13,Grupo 8,B,2,96.75,258.62,20,4,2,0,Natural,Tráfico vehicular,Esparcimiento,Visuales,2,4,4,5,3
+3B2-0505-13,Grupo 8,B,2,124.22,350.78,20,3,2,0,Natural,Pasillos,Tránsito,Auditivos,2,4,4,5,3
+3B2-0505-13,Grupo 8,B,2,123.56,350.53,20,4,2,0,Natural,Pasillos,Tránsito,Auditivos,3,5,4,5,3
+3B2-0505-13,Grupo 8,B,2,130.78,386.59,20,3,2,0,Mixta,Tráfico vehicular,Esparcimiento,Auditivos,3,5,4,5,3
+3B2-0505-13,Grupo 8,B,2,96.75,258.62,20,4,2,0,Natural,Tráfico vehicular,Esparcimiento,Visuales,3,5,4,5,3
+3B2-0505-13,Grupo 8,B,2,124.22,350.78,20,3,2,0,Natural,Pasillos,Tránsito,Auditivos,3,5,4,5,3
+3B2-0505-13,Grupo 8,B,2,123.56,350.53,20,4,2,0,Natural,Pasillos,Tránsito,Auditivos,3,4,3,3,3
+3B2-0505-13,Grupo 8,B,2,130.78,386.59,20,3,2,0,Mixta,Tráfico vehicular,Esparcimiento,Auditivos,3,4,3,3,3
+3B2-0505-13,Grupo 8,B,2,96.75,258.62,20,4,2,0,Natural,Tráfico vehicular,Esparcimiento,Visuales,3,4,3,3,3
+3B2-0505-13,Grupo 8,B,2,124.22,350.78,20,3,2,0,Natural,Pasillos,Tránsito,Auditivos,3,4,3,3,3
+3B2-0505-13,Grupo 8,B,2,123.56,350.53,20,4,2,0,Natural,Pasillos,Tránsito,Auditivos,3,5,5,5,3
+3B2-0505-13,Grupo 8,B,2,130.78,386.59,20,3,2,0,Mixta,Tráfico vehicular,Esparcimiento,Auditivos,3,5,5,5,3
+3B2-0505-13,Grupo 8,B,2,96.75,258.62,20,4,2,0,Natural,Tráfico vehicular,Esparcimiento,Visuales,3,5,5,5,3
+3B2-0505-13,Grupo 8,B,2,124.22,350.78,20,3,2,0,Natural,Pasillos,Tránsito,Auditivos,3,5,5,5,3
+3B1-0505-13,Grupo 8,B,1,76.34,143.67,18,6,8,6,Mixta,Pasillos,Esparcimiento,Tecnológicos,3,5,4,4,3
+1S3-0505-18,Grupo 8,S,3,72.47,257.87,16,9,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,2,5,5,5,3
+1S3-0505-18,Grupo 8,S,3,87.37,204.78,17,8,2,4,Artificial,Charla de estudiantes,Esparcimiento,Tecnológicos,2,5,5,5,3
+1S3-0505-18,Grupo 8,S,3,95.78,345.89,18,14,3,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,2,5,5,5,3
+1S3-0505-18,Grupo 8,S,3,106.84,208.54,18,5,4,4,Artificial,Pasillos,Esparcimiento,Tecnológicos,2,5,5,5,3
+1S3-0505-18,Grupo 8,S,3,72.47,257.87,16,9,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,2,5,5,4,2
+1S3-0505-18,Grupo 8,S,3,87.37,204.78,17,8,2,4,Artificial,Charla de estudiantes,Esparcimiento,Tecnológicos,2,5,5,4,2
+1S3-0505-18,Grupo 8,S,3,95.78,345.89,18,14,3,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,2,5,5,4,2
+1S3-0505-18,Grupo 8,S,3,106.84,208.54,18,5,4,4,Artificial,Pasillos,Esparcimiento,Tecnológicos,2,5,5,4,2
+1S3-0505-18,Grupo 8,S,3,72.47,257.87,16,9,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,4,4,5,3
+1S3-0505-18,Grupo 8,S,3,87.37,204.78,17,8,2,4,Artificial,Charla de estudiantes,Esparcimiento,Tecnológicos,3,4,4,5,3
+1S3-0505-18,Grupo 8,S,3,95.78,345.89,18,14,3,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,4,4,5,3
+1S3-0505-18,Grupo 8,S,3,106.84,208.54,18,5,4,4,Artificial,Pasillos,Esparcimiento,Tecnológicos,3,4,4,5,3
+1S3-0505-18,Grupo 8,S,3,72.47,257.87,16,9,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,5,4,5,3
+1S3-0505-18,Grupo 8,S,3,87.37,204.78,17,8,2,4,Artificial,Charla de estudiantes,Esparcimiento,Tecnológicos,3,5,4,5,3
+1S3-0505-18,Grupo 8,S,3,95.78,345.89,18,14,3,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,5,4,5,3
+1S3-0505-18,Grupo 8,S,3,106.84,208.54,18,5,4,4,Artificial,Pasillos,Esparcimiento,Tecnológicos,3,5,4,5,3
+3B1-0505-18,Grupo 8,B,1,56.78,168.79,16,2,8,8,Artificial,Pasillos,Tránsito,Tecnológicos,1,4,3,1,2
+3B1-0505-18,Grupo 8,B,1,56.71,200.89,16,3,8,10,Artificial,Pasillos,Tránsito,Tecnológicos,1,4,3,1,2
+3B1-0505-18,Grupo 8,B,1,52.67,189.09,16,2,8,10,Artificial,Pasillos,Tránsito,Tecnológicos,1,4,3,1,2
+1S3-0505-18,Grupo 8,S,3,72.47,257.87,16,9,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,4,5,4,3
+1S3-0505-18,Grupo 8,S,3,87.37,204.78,17,8,2,4,Artificial,Charla de estudiantes,Esparcimiento,Tecnológicos,3,4,5,4,3
+1S3-0505-18,Grupo 8,S,3,95.78,345.89,18,14,3,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,4,5,4,3
+1S3-0505-18,Grupo 8,S,3,106.84,208.54,18,5,4,4,Artificial,Pasillos,Esparcimiento,Tecnológicos,3,4,5,4,3
+1S3-0505-18,Grupo 8,S,3,72.47,257.87,16,9,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,4,5,4,3
+1S3-0505-18,Grupo 8,S,3,87.37,204.78,17,8,2,4,Artificial,Charla de estudiantes,Esparcimiento,Tecnológicos,3,4,5,4,3
+1S3-0505-18,Grupo 8,S,3,95.78,345.89,18,14,3,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,4,5,4,3
+1S3-0505-18,Grupo 8,S,3,106.84,208.54,18,5,4,4,Artificial,Pasillos,Esparcimiento,Tecnológicos,3,4,5,4,3
+1S3-0505-18,Grupo 8,S,3,72.47,257.87,16,9,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,4,4,5,3
+1S3-0505-18,Grupo 8,S,3,87.37,204.78,17,8,2,4,Artificial,Charla de estudiantes,Esparcimiento,Tecnológicos,3,4,4,5,3
+1S3-0505-18,Grupo 8,S,3,95.78,345.89,18,14,3,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,4,4,5,3
+1S3-0505-18,Grupo 8,S,3,106.84,208.54,18,5,4,4,Artificial,Pasillos,Esparcimiento,Tecnológicos,3,4,4,5,3
+1S2-0505-18,Grupo 8,S,2,34.76,356.8,16,18,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,5,5,5,3
+1S2-0505-18,Grupo 8,S,2,65.34,106.35,18,20,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,5,5,5,3
+1S2-0505-18,Grupo 8,S,2,88.66,163.72,18,34,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,5,5,5,3
+1S2-0505-18,Grupo 8,S,2,34.23,256.87,16,40,60,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,5,5,5,3
+3B2-0505-18,Grupo 8,B,2,86.57,186.34,16,3,4,4,Artificial,Charla de estudiantes,Esparcimiento,Auditivos,1,5,3,1,1
+3B2-0505-18,Grupo 8,B,2,67.45,234.56,16,3,4,2,Artificial,Pasillos,Esparcimiento,Visuales,1,5,3,1,1
+3B2-0505-18,Grupo 8,B,2,50.67,167.43,16,4,4,4,Artificial,Pasillos,Esparcimiento,Visuales,1,5,3,1,1
+1S2-0505-18,Grupo 8,S,2,34.76,356.8,16,18,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,4,3
+1S2-0505-18,Grupo 8,S,2,65.34,106.35,18,20,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,4,3
+1S2-0505-18,Grupo 8,S,2,88.66,163.72,18,34,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,4,3
+1S2-0505-18,Grupo 8,S,2,34.23,256.87,16,40,60,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,4,3
+1S2-0505-18,Grupo 8,S,2,34.76,356.8,16,18,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,3,2
+1S2-0505-18,Grupo 8,S,2,65.34,106.35,18,20,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,3,2
+1S2-0505-18,Grupo 8,S,2,88.66,163.72,18,34,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,3,2
+1S2-0505-18,Grupo 8,S,2,34.23,256.87,16,40,60,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,3,2
+1S2-0505-18,Grupo 8,S,2,34.76,356.8,16,18,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,5,4,3
+1S2-0505-18,Grupo 8,S,2,65.34,106.35,18,20,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,5,4,3
+1S2-0505-18,Grupo 8,S,2,88.66,163.72,18,34,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,5,4,3
+1S2-0505-18,Grupo 8,S,2,34.23,256.87,16,40,60,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,5,4,3
+1S2-0505-18,Grupo 8,S,2,34.76,356.8,16,18,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,3,5,5,3
+1S2-0505-18,Grupo 8,S,2,65.34,106.35,18,20,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,3,5,5,3
+1S2-0505-18,Grupo 8,S,2,88.66,163.72,18,34,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,3,5,5,3
+1S2-0505-18,Grupo 8,S,2,34.23,256.87,16,40,60,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,3,5,5,3
+3B1-0505-18,Grupo 8,B,1,56.78,168.79,16,2,8,8,Artificial,Pasillos,Tránsito,Tecnológicos,1,2,4,2,2
+3B1-0505-18,Grupo 8,B,1,56.71,200.89,16,3,8,10,Artificial,Pasillos,Tránsito,Tecnológicos,1,2,4,2,2
+3B1-0505-18,Grupo 8,B,1,52.67,189.09,16,2,8,10,Artificial,Pasillos,Tránsito,Tecnológicos,1,2,4,2,2
+1S2-0505-18,Grupo 8,S,2,34.76,356.8,16,18,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,5,5,2
+1S2-0505-18,Grupo 8,S,2,65.34,106.35,18,20,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,5,5,2
+1S2-0505-18,Grupo 8,S,2,88.66,163.72,18,34,60,8,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,5,5,2
+1S2-0505-18,Grupo 8,S,2,34.23,256.87,16,40,60,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,5,5,2
+3B2-0505-18,Grupo 8,B,2,86.57,186.34,16,3,4,4,Artificial,Charla de estudiantes,Esparcimiento,Auditivos,3,4,5,5,2
+3B2-0505-18,Grupo 8,B,2,67.45,234.56,16,3,4,2,Artificial,Pasillos,Esparcimiento,Visuales,3,4,5,5,2
+3B2-0505-18,Grupo 8,B,2,50.67,167.43,16,4,4,4,Artificial,Pasillos,Esparcimiento,Visuales,3,4,5,5,2
+3B1-0505-18,Grupo 8,B,1,56.78,168.79,16,2,8,8,Artificial,Pasillos,Tránsito,Tecnológicos,2,3,4,3,3
+3B1-0505-18,Grupo 8,B,1,56.71,200.89,16,3,8,10,Artificial,Pasillos,Tránsito,Tecnológicos,2,3,4,3,3
+3B1-0505-18,Grupo 8,B,1,52.67,189.09,16,2,8,10,Artificial,Pasillos,Tránsito,Tecnológicos,2,3,4,3,3
+3B1-0505-18,Grupo 8,B,1,56.78,168.79,16,2,8,8,Artificial,Pasillos,Tránsito,Tecnológicos,3,4,5,4,3
+3B1-0505-18,Grupo 8,B,1,56.71,200.89,16,3,8,10,Artificial,Pasillos,Tránsito,Tecnológicos,3,4,5,4,3
+3B1-0505-18,Grupo 8,B,1,52.67,189.09,16,2,8,10,Artificial,Pasillos,Tránsito,Tecnológicos,3,4,5,4,3
+3B2-0505-18,Grupo 8,B,2,86.57,186.34,16,3,4,4,Artificial,Charla de estudiantes,Esparcimiento,Auditivos,1,4,2,2,2
+3B2-0505-18,Grupo 8,B,2,67.45,234.56,16,3,4,2,Artificial,Pasillos,Esparcimiento,Visuales,1,4,2,2,2
+3B2-0505-18,Grupo 8,B,2,50.67,167.43,16,4,4,4,Artificial,Pasillos,Esparcimiento,Visuales,1,4,2,2,2
+11A2-0505-18,Grupo 6,A,2,127.79,22.41,21,9,6,3,Artificial,Charla de estudiantes,Estudio,Auditivos,3,1,3,5,2
+11A2-0505-18,Grupo 6,A,2,127.79,22.41,21,9,6,3,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,4,5,3
+11A2-0505-18,Grupo 6,A,2,127.79,22.41,21,9,6,3,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,3,3,2
+11A2-0505-18,Grupo 6,A,2,127.79,22.41,21,9,6,3,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,4,4,3
+11A2-0505-18,Grupo 6,A,2,127.79,22.41,21,9,6,3,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,4,5,3
+11A2-0505-18,Grupo 6,A,2,127.79,22.41,21,9,6,3,Artificial,Charla de estudiantes,Estudio,Auditivos,1,1,1,4,3
+11A2-0505-18,Grupo 6,A,2,127.79,22.41,21,9,6,3,Artificial,Charla de estudiantes,Estudio,Auditivos,3,4,5,3,3
+11A2-0505-18,Grupo 6,A,2,127.79,22.41,21,9,6,3,Artificial,Charla de estudiantes,Estudio,Auditivos,3,2,2,2,2
+11A2-0505-18,Grupo 6,A,2,127.79,22.41,21,9,6,3,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,5,5,3
+11A3-0505-18,Grupo 6,A,3,132.38,21.09,21,2,5,2,Artificial,Tráfico vehicular,Descanso,Auditivos,2,2,2,2,1
+11A3-0505-18,Grupo 6,A,3,132.38,21.09,21,2,5,2,Artificial,Tráfico vehicular,Descanso,Auditivos,1,1,1,2,1
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,2,4,3,4,3
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,1,5,5,3,2
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,3,4,3,5,2
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,3,5,4,3,3
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,1,3,3,4,2
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,2,3,4,5,3
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,3,4,5,5,3
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,2,4,4,4,2
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,3,5,3,3,2
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,3,3,4,4,3
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,1,3,5,3,3
+10A1-0505-18,Grupo 6,A,1,128.34,183.51,22,12,20,11,Artificial,Pasillos,Estudio,Tecnológicos,2,5,4,4,2
+6A4-0605-09,Grupo 2,A,4,40.3,864.2,22,3,10,2,Natural,Tráfico vehicular,Descanso,Visuales,3,4,2,3,3
+1B2-0605-13,Grupo 5,B,2,132.64,470.57,22,17,0,0,Natural,Charla de estudiantes,Alimentación,Auditivos,1,3,3,3,2
+1B2-0605-13,Grupo 5,B,2,132.64,470.57,22,17,0,0,Natural,Charla de estudiantes,Alimentación,Auditivos,2,3,3,3,3
+1B2-0605-13,Grupo 5,B,2,132.64,470.57,22,17,0,0,Natural,Charla de estudiantes,Alimentación,Auditivos,2,3,3,2,2
+10A1-0605-13,Grupo 6,A,1,30,500,23,8,20,11,Mixta,Pasillos,Estudio,Auditivos,1,5,4,3,2
+10A1-0605-13,Grupo 6,A,1,30,500,23,8,20,11,Mixta,Pasillos,Estudio,Auditivos,3,4,4,4,2
+10A1-0605-13,Grupo 6,A,1,30,500,23,8,20,11,Mixta,Pasillos,Estudio,Auditivos,1,5,3,4,3
+10A1-0605-13,Grupo 6,A,1,30,500,23,8,20,11,Mixta,Pasillos,Estudio,Auditivos,2,4,3,3,3
+10A1-0605-13,Grupo 6,A,1,30,500,23,8,20,11,Mixta,Pasillos,Estudio,Auditivos,2,3,5,5,2
+10A1-0605-13,Grupo 6,A,1,30,500,23,8,20,11,Mixta,Pasillos,Estudio,Auditivos,3,5,4,5,2
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,3,4,1
+3A2-0605-13,Grupo 1,A,2,146.16,692.58,22,1,2,0,Natural,Tráfico vehicular,Tránsito,Visuales,1,3,2,2,1
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,3,4,3,3
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,1,3,1,1,1
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,3,4,3,2
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,3,3,3,2
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,1,2,4,2
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,4,4,2
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,3,3,4,2
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,2,2,2,2
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,5,5,5,3
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,1,4,4,1
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,4,4,3
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,1,1,2,2,2
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,2,4,4,1
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,3,1,3,5,2
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,3,4,2,3
+3A3-0605-13,Grupo 1,A,3,122.8,1002.45,22,4,45,6,Artificial,Charla de estudiantes,Estudio,Tecnológicos,2,4,3,4,3
+1B2-0605-18,Grupo 5,B,2,122.66,66.09,21,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,3,4,2
+1B2-0605-18,Grupo 5,B,2,122.66,66.09,21,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,3,3,1
+1B2-0605-18,Grupo 5,B,2,122.66,66.09,21,2,0,0,Artificial,Pasillos,Descanso,Auditivos,2,3,3,2,2
+1B2-0605-13,Grupo 5,B,2,132.64,470.57,22,17,0,0,Natural,Charla de estudiantes,Alimentación,Auditivos,2,3,3,3,2
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,3,2
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,3,4,4,3,2
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,3,4,4,3,2
+1B3-0705-09,Grupo 5,B,3,122.8,612.99,20,7,4,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,4,3,2
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,2,2,4,4,2
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,2,2,4,4,2
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,2,2,4,4,2
+1B2-0705-09,Grupo 5,B,2,135.59,1624.36,23,3,0,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,4,3,2
+1B3-0705-09,Grupo 5,B,3,122.8,612.99,20,7,4,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,3,3,2
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,1,5,3,4,2
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,1,5,3,4,2
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,1,5,3,4,2
+1B3-0705-09,Grupo 5,B,3,122.8,612.99,20,7,4,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,3,3,3,2
+1B3-0705-09,Grupo 5,B,3,122.8,612.99,20,7,4,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,4,3,2
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,2,4,4,5,2
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,4,5,2
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,2,4,4,5,2
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,2,4,4,5,2
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,2,4,4,4,2
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,2,4,4,4,2
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,2,4,4,4,2
+11A3-0705-09,Grupo 6,A,3,20,8000,20,2,5,0,Natural,Tráfico vehicular,Descanso,Tecnológicos,3,5,4,4,2
+11A3-0705-09,Grupo 6,A,3,20,8000,20,2,5,0,Natural,Tráfico vehicular,Descanso,Tecnológicos,2,5,4,4,2
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,1,2,4,4,2
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,1,2,4,4,2
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,1,2,4,4,2
+11A1-0705-09,Grupo 6,A,1,35,9000,19,2,6,0,Natural,Tráfico vehicular,Descanso,Visuales,2,5,4,5,2
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,3,2,4,3
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,3,3,2,4,3
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,3,3,2,4,3
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,5,3,3
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,3,4,5,3,3
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,3,4,5,3,3
+10A1-0705-09,Grupo 6,A,1,55,9500,23,3,5,15,Mixta,Pasillos,Estudio,Auditivos,2,4,3,4,2
+10A1-0705-09,Grupo 6,A,1,55,9500,23,3,5,15,Mixta,Pasillos,Estudio,Auditivos,3,3,3,4,2
+10A1-0705-09,Grupo 6,A,1,55,9500,23,3,5,15,Mixta,Pasillos,Estudio,Auditivos,2,4,4,3,2
+10A2-0705-09,Grupo 6,A,2,40,9000,23,2,0,12,Mixta,Pasillos,Descanso,Tecnológicos,3,4,5,4,3
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,3,2,2,2
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,3,3,2,2,2
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,3,3,2,2,2
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,2,4,3,3,2
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,2,4,3,3,2
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,2,4,3,3,2
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,2,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,2,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,2,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,2,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,1,5,1,1,1
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,1,5,1,1,1
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,1,5,1,1,1
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,1,5,1,1,1
+1B3-0705-13,Grupo 5,B,3,132.25,3159.53,22,20,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,3,3,2,1
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,2,4,3,3,2
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,3,3,2
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,2,4,3,3,2
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,3,2
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,3,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,3,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,3,5,3,3,2
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,3,3,2
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,3,5,3,3,2
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,3,5,3,3,2
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,3,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,3,5,4,4,2
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,2
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,2,2,4,4,3
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,2,2,4,4,3
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,2,2,4,4,3
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,3,5,5,5,3
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+2A1-0705-09,Grupo 3,A,1,30,1200,21,26,6,10,Artificial,Charla de estudiantes,Estudio,Visuales,3,4,4,4,2
+2A1-0705-09,Grupo 3,A,1,23,300,22,12,12,7,Mixta,Obras de construcción,Socialización,Visuales,3,4,4,4,2
+2A1-0705-09,Grupo 3,A,1,29,500,23,20,6,6,Natural,Obras de construcción,Tránsito,Olfativos,3,4,4,4,2
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,1,4,3,3,2
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,1,4,3,3,2
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,1,4,3,3,2
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,1,4,3,3,2
+10A1-0705-09,Grupo 6,A,1,55,9500,23,3,5,15,Mixta,Pasillos,Estudio,Auditivos,1,4,4,4,3
+10A2-0705-09,Grupo 6,A,2,40,9000,23,2,0,12,Mixta,Pasillos,Descanso,Tecnológicos,2,5,4,4,3
+2A2-0705-09,Grupo 3,A,2,35,500,23,35,7,7,Artificial,Obras de construcción,Descanso,Tecnológicos,2,4,2,3,2
+2A2-0705-09,Grupo 3,A,2,25.4,350,21,20,6,10,Artificial,Charla de estudiantes,Estudio,Auditivos,2,4,2,3,2
+2A2-0705-09,Grupo 3,A,2,58,400,21,12,6,10,Artificial,Obras de construcción,Estudio,Tecnológicos,2,4,2,3,2
+2A2-0705-09,Grupo 3,A,2,65,550,22,16,7,12,Natural,Charla de estudiantes,Socialización,Visuales,2,4,2,3,2
+2A1-0705-13,Grupo 3,A,1,155.4,950.8,23,6,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,2,4,3,3,2
+2A1-0705-13,Grupo 3,A,1,154.5,982.5,24,6,16,10,Mixta,Tráfico vehicular,Estudio,Auditivos,2,4,3,3,2
+2A1-0705-13,Grupo 3,A,1,155.4,950.8,23,6,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,3,5,4,4,2
+2A1-0705-13,Grupo 3,A,1,154.5,982.5,24,6,16,10,Mixta,Tráfico vehicular,Estudio,Auditivos,3,5,4,4,2
+2A1-0705-13,Grupo 3,A,1,155.4,950.8,23,6,6,6,Mixta,Tráfico vehicular,Estudio,Auditivos,1,4,3,2,2
+2A1-0705-13,Grupo 3,A,1,154.5,982.5,24,6,16,10,Mixta,Tráfico vehicular,Estudio,Auditivos,1,4,3,2,2
+1S3-0705-13,Grupo 3,S,3,152.4,253.7,25,3,2,2,Artificial,Charla de estudiantes,Tránsito,Tecnológicos,3,5,5,5,2
+1S3-0705-13,Grupo 3,S,3,152.4,253.7,25,3,2,2,Artificial,Charla de estudiantes,Tránsito,Tecnológicos,3,4,4,5,3
+1S3-0705-13,Grupo 3,S,3,152.4,253.7,25,3,2,2,Artificial,Charla de estudiantes,Tránsito,Tecnológicos,3,3,3,2,1
+1S1-0705-13,Grupo 3,S,1,147.4,75910.2,26,8,7,8,Natural,Charla de estudiantes,Socialización,Visuales,3,3,4,3,2
+1S1-0705-13,Grupo 3,S,1,147.4,75910.2,26,8,7,8,Natural,Charla de estudiantes,Socialización,Visuales,2,5,4,1,2
+1B3-0705-13,Grupo 5,B,3,132.25,3159.53,22,20,10,0,Natural,Charla de estudiantes,Socialización,Visuales,1,4,4,2,2
+1B3-0705-13,Grupo 5,B,3,132.25,3159.53,22,20,10,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,2
+1B3-0705-13,Grupo 5,B,3,132.25,3159.53,22,20,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,2
+1B3-0705-13,Grupo 5,B,3,132.25,3159.53,22,20,10,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,2,3
+1B3-0705-13,Grupo 5,B,3,132.25,3159.53,22,20,10,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,3,2
+1S1-0705-13,Grupo 3,S,1,147.4,75910.2,26,8,7,8,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,1,3
+1S1-0705-13,Grupo 3,S,1,147.4,75910.2,26,8,7,8,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0705-13,Grupo 3,S,1,147.4,75910.2,26,8,7,8,Natural,Charla de estudiantes,Socialización,Visuales,1,4,3,1,2
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,5,5,4,3
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,2,3,3,4,2
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,1,3,4,5,3
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,4,4,5,3
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,4,5,5,3
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,4,4,5,3
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,1,3,4,5,2
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,2,3,5,3
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,3,5,3,3
+10A2-0705-13,Grupo 6,A,2,152.76,148.97,22,10,30,14,Mixta,Pasillos,Descanso,Tecnológicos,3,5,5,5,3
+1S1-0705-13,Grupo 3,S,1,147.4,75910.2,26,8,7,8,Natural,Charla de estudiantes,Socialización,Visuales,3,3,3,2,3
+1B3-0705-18,Grupo 5,B,3,132.51,76.03,20,8,10,0,Natural,Tráfico vehicular,Socialización,Visuales,2,4,5,1,1
+1B3-0705-18,Grupo 5,B,3,132.51,76.03,20,8,10,0,Natural,Tráfico vehicular,Socialización,Visuales,2,3,4,2,1
+1B3-0705-18,Grupo 5,B,3,132.51,76.03,20,8,10,0,Natural,Tráfico vehicular,Socialización,Visuales,1,2,5,1,1
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,3,4,3,4,2
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,1,5,5,3,2
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,3,4,2,4,2
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,3,4,5,5,3
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,3,3,3,3,3
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,2,5,3,4,2
+1B3-0705-18,Grupo 5,B,3,132.51,76.03,20,8,10,0,Natural,Tráfico vehicular,Socialización,Visuales,1,3,3,3,1
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,3,5,5,5,2
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,2,5,3,4,1
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,2,5,3,4,1
+1B1-0705-18,Grupo 5,B,1,136.77,197.65,22,11,1,25,Artificial,Charla de estudiantes,Alimentación,Auditivos,2,4,2,2,3
+1B1-0705-09,Grupo 5,B,1,143.82,83.57,23,16,1,0,Natural,Charla de estudiantes,Alimentación,Auditivos,2,4,3,2,1
+1B1-0705-09,Grupo 5,B,1,143.82,83.57,23,16,1,0,Natural,Charla de estudiantes,Alimentación,Auditivos,2,4,3,2,1
+1B1-0705-09,Grupo 5,B,1,143.82,83.57,23,16,1,0,Natural,Charla de estudiantes,Alimentación,Auditivos,1,4,1,1,1
+1B2-0705-09,Grupo 5,B,2,135.59,1624.36,23,3,0,0,Natural,Charla de estudiantes,Socialización,Auditivos,1,5,4,2,2
+1B2-0705-09,Grupo 5,B,2,135.59,1624.36,23,3,0,0,Natural,Charla de estudiantes,Socialización,Auditivos,1,4,4,2,2
+1B2-0705-09,Grupo 5,B,2,135.59,1624.36,23,3,0,0,Natural,Charla de estudiantes,Socialización,Auditivos,1,4,4,3,2
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,5,3,2
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,3,3
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,5,3
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,4,4,3
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,4,5,5,3
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,3,5,5,4,3
+1S1-0805-13,Grupo 8,S,1,123.64,478.9,18,23,8,0,Natural,Charla de estudiantes,Socialización,Auditivos,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,118.67,523.87,18,19,8,0,Natural,Charla de estudiantes,Descanso,Visuales,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,98.76,478.9,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,89.76,435.76,18,20,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,103.45,298.67,18,23,0,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,114.55,476.58,18,22,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,96.46,348.91,18,21,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,124.67,382.34,18,19,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,245.89,18,18,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,112.55,356.89,18,15,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,3
+1S1-0805-13,Grupo 8,S,1,87.56,321.76,18,16,8,0,Natural,Charla de estudiantes,Socialización,Visuales,2,4,3,4,3
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,2,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,1,5,4,4,2
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,2,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,1,5,5,5,2
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,1,4,3,4,2
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,3,4,4,5,2
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,2,4,3,5,2
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,1,4,3,2,2
+1S3-0805-13,Grupo 8,S,3,55.32,155.98,18,2,3,4,Artificial,Tráfico vehicular,Alimentación,Auditivos,2,5,3,2,2
+1S3-0805-13,Grupo 8,S,3,56.78,155.76,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,5,3,2,2
+1S3-0805-13,Grupo 8,S,3,54.36,103.25,18,5,4,4,Mixta,Charla de estudiantes,Esparcimiento,Visuales,2,5,3,2,2
+1S3-0805-13,Grupo 8,S,3,55.87,150.98,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,5,3,2,2
+1S3-0805-13,Grupo 8,S,3,85.37,156.78,18,2,4,4,Mixta,Charla de estudiantes,Esparcimiento,Tecnológicos,2,5,3,2,2
+1S3-0805-13,Grupo 8,S,3,55.18,155.12,18,2,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,5,3,2,2
+1S3-0805-13,Grupo 8,S,3,96.36,134.23,18,3,4,4,Artificial,Charla de estudiantes,Socialización,Visuales,2,5,3,2,2
+1S3-0805-13,Grupo 8,S,3,54.89,153.93,18,3,3,4,Artificial,Tráfico vehicular,Tránsito,Auditivos,2,5,3,2,2
+1S3-0805-13,Grupo 8,S,3,76.37,134.87,18,5,4,0,Mixta,Pasillos,Esparcimiento,Tecnológicos,2,5,3,2,2
+1S3-0805-13,Grupo 8,S,3,67.23,1978.87,18,4,4,4,Artificial,Charla de estudiantes,Esparcimiento,Visuales,2,5,3,2,2
+3B1-0905-09,Grupo 8,B,1,102.35,245.98,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,5,3,4,3
+3B1-0905-09,Grupo 8,B,1,87.95,187.69,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,5,3,4,3
+3B1-0905-09,Grupo 8,B,1,86.78,268.64,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,5,3,4,3
+3B1-0905-09,Grupo 8,B,1,96.45,232.21,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,5,3,4,3
+3B1-0905-09,Grupo 8,B,1,106.87,236.24,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,5,3,4,3
+3B1-0905-09,Grupo 8,B,1,78.54,203.56,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,5,3,4,3
+3B1-0905-09,Grupo 8,B,1,105.67,189.57,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,5,3,4,3
+3B1-0905-09,Grupo 8,B,1,102.35,245.98,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,3,3
+3B1-0905-09,Grupo 8,B,1,87.95,187.69,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,3,3
+3B1-0905-09,Grupo 8,B,1,86.78,268.64,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,3,3
+3B1-0905-09,Grupo 8,B,1,96.45,232.21,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,3,3
+3B1-0905-09,Grupo 8,B,1,106.87,236.24,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,3,3
+3B1-0905-09,Grupo 8,B,1,78.54,203.56,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,3,3
+3B1-0905-09,Grupo 8,B,1,105.67,189.57,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,3,3
+3B1-0905-09,Grupo 8,B,1,102.35,245.98,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,3,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,87.95,187.69,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,3,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,86.78,268.64,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,3,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,96.45,232.21,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,3,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,106.87,236.24,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,3,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,78.54,203.56,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,3,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,105.67,189.57,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,3,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,102.35,245.98,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,5,2
+3B1-0905-09,Grupo 8,B,1,87.95,187.69,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,5,2
+3B1-0905-09,Grupo 8,B,1,86.78,268.64,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,5,2
+3B1-0905-09,Grupo 8,B,1,96.45,232.21,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,5,2
+3B1-0905-09,Grupo 8,B,1,106.87,236.24,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,5,2
+3B1-0905-09,Grupo 8,B,1,78.54,203.56,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,5,2
+3B1-0905-09,Grupo 8,B,1,105.67,189.57,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,2,4,3,5,2
+3B1-0905-09,Grupo 8,B,1,102.35,245.98,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,5,4,2
+3B1-0905-09,Grupo 8,B,1,87.95,187.69,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,5,4,2
+3B1-0905-09,Grupo 8,B,1,86.78,268.64,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,5,4,2
+3B1-0905-09,Grupo 8,B,1,96.45,232.21,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,5,4,2
+3B1-0905-09,Grupo 8,B,1,106.87,236.24,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,5,4,2
+3B1-0905-09,Grupo 8,B,1,78.54,203.56,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,5,4,2
+3B1-0905-09,Grupo 8,B,1,105.67,189.57,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,5,4,2
+3B1-0905-09,Grupo 8,B,1,102.35,245.98,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,87.95,187.69,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,86.78,268.64,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,96.45,232.21,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,106.87,236.24,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,78.54,203.56,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,105.67,189.57,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,3,3,2
+3B1-0905-09,Grupo 8,B,1,102.35,245.98,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,4,3,2
+3B1-0905-09,Grupo 8,B,1,87.95,187.69,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,4,3,2
+3B1-0905-09,Grupo 8,B,1,86.78,268.64,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,4,3,2
+3B1-0905-09,Grupo 8,B,1,96.45,232.21,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,4,3,2
+3B1-0905-09,Grupo 8,B,1,106.87,236.24,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,4,3,2
+3B1-0905-09,Grupo 8,B,1,78.54,203.56,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,4,3,2
+3B1-0905-09,Grupo 8,B,1,105.67,189.57,16,4,8,0,Natural,Pasillos,Esparcimiento,Tecnológicos,1,4,4,3,2
+3B2-0905-09,Grupo 8,B,2,165.89,468.59,16,5,2,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,4,3,3,2
+3B2-0905-09,Grupo 8,B,2,94.52,387.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,2
+3B2-0905-09,Grupo 8,B,2,106.25,521.42,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,2
+3B2-0905-09,Grupo 8,B,2,98.54,368.54,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,4,3,3,2
+3B2-0905-09,Grupo 8,B,2,105.64,465.21,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,2
+3B2-0905-09,Grupo 8,B,2,67.84,198.65,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,4,3,3,2
+3B2-0905-09,Grupo 8,B,2,84.52,421.25,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,2
+3B2-0905-09,Grupo 8,B,2,97.65,368.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,2
+3B2-0905-09,Grupo 8,B,2,165.89,468.59,16,5,2,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,1,5,5,3,2
+3B2-0905-09,Grupo 8,B,2,94.52,387.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,5,3,2
+3B2-0905-09,Grupo 8,B,2,106.25,521.42,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,5,3,2
+3B2-0905-09,Grupo 8,B,2,98.54,368.54,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,1,5,5,3,2
+3B2-0905-09,Grupo 8,B,2,105.64,465.21,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,5,3,2
+3B2-0905-09,Grupo 8,B,2,67.84,198.65,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,1,5,5,3,2
+3B2-0905-09,Grupo 8,B,2,84.52,421.25,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,5,3,2
+3B2-0905-09,Grupo 8,B,2,97.65,368.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,5,3,2
+3B2-0905-09,Grupo 8,B,2,165.89,468.59,16,5,2,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,3,5,5,2,3
+3B2-0905-09,Grupo 8,B,2,94.52,387.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,5,5,2,3
+3B2-0905-09,Grupo 8,B,2,106.25,521.42,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,5,5,2,3
+3B2-0905-09,Grupo 8,B,2,98.54,368.54,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,3,5,5,2,3
+3B2-0905-09,Grupo 8,B,2,105.64,465.21,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,5,5,2,3
+3B2-0905-09,Grupo 8,B,2,67.84,198.65,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,3,5,5,2,3
+3B2-0905-09,Grupo 8,B,2,84.52,421.25,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,5,5,2,3
+3B2-0905-09,Grupo 8,B,2,97.65,368.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,5,5,2,3
+3B2-0905-09,Grupo 8,B,2,165.89,468.59,16,5,2,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,4,4,3,3
+3B2-0905-09,Grupo 8,B,2,94.52,387.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,4,3,3
+3B2-0905-09,Grupo 8,B,2,106.25,521.42,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,4,3,3
+3B2-0905-09,Grupo 8,B,2,98.54,368.54,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,4,4,3,3
+3B2-0905-09,Grupo 8,B,2,105.64,465.21,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,4,3,3
+3B2-0905-09,Grupo 8,B,2,67.84,198.65,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,4,4,3,3
+3B2-0905-09,Grupo 8,B,2,84.52,421.25,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,4,3,3
+3B2-0905-09,Grupo 8,B,2,97.65,368.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,4,3,3
+3B2-0905-09,Grupo 8,B,2,165.89,468.59,16,5,2,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,1,5,3,3,2
+3B2-0905-09,Grupo 8,B,2,94.52,387.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,3,3,2
+3B2-0905-09,Grupo 8,B,2,106.25,521.42,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,3,3,2
+3B2-0905-09,Grupo 8,B,2,98.54,368.54,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,1,5,3,3,2
+3B2-0905-09,Grupo 8,B,2,105.64,465.21,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,3,3,2
+3B2-0905-09,Grupo 8,B,2,67.84,198.65,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,1,5,3,3,2
+3B2-0905-09,Grupo 8,B,2,84.52,421.25,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,3,3,2
+3B2-0905-09,Grupo 8,B,2,97.65,368.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,5,3,3,2
+3B2-0905-09,Grupo 8,B,2,165.89,468.59,16,5,2,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,5,3,4,3
+3B2-0905-09,Grupo 8,B,2,94.52,387.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,3,4,3
+3B2-0905-09,Grupo 8,B,2,106.25,521.42,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,3,4,3
+3B2-0905-09,Grupo 8,B,2,98.54,368.54,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,5,3,4,3
+3B2-0905-09,Grupo 8,B,2,105.64,465.21,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,3,4,3
+3B2-0905-09,Grupo 8,B,2,67.84,198.65,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,5,3,4,3
+3B2-0905-09,Grupo 8,B,2,84.52,421.25,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,3,4,3
+3B2-0905-09,Grupo 8,B,2,97.65,368.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,3,4,3
+3B2-0905-09,Grupo 8,B,2,165.89,468.59,16,5,2,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,5,5,3,3
+3B2-0905-09,Grupo 8,B,2,94.52,387.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,5,3,3
+3B2-0905-09,Grupo 8,B,2,106.25,521.42,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,5,3,3
+3B2-0905-09,Grupo 8,B,2,98.54,368.54,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,5,5,3,3
+3B2-0905-09,Grupo 8,B,2,105.64,465.21,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,5,3,3
+3B2-0905-09,Grupo 8,B,2,67.84,198.65,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,5,5,3,3
+3B2-0905-09,Grupo 8,B,2,84.52,421.25,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,5,3,3
+3B2-0905-09,Grupo 8,B,2,97.65,368.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,5,3,3
+3B2-0905-09,Grupo 8,B,2,165.89,468.59,16,5,2,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,4,3,3,3
+3B2-0905-09,Grupo 8,B,2,94.52,387.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,3
+3B2-0905-09,Grupo 8,B,2,106.25,521.42,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,3
+3B2-0905-09,Grupo 8,B,2,98.54,368.54,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,4,3,3,3
+3B2-0905-09,Grupo 8,B,2,105.64,465.21,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,3
+3B2-0905-09,Grupo 8,B,2,67.84,198.65,16,4,2,0,Natural,Pasillos,Tránsito,Auditivos,2,4,3,3,3
+3B2-0905-09,Grupo 8,B,2,84.52,421.25,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,3
+3B2-0905-09,Grupo 8,B,2,97.65,368.54,16,4,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,3,3,3
+1S1-0905-18,Grupo 8,S,1,65.87,345.77,16,12,8,6,Mixta,Charla de estudiantes,Socialización,Auditivos,2,2,2,4,2
+1S1-0905-18,Grupo 8,S,1,76.89,245.78,16,12,8,6,Mixta,Tráfico vehicular,Socialización,Auditivos,2,2,2,4,2
+1S1-0905-18,Grupo 8,S,1,89.76,234.65,16,12,8,6,Mixta,Tráfico vehicular,Esparcimiento,Visuales,2,2,2,4,2
+1S1-0905-18,Grupo 8,S,1,65.36,276.34,16,12,8,6,Mixta,Tráfico vehicular,Socialización,Visuales,2,2,2,4,2
+1S1-0905-18,Grupo 8,S,1,65.87,345.77,16,12,8,6,Mixta,Charla de estudiantes,Socialización,Auditivos,3,3,3,4,2
+1S1-0905-18,Grupo 8,S,1,76.89,245.78,16,12,8,6,Mixta,Tráfico vehicular,Socialización,Auditivos,3,3,3,4,2
+1S1-0905-18,Grupo 8,S,1,89.76,234.65,16,12,8,6,Mixta,Tráfico vehicular,Esparcimiento,Visuales,3,3,3,4,2
+1S1-0905-18,Grupo 8,S,1,65.36,276.34,16,12,8,6,Mixta,Tráfico vehicular,Socialización,Visuales,3,3,3,4,2
+1S1-0905-18,Grupo 8,S,1,65.87,345.77,16,12,8,6,Mixta,Charla de estudiantes,Socialización,Auditivos,2,3,3,3,2
+1S1-0905-18,Grupo 8,S,1,76.89,245.78,16,12,8,6,Mixta,Tráfico vehicular,Socialización,Auditivos,2,3,3,3,2
+1S1-0905-18,Grupo 8,S,1,89.76,234.65,16,12,8,6,Mixta,Tráfico vehicular,Esparcimiento,Visuales,2,3,3,3,2
+1S1-0905-18,Grupo 8,S,1,65.36,276.34,16,12,8,6,Mixta,Tráfico vehicular,Socialización,Visuales,2,3,3,3,2
+1S1-0905-18,Grupo 8,S,1,65.87,345.77,16,12,8,6,Mixta,Charla de estudiantes,Socialización,Auditivos,2,3,3,3,2
+1S1-0905-18,Grupo 8,S,1,76.89,245.78,16,12,8,6,Mixta,Tráfico vehicular,Socialización,Auditivos,2,3,3,3,2
+1S1-0905-18,Grupo 8,S,1,89.76,234.65,16,12,8,6,Mixta,Tráfico vehicular,Esparcimiento,Visuales,2,3,3,3,2
+1S1-0905-18,Grupo 8,S,1,65.36,276.34,16,12,8,6,Mixta,Tráfico vehicular,Socialización,Visuales,2,3,3,3,2
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,3,1,1
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,2,1,2
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,1,1,2
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,1,1,1
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,2,1,2
+3A2-1405-09,Grupo 1,A,2,152.46,269.12,24,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,1,1,1
+3A2-1405-09,Grupo 1,A,2,152.46,269.12,24,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,2,2,1,1
+3A2-1405-09,Grupo 1,A,2,152.46,269.12,24,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,1,1,1,1
+3A2-1405-09,Grupo 1,A,2,152.46,269.12,24,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,1,1,1
+3A2-1405-09,Grupo 1,A,2,152.46,269.12,24,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,1,2,1
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,2,4,3,5,2
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,2,4,4,5,2
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,2,3,4,5,2
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,2,4,5,5,2
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,2,3,3,5,2
+9A2-1405-09,Grupo 1,A,2,129.53,18.16,24,4,15,0,Natural,Pasillos,Estudio,Auditivos,2,4,5,5,1
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,2,4,4,5,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,3,1,1
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,1,1,1
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,3,1,1
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,2,3,1,1
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,3,1,1
+9A2-1405-09,Grupo 1,A,2,129.53,18.16,24,4,15,0,Natural,Pasillos,Estudio,Auditivos,2,4,5,5,2
+9A2-1405-09,Grupo 1,A,2,129.53,18.16,24,4,15,0,Natural,Pasillos,Estudio,Auditivos,2,5,4,5,2
+9A5-1405-09,Grupo 1,A,5,145.96,31.58,25,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,2,1,1
+9A3-1405-09,Grupo 1,A,3,133.67,332,24,1,15,5,Mixta,Pasillos,Estudio,Auditivos,2,4,4,5,2
+9A2-1405-09,Grupo 1,A,2,129.53,18.16,24,4,15,0,Natural,Pasillos,Estudio,Auditivos,2,4,3,5,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,2,1,1
+9A3-1405-09,Grupo 1,A,3,133.67,332,24,1,15,5,Mixta,Pasillos,Estudio,Auditivos,2,4,3,4,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,3,1,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,2,1,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,3,5,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,2,5,2
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,3,1,1
+3A2-1405-09,Grupo 1,A,2,152.46,269.12,24,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,3,1,1
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,3,5,2
+9A3-1405-09,Grupo 1,A,3,133.67,332,24,1,15,5,Mixta,Pasillos,Estudio,Auditivos,2,4,4,5,2
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,2,2,4,3,2
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,1,4,4,4,2
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,2,3,2,4,3
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,3,4,3,3,2
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,3,5,5,5,3
+9A1-1405-09,Grupo 1,A,1,132.78,147.4,26,1,15,4,Mixta,Pasillos,Estudio,Auditivos,2,4,4,3,2
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,2,4,3
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,4,4,4,1
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,2,2,2
+3A1-1405-09,Grupo 1,A,1,152.68,434,29,2,2,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,1,1,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,2,3,3
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,2,1,3,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,4,2,3,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,3,2,2
+9A4-1405-09,Grupo 1,A,4,75.14,628.5,26,2,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,2,1,2
+9A5-1405-09,Grupo 1,A,5,145.96,31.58,25,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,2,2,2
+9A5-1405-09,Grupo 1,A,5,145.96,31.58,25,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,1,1,2
+9A5-1405-09,Grupo 1,A,5,145.96,31.58,25,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,5,1,3,2
+9A5-1405-09,Grupo 1,A,5,145.96,31.58,25,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,3,4,2,3,3
+9A5-1405-09,Grupo 1,A,5,145.96,31.58,25,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,5,2,3,3
+2B1-1505-18,Grupo 9,B,1,155.99,180.47,23,4,0,8,Artificial,Charla de estudiantes,Alimentación,Tecnológicos,1,4,5,3,2
+2B1-1505-18,Grupo 9,B,1,155.99,180.47,23,4,0,8,Artificial,Charla de estudiantes,Alimentación,Tecnológicos,2,4,4,1,2
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,2,4,2,2,2
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,1,3,3,3,1
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,3,2,2,2,3
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,2,3,1,1,2
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,2,5,4,3,2
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,2,3,2,3,2
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,1,3,3,2,2
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,2,4,3,3,2
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,3,4,3,3,1
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,2,4,3,1,2
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,3,5,4,3,3
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,5,2,4,2
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,3,3,3,2
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,3,4,5,3
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,1,5,4,3,2
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,1,3,2,1,2
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,3,2,3,2
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,3,2,2,3,3
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,4,3,4,2
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,5,5,4,2
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,5,3,4,2
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,3,3,4,3,2
+7A3-1605-09,Grupo 9,A,3,155.56,19.25,22,5,13,0,Natural,Tráfico vehicular,Esparcimiento,Auditivos,2,3,2,1,1
+9A3-1605-09,Grupo 1,A,3,133.93,41.13,25,1,17,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,4,5,5,1
+2B1-1605-09,Grupo 9,B,1,129.57,75.63,23,2,4,14,Artificial,Pasillos,Estudio,Auditivos,3,3,4,5,2
+9A2-1605-09,Grupo 1,A,2,130.48,29.49,24,1,15,0,Natural,Pasillos,Estudio,Auditivos,2,5,4,5,1
+9A1-1605-09,Grupo 1,A,1,135.02,39.9,24,1,15,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,5,5,5,1
+7A1-1605-13,Grupo 9,A,1,157.42,15.1,22,3,3,2,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,4,3,2
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,3,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,3,1,1,1
+7A1-1605-13,Grupo 9,A,1,157.42,15.1,22,3,3,2,Natural,Tráfico vehicular,Tránsito,Auditivos,3,5,4,2,2
+7A1-1605-13,Grupo 9,A,1,157.42,15.1,22,3,3,2,Natural,Tráfico vehicular,Tránsito,Auditivos,2,4,4,3,2
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,2,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,2,2,3,2
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,2,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,2,3,3,3,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,2,1,1
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,2,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,2,1,1,1
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,2,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,1,2,1,1
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,1,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,2,2,1,1
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,1,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,2,2,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,2,2,1,1
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,1,1,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,2,2,1,1
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,1,1,1
+3A1-1605-09,Grupo 1,A,1,149.03,347.52,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,2,2,2,1
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,1,1,1
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,4,2,1,1
+9A3-1605-09,Grupo 1,A,3,133.93,41.13,25,1,17,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,4,5,5,2
+9A1-1605-09,Grupo 1,A,1,135.02,39.9,24,1,15,0,Natural,Tráfico vehicular,Estudio,Auditivos,2,5,5,5,1
+9A2-1605-09,Grupo 1,A,2,130.48,29.49,24,1,15,0,Natural,Pasillos,Estudio,Auditivos,1,5,4,5,1
+9A4-1605-09,Grupo 1,A,4,144.35,413.46,23,1,0,0,Natural,Tráfico vehicular,Tránsito,Auditivos,1,1,2,1,1

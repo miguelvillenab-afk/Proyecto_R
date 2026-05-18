@@ -1,0 +1,81 @@
+---
+title: "Avance3"
+format: html
+editor: visual
+---
+
+### Librerías
+```{r}
+library(readr)
+library(dplyr)
+```
+
+###Carga de la base de datos
+```{r}
+#Encuentas <- read_csv("CAUTECResBien_1.csv")
+#Ambientales<- read_csv("CAUTECResBien1_1.csv")
+Encuentas <- read_csv("EncuestasB.csv")
+Ambientales <- read_csv("MedicionesB.csv")
+```
+#### Unión de bases de datos
+```{r}
+resultado <- inner_join(Encuentas, Ambientales , by = "ID")
+```
+#### Resultados
+```{r}
+cat("Filas en Encuestas:", nrow(Encuentas), "\n")
+cat("Filas en Ambientales:", nrow(Ambientales), "\n")
+cat("Filas después del join:", nrow(resultado), "\n")
+```
+
+```{r}
+#names(resultado)
+
+resultado <- resultado %>% select(
+  -`Marca temporal.x`,
+  -`Marca temporal.y`,
+  -`¿En qué horario está llenando el formulario?.x`,
+  -`¿En qué horario está llenando el formulario?.y`,
+  - Piso.x,
+  - Ambiente.x,
+  -`¿Qué grupo lo/la está encuestando?`,
+  -`¿En qué torre se encuentra?.x`,
+  -...22,
+  -...21
+)
+```
+
+```{r}
+names(resultado)
+```
+```{r}
+resultado <- resultado %>% rename(
+    'Torre' = `¿En qué torre se encuentra?.y`,
+    'Piso' = Piso.y,
+    'Ambiente' = Ambiente.y ,
+    'Distractores' =`Tipo de distractores no relacionados con su propósito`,
+    'Cant de luminarias'= `Cantidad de luminarias (focos) funcionando`,
+    'Facilidad para estudiar' = `Nivel de facilidad para estudiar en el ambiente`,
+    'Propósito' = `Propósito en la comunidad`,
+    'Fuente de ruido' = `Fuente principal de ruido`
+)
+```
+```{r}
+resultado <- resultado %>% select(
+  ID, Grupo, Torre, Ambiente, `Nivel de presión sonora (dB)`, `Nivel de iluminancia`, `Temperatura ambiental`, `N° de personas presentes`, `N° de tomacorrientes disponibles`, `Cant de luminarias`, `Fuente de luz` , `Fuente de ruido`,Propósito, Distractores, `Frecuencia de uso del ambiente` , `Nivel de conservación`,`Nivel de comodidad`, `Facilidad para estudiar`, `Intensidad de la luz`
+)
+```
+
+```{r}
+resultado <- resultado %>% mutate(`Cant de luminarias` = case_when(
+  `Cant de luminarias` == 'Todos' ~ NA,
+  TRUE ~ `Cant de luminarias`
+)) %>% mutate(`Cant de luminarias` = strtoi(`Cant de luminarias`))
+```
+
+```{r}
+colSums(is.na(resultado))
+sum(is.na(resultado))
+```
+
+
