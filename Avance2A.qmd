@@ -1,0 +1,181 @@
+---
+title: "Avance2_Arreglado"
+format: html
+editor: visual
+---
+### Librerías
+```{r}
+library(readr)
+library(dplyr)
+```
+
+###Carga de la base de datos
+```{r}
+#Encuentas <- read_csv("CAUTECResBien_1.csv")
+#Ambientales<- read_csv("CAUTECResBien1_1.csv")
+Encuentas <- read_csv("EncuestasB.csv")
+Ambientales <- read_csv("MedicionesB.csv")
+```
+#### Unión de bases de datos
+```{r}
+resultado <- inner_join(Encuentas, Ambientales , by = "ID")
+```
+#### Resultados
+```{r}
+cat("Filas en Encuestas:", nrow(Encuentas), "\n")
+cat("Filas en Ambientales:", nrow(Ambientales), "\n")
+cat("Filas después del join:", nrow(resultado), "\n")
+```
+### Filtrado del Grupo
+Se realizó un proceso de integración y depuración de las bases de datos provenientes de las encuestas y mediciones ambientales con el objetivo de construir una base consistente para el análisis estadístico.
+```{r}
+#Renombrando la columna de ¿Qué grupo lo/la está encuestando?
+resultado <- rename(resultado, GrupoEncuestador = `¿Qué grupo lo/la está encuestando?`)
+resultados_grupo1 <- filter(resultado, GrupoEncuestador  == "Grupo 1")
+resultados_grupo1
+```
+
+#### Quitamos columnas repetidas
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>%
+  select(
+    -`Marca temporal.y`,
+    -`Marca temporal.x`,
+    -`¿En qué horario está llenando el formulario?.y`,
+    -`¿En qué torre se encuentra?.y`,
+    -Piso.y,
+    -Ambiente.y,
+    -Grupo # Conservamos GrupoEncuestador, así que borramos Grupo
+  ) %>%
+  rename(
+    `¿En qué horario está llenando el formulario?` = `¿En qué horario está llenando el formulario?.x`,
+    `¿En qué torre se encuentra?` = `¿En qué torre se encuentra?.x`,
+    Piso = Piso.x,
+    Ambiente = Ambiente.x
+  )
+```
+
+#### Seleccionamos y renombramos las columnas necesarios para el estudio
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>% select(
+  `ID`, `GrupoEncuestador`, `Piso`,`Ambiente`,`Nivel de presión sonora (dB)`,`Nivel de iluminancia`,`Temperatura ambiental`, `N° de personas presentes`,`N° de tomacorrientes disponibles`,`Cantidad de luminarias (focos) funcionando`,`Propósito en la comunidad`,`Fuente de luz`,`Fuente principal de ruido`,`Tipo de distractores no relacionados con su propósito`,`Frecuencia de uso del ambiente`,`Nivel de conservación`,`Nivel de comodidad`,`Nivel de facilidad para estudiar en el ambiente`, `Intensidad de la luz`
+)
+
+resultados_grupo1 <- resultados_grupo1 %>% rename(
+    `Grupo` = `GrupoEncuestador`,
+    `Temp. Amb.` = `Temperatura ambiental`,
+    `Cant. de luminarias` = `Cantidad de luminarias (focos) funcionando`,
+    `Propósito` = `Propósito en la comunidad`,
+    `Fuente de ruido` = `Fuente principal de ruido`,
+    `Distractores`= `Tipo de distractores no relacionados con su propósito`,
+    `Frecuencia de uso`=`Frecuencia de uso del ambiente`,
+    `Facilidad para estudiar`=`Nivel de facilidad para estudiar en el ambiente`
+  )
+
+resultados_grupo1
+```
+### Detección de malos datos en la variable de ilumarias
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>% mutate(`Cant. de luminarias` = case_when(
+  `Cant. de luminarias` == 'Todos' ~ NA,
+  TRUE ~ `Cant. de luminarias`
+)) %>% mutate(`Cant. de luminarias` = strtoi(`Cant. de luminarias`))
+```
+
+
+### Validación de nulos
+```{r}
+resultados_grupo1
+colSums(is.na(resultados_grupo1))
+```
+Se identificaron valores faltantes significativos en las variables consideradas para el estudio.
+
+Limpiamos los NA
+```{r}
+resultados_grupo1 <- na.omit(resultados_grupo1)
+
+resultados_grupo1
+```
+
+
+### Radiografía
+```{r}
+Radiografia <- resultados_grupo1 %>%
+  summarise(across(everything(), list(
+    Porcentaje_NA = ~ mean(is.na(.)) * 100,
+    
+    Porcentaje_Ceros = ~ {if(is.numeric(.)) mean(. == 0, na.rm = TRUE) * 100 else NA},
+    
+    # 3. Calcula la cardinalidad (valores únicos)
+    Valores_Unicos = ~ n_distinct(.)
+  )))
+
+glimpse(Radiografia)
+Radiografia
+```
+### Validación de tipos de variables
+```{r}
+glimpse(resultados_grupo1)
+```
+### Codificación de variables
+Las variables categóricas ordinales fueron transformadas en factores ordenados, mientras que las variables nominales fueron convertidas en factores categóricos para garantizar un tratamiento adecuado durante el análisis estadístico.
+
+### Cuantitativas Discretas
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>% mutate(
+  `N° de tomacorrientes disponibles` = as.numeric(`N° de tomacorrientes disponibles`),
+  `N° de personas presentes` = as.numeric(`N° de personas presentes`)
+)
+```
+
+
+#### Cuantitativas Continuas
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>%
+  mutate(
+    `Nivel de presión sonora (dB)` =
+      round(as.numeric(`Nivel de presión sonora (dB)`), 2),
+
+    `Nivel de iluminancia` =
+      round(as.numeric(`Nivel de iluminancia`), 2)
+  )
+```
+
+
+#### Factores Ordinales
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>%
+  mutate(
+    # Variables con escala del 1 al 5
+    `Nivel de conservación` = factor(`Nivel de conservación`, levels = c(1:5), ordered = TRUE),
+    `Nivel de comodidad` = factor(`Nivel de comodidad`, levels = c(1:5), ordered = TRUE),
+    `Facilidad para estudiar` = factor(`Facilidad para estudiar`, levels = c(1:5), ordered = TRUE),
+    
+    # Variables con escala del 1 al 3
+    `Intensidad de la luz` = factor(`Intensidad de la luz`, levels = c(1:3), ordered = TRUE),
+    `Frecuencia de uso` = factor(`Frecuencia de uso`, levels = c(1:3), ordered = TRUE)
+    
+  )
+```
+
+#### Factores Nominales
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>% mutate(
+  Propósito = as.factor(Propósito),
+  `Fuente de luz` = as.factor(`Fuente de luz`),
+  `Fuente de ruido` = as.factor(`Fuente de ruido`),
+  Distractores = as.factor(Distractores),
+  Ambiente = as.factor(Ambiente)
+)
+```
+### Validación
+```{r}
+str(resultados_grupo1)
+resultados_grupo1
+```
+### Exportación
+```{r}
+write_csv(resultados_grupo1, "base_limpia_grupo1.csv")
+```
+
+

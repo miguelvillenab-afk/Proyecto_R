@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Avance2_Arreglado</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="Avance2A_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Avance2A_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="Avance2A_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="Avance2A_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="Avance2A_files/libs/quarto-html/popper.min.js"></script>
+<script src="Avance2A_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Avance2A_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Avance2A_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Avance2A_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Avance2A_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Avance2A_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Avance2A_files/libs/bootstrap/bootstrap-a80efa8e6010b2ac597a555a440b7826.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Avance2_Arreglado</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="librerías" class="level3">
+<h3 class="anchored" data-anchor-id="librerías">Librerías</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Adjuntando el paquete: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+</div>
+<p>###Carga de la base de datos</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Encuentas &lt;- read_csv("CAUTECResBien_1.csv")</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Ambientales&lt;- read_csv("CAUTECResBien1_1.csv")</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>Encuentas <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"EncuestasB.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 1318 Columns: 17
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (5): ID, Marca temporal, ¿Qué grupo lo/la está encuestando?, ¿En qué ho...
+dbl (12): Piso, Ambiente, Nivel de ventilación, Nivel de seguridad, Nivel de...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>Ambientales <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"MedicionesB.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+Rows: 242 Columns: 22
+── Column specification
+──────────────────────────────────────────────────────── Delimiter: "," chr
+(16): ID, Marca temporal, Grupo, ¿En qué horario está llenando el formul... dbl
+(5): Piso, Ambiente, Temperatura ambiental, N° de personas presentes, N... lgl
+(1): ...21
+ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
+Specify the column types or set `show_col_types = FALSE` to quiet this message.
+• `...37` -&gt; `...21`
+• `...38` -&gt; `...22`</code></pre>
+</div>
+</div>
+<section id="unión-de-bases-de-datos" class="level4">
+<h4 class="anchored" data-anchor-id="unión-de-bases-de-datos">Unión de bases de datos</h4>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>resultado <span class="ot">&lt;-</span> <span class="fu">inner_join</span>(Encuentas, Ambientales , <span class="at">by =</span> <span class="st">"ID"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in inner_join(Encuentas, Ambientales, by = "ID"): Detected an unexpected many-to-many relationship between `x` and `y`.
+ℹ Row 30 of `x` matches multiple rows in `y`.
+ℹ Row 63 of `y` matches multiple rows in `x`.
+ℹ If a many-to-many relationship is expected, set `relationship =
+  "many-to-many"` to silence this warning.</code></pre>
+</div>
+</div>
+</section>
+<section id="resultados" class="level4">
+<h4 class="anchored" data-anchor-id="resultados">Resultados</h4>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Filas en Encuestas:"</span>, <span class="fu">nrow</span>(Encuentas), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Filas en Encuestas: 1318 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Filas en Ambientales:"</span>, <span class="fu">nrow</span>(Ambientales), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Filas en Ambientales: 242 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Filas después del join:"</span>, <span class="fu">nrow</span>(resultado), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Filas después del join: 1404 </code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="filtrado-del-grupo" class="level3">
+<h3 class="anchored" data-anchor-id="filtrado-del-grupo">Filtrado del Grupo</h3>
+<p>Se realizó un proceso de integración y depuración de las bases de datos provenientes de las encuestas y mediciones ambientales con el objetivo de construir una base consistente para el análisis estadístico.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Renombrando la columna de ¿Qué grupo lo/la está encuestando?</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>resultado <span class="ot">&lt;-</span> <span class="fu">rename</span>(resultado, <span class="at">GrupoEncuestador =</span> <span class="st">`</span><span class="at">¿Qué grupo lo/la está encuestando?</span><span class="st">`</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> <span class="fu">filter</span>(resultado, GrupoEncuestador  <span class="sc">==</span> <span class="st">"Grupo 1"</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>resultados_grupo1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 128 × 38
+   ID          `Marca temporal.x`  GrupoEncuestador ¿En qué horario está llena…¹
+   &lt;chr&gt;       &lt;chr&gt;               &lt;chr&gt;            &lt;chr&gt;                       
+ 1 9A3-2904-13 29/04/2026 14:14:44 Grupo 1          13                          
+ 2 9A3-3004-13 30/04/2026 10:59:56 Grupo 1          13                          
+ 3 3A1-3004-13 30/04/2026 15:51:00 Grupo 1          13                          
+ 4 3A1-3004-13 30/04/2026 16:03:42 Grupo 1          13                          
+ 5 3A1-3004-13 30/04/2026 16:34:46 Grupo 1          13                          
+ 6 3A2-3004-13 30/04/2026 16:37:37 Grupo 1          13                          
+ 7 9A3-3004-13 30/04/2026 16:40:00 Grupo 1          13                          
+ 8 9A4-3004-13 30/04/2026 16:41:18 Grupo 1          13                          
+ 9 9A3-3004-13 30/04/2026 16:41:24 Grupo 1          13                          
+10 9A3-3004-13 30/04/2026 16:42:31 Grupo 1          13                          
+# ℹ 118 more rows
+# ℹ abbreviated name: ¹​`¿En qué horario está llenando el formulario?.x`
+# ℹ 34 more variables: `¿En qué torre se encuentra?.x` &lt;chr&gt;, Piso.x &lt;dbl&gt;,
+#   Ambiente.x &lt;dbl&gt;, `Nivel de ventilación` &lt;dbl&gt;, `Nivel de seguridad` &lt;dbl&gt;,
+#   `Nivel de sensación térmica` &lt;dbl&gt;, `Intensidad de la luz` &lt;dbl&gt;,
+#   `Nivel de conservación` &lt;dbl&gt;, `Nivel de privacidad` &lt;dbl&gt;,
+#   `Nivel de comodidad` &lt;dbl&gt;, `Frecuencia de uso del ambiente` &lt;dbl&gt;, …</code></pre>
+</div>
+</div>
+<section id="quitamos-columnas-repetidas" class="level4">
+<h4 class="anchored" data-anchor-id="quitamos-columnas-repetidas">Quitamos columnas repetidas</h4>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span><span class="st">`</span><span class="at">Marca temporal.y</span><span class="st">`</span>,</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span><span class="st">`</span><span class="at">Marca temporal.x</span><span class="st">`</span>,</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span><span class="st">`</span><span class="at">¿En qué horario está llenando el formulario?.y</span><span class="st">`</span>,</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span><span class="st">`</span><span class="at">¿En qué torre se encuentra?.y</span><span class="st">`</span>,</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span>Piso.y,</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span>Ambiente.y,</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span>Grupo <span class="co"># Conservamos GrupoEncuestador, así que borramos Grupo</span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">¿En qué horario está llenando el formulario?</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">¿En qué horario está llenando el formulario?.x</span><span class="st">`</span>,</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">¿En qué torre se encuentra?</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">¿En qué torre se encuentra?.x</span><span class="st">`</span>,</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">Piso =</span> Piso.x,</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">Ambiente =</span> Ambiente.x</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="seleccionamos-y-renombramos-las-columnas-necesarios-para-el-estudio" class="level4">
+<h4 class="anchored" data-anchor-id="seleccionamos-y-renombramos-las-columnas-necesarios-para-el-estudio">Seleccionamos y renombramos las columnas necesarios para el estudio</h4>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span> <span class="fu">select</span>(</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">ID</span><span class="st">`</span>, <span class="st">`</span><span class="at">GrupoEncuestador</span><span class="st">`</span>, <span class="st">`</span><span class="at">Piso</span><span class="st">`</span>,<span class="st">`</span><span class="at">Ambiente</span><span class="st">`</span>,<span class="st">`</span><span class="at">Nivel de presión sonora (dB)</span><span class="st">`</span>,<span class="st">`</span><span class="at">Nivel de iluminancia</span><span class="st">`</span>,<span class="st">`</span><span class="at">Temperatura ambiental</span><span class="st">`</span>, <span class="st">`</span><span class="at">N° de personas presentes</span><span class="st">`</span>,<span class="st">`</span><span class="at">N° de tomacorrientes disponibles</span><span class="st">`</span>,<span class="st">`</span><span class="at">Cantidad de luminarias (focos) funcionando</span><span class="st">`</span>,<span class="st">`</span><span class="at">Propósito en la comunidad</span><span class="st">`</span>,<span class="st">`</span><span class="at">Fuente de luz</span><span class="st">`</span>,<span class="st">`</span><span class="at">Fuente principal de ruido</span><span class="st">`</span>,<span class="st">`</span><span class="at">Tipo de distractores no relacionados con su propósito</span><span class="st">`</span>,<span class="st">`</span><span class="at">Frecuencia de uso del ambiente</span><span class="st">`</span>,<span class="st">`</span><span class="at">Nivel de conservación</span><span class="st">`</span>,<span class="st">`</span><span class="at">Nivel de comodidad</span><span class="st">`</span>,<span class="st">`</span><span class="at">Nivel de facilidad para estudiar en el ambiente</span><span class="st">`</span>, <span class="st">`</span><span class="at">Intensidad de la luz</span><span class="st">`</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span> <span class="fu">rename</span>(</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Grupo</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">GrupoEncuestador</span><span class="st">`</span>,</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Temp. Amb.</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Temperatura ambiental</span><span class="st">`</span>,</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Cant. de luminarias</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Cantidad de luminarias (focos) funcionando</span><span class="st">`</span>,</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Propósito</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Propósito en la comunidad</span><span class="st">`</span>,</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Fuente de ruido</span><span class="st">`</span> <span class="ot">=</span> <span class="st">`</span><span class="at">Fuente principal de ruido</span><span class="st">`</span>,</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Distractores</span><span class="st">`</span><span class="ot">=</span> <span class="st">`</span><span class="at">Tipo de distractores no relacionados con su propósito</span><span class="st">`</span>,</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Frecuencia de uso</span><span class="st">`</span><span class="ot">=</span><span class="st">`</span><span class="at">Frecuencia de uso del ambiente</span><span class="st">`</span>,</span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Facilidad para estudiar</span><span class="st">`</span><span class="ot">=</span><span class="st">`</span><span class="at">Nivel de facilidad para estudiar en el ambiente</span><span class="st">`</span></span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>resultados_grupo1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 128 × 19
+   ID         Grupo  Piso Ambiente Nivel de presión son…¹ `Nivel de iluminancia`
+   &lt;chr&gt;      &lt;chr&gt; &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;                  &lt;chr&gt;                 
+ 1 9A3-2904-… Grup…     9        3 -53.7                  11.88                 
+ 2 9A3-3004-… Grup…     9        3 131.29                 435.16                
+ 3 3A1-3004-… Grup…     3        1 145.18                 347.06                
+ 4 3A1-3004-… Grup…     3        1 145.18                 347.06                
+ 5 3A1-3004-… Grup…     3        1 145.18                 347.06                
+ 6 3A2-3004-… Grup…     3        2 162.37                 74.71                 
+ 7 9A3-3004-… Grup…     9        3 131.29                 435.16                
+ 8 9A4-3004-… Grup…     9        4 147.78                 898.95                
+ 9 9A3-3004-… Grup…     9        3 131.29                 435.16                
+10 9A3-3004-… Grup…     9        3 131.29                 435.16                
+# ℹ 118 more rows
+# ℹ abbreviated name: ¹​`Nivel de presión sonora (dB)`
+# ℹ 13 more variables: `Temp. Amb.` &lt;dbl&gt;, `N° de personas presentes` &lt;dbl&gt;,
+#   `N° de tomacorrientes disponibles` &lt;dbl&gt;, `Cant. de luminarias` &lt;chr&gt;,
+#   Propósito &lt;chr&gt;, `Fuente de luz` &lt;chr&gt;, `Fuente de ruido` &lt;chr&gt;,
+#   Distractores &lt;chr&gt;, `Frecuencia de uso` &lt;dbl&gt;,
+#   `Nivel de conservación` &lt;dbl&gt;, `Nivel de comodidad` &lt;dbl&gt;, …</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="detección-de-malos-datos-en-la-variable-de-ilumarias" class="level3">
+<h3 class="anchored" data-anchor-id="detección-de-malos-datos-en-la-variable-de-ilumarias">Detección de malos datos en la variable de ilumarias</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Cant. de luminarias</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">case_when</span>(</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Cant. de luminarias</span><span class="st">`</span> <span class="sc">==</span> <span class="st">'Todos'</span> <span class="sc">~</span> <span class="cn">NA</span>,</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">`</span><span class="at">Cant. de luminarias</span><span class="st">`</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>)) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Cant. de luminarias</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">strtoi</span>(<span class="st">`</span><span class="at">Cant. de luminarias</span><span class="st">`</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="validación-de-nulos" class="level3">
+<h3 class="anchored" data-anchor-id="validación-de-nulos">Validación de nulos</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 128 × 19
+   ID         Grupo  Piso Ambiente Nivel de presión son…¹ `Nivel de iluminancia`
+   &lt;chr&gt;      &lt;chr&gt; &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;                  &lt;chr&gt;                 
+ 1 9A3-2904-… Grup…     9        3 -53.7                  11.88                 
+ 2 9A3-3004-… Grup…     9        3 131.29                 435.16                
+ 3 3A1-3004-… Grup…     3        1 145.18                 347.06                
+ 4 3A1-3004-… Grup…     3        1 145.18                 347.06                
+ 5 3A1-3004-… Grup…     3        1 145.18                 347.06                
+ 6 3A2-3004-… Grup…     3        2 162.37                 74.71                 
+ 7 9A3-3004-… Grup…     9        3 131.29                 435.16                
+ 8 9A4-3004-… Grup…     9        4 147.78                 898.95                
+ 9 9A3-3004-… Grup…     9        3 131.29                 435.16                
+10 9A3-3004-… Grup…     9        3 131.29                 435.16                
+# ℹ 118 more rows
+# ℹ abbreviated name: ¹​`Nivel de presión sonora (dB)`
+# ℹ 13 more variables: `Temp. Amb.` &lt;dbl&gt;, `N° de personas presentes` &lt;dbl&gt;,
+#   `N° de tomacorrientes disponibles` &lt;dbl&gt;, `Cant. de luminarias` &lt;int&gt;,
+#   Propósito &lt;chr&gt;, `Fuente de luz` &lt;chr&gt;, `Fuente de ruido` &lt;chr&gt;,
+#   Distractores &lt;chr&gt;, `Frecuencia de uso` &lt;dbl&gt;,
+#   `Nivel de conservación` &lt;dbl&gt;, `Nivel de comodidad` &lt;dbl&gt;, …</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">colSums</span>(<span class="fu">is.na</span>(resultados_grupo1))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                              ID                            Grupo 
+                               0                                0 
+                            Piso                         Ambiente 
+                               0                                0 
+    Nivel de presión sonora (dB)             Nivel de iluminancia 
+                               0                                0 
+                      Temp. Amb.         N° de personas presentes 
+                               0                                0 
+N° de tomacorrientes disponibles              Cant. de luminarias 
+                               0                                3 
+                       Propósito                    Fuente de luz 
+                               0                                0 
+                 Fuente de ruido                     Distractores 
+                               0                                0 
+               Frecuencia de uso            Nivel de conservación 
+                               0                                0 
+              Nivel de comodidad          Facilidad para estudiar 
+                               0                                0 
+            Intensidad de la luz 
+                               0 </code></pre>
+</div>
+</div>
+<p>Se identificaron valores faltantes significativos en las variables consideradas para el estudio.</p>
+<p>Limpiamos los NA</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(resultados_grupo1)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>resultados_grupo1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 125 × 19
+   ID         Grupo  Piso Ambiente Nivel de presión son…¹ `Nivel de iluminancia`
+   &lt;chr&gt;      &lt;chr&gt; &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;                  &lt;chr&gt;                 
+ 1 9A3-2904-… Grup…     9        3 -53.7                  11.88                 
+ 2 9A3-3004-… Grup…     9        3 131.29                 435.16                
+ 3 3A1-3004-… Grup…     3        1 145.18                 347.06                
+ 4 3A1-3004-… Grup…     3        1 145.18                 347.06                
+ 5 3A1-3004-… Grup…     3        1 145.18                 347.06                
+ 6 3A2-3004-… Grup…     3        2 162.37                 74.71                 
+ 7 9A3-3004-… Grup…     9        3 131.29                 435.16                
+ 8 9A4-3004-… Grup…     9        4 147.78                 898.95                
+ 9 9A3-3004-… Grup…     9        3 131.29                 435.16                
+10 9A3-3004-… Grup…     9        3 131.29                 435.16                
+# ℹ 115 more rows
+# ℹ abbreviated name: ¹​`Nivel de presión sonora (dB)`
+# ℹ 13 more variables: `Temp. Amb.` &lt;dbl&gt;, `N° de personas presentes` &lt;dbl&gt;,
+#   `N° de tomacorrientes disponibles` &lt;dbl&gt;, `Cant. de luminarias` &lt;int&gt;,
+#   Propósito &lt;chr&gt;, `Fuente de luz` &lt;chr&gt;, `Fuente de ruido` &lt;chr&gt;,
+#   Distractores &lt;chr&gt;, `Frecuencia de uso` &lt;dbl&gt;,
+#   `Nivel de conservación` &lt;dbl&gt;, `Nivel de comodidad` &lt;dbl&gt;, …</code></pre>
+</div>
+</div>
+</section>
+<section id="radiografía" class="level3">
+<h3 class="anchored" data-anchor-id="radiografía">Radiografía</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>Radiografia <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(<span class="fu">everything</span>(), <span class="fu">list</span>(</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">Porcentaje_NA =</span> <span class="sc">~</span> <span class="fu">mean</span>(<span class="fu">is.na</span>(.)) <span class="sc">*</span> <span class="dv">100</span>,</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">Porcentaje_Ceros =</span> <span class="sc">~</span> {<span class="cf">if</span>(<span class="fu">is.numeric</span>(.)) <span class="fu">mean</span>(. <span class="sc">==</span> <span class="dv">0</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="sc">*</span> <span class="dv">100</span> <span class="cf">else</span> <span class="cn">NA</span>},</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 3. Calcula la cardinalidad (valores únicos)</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">Valores_Unicos =</span> <span class="sc">~</span> <span class="fu">n_distinct</span>(.)</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>  )))</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(Radiografia)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 1
+Columns: 57
+$ ID_Porcentaje_NA                                    &lt;dbl&gt; 0
+$ ID_Porcentaje_Ceros                                 &lt;lgl&gt; NA
+$ ID_Valores_Unicos                                   &lt;int&gt; 20
+$ Grupo_Porcentaje_NA                                 &lt;dbl&gt; 0
+$ Grupo_Porcentaje_Ceros                              &lt;lgl&gt; NA
+$ Grupo_Valores_Unicos                                &lt;int&gt; 1
+$ Piso_Porcentaje_NA                                  &lt;dbl&gt; 0
+$ Piso_Porcentaje_Ceros                               &lt;dbl&gt; 0
+$ Piso_Valores_Unicos                                 &lt;int&gt; 2
+$ Ambiente_Porcentaje_NA                              &lt;dbl&gt; 0
+$ Ambiente_Porcentaje_Ceros                           &lt;dbl&gt; 0
+$ Ambiente_Valores_Unicos                             &lt;int&gt; 5
+$ `Nivel de presión sonora (dB)_Porcentaje_NA`        &lt;dbl&gt; 0
+$ `Nivel de presión sonora (dB)_Porcentaje_Ceros`     &lt;lgl&gt; NA
+$ `Nivel de presión sonora (dB)_Valores_Unicos`       &lt;int&gt; 20
+$ `Nivel de iluminancia_Porcentaje_NA`                &lt;dbl&gt; 0
+$ `Nivel de iluminancia_Porcentaje_Ceros`             &lt;lgl&gt; NA
+$ `Nivel de iluminancia_Valores_Unicos`               &lt;int&gt; 20
+$ `Temp. Amb._Porcentaje_NA`                          &lt;dbl&gt; 0
+$ `Temp. Amb._Porcentaje_Ceros`                       &lt;dbl&gt; 0
+$ `Temp. Amb._Valores_Unicos`                         &lt;int&gt; 7
+$ `N° de personas presentes_Porcentaje_NA`            &lt;dbl&gt; 0
+$ `N° de personas presentes_Porcentaje_Ceros`         &lt;dbl&gt; 0
+$ `N° de personas presentes_Valores_Unicos`           &lt;int&gt; 7
+$ `N° de tomacorrientes disponibles_Porcentaje_NA`    &lt;dbl&gt; 0
+$ `N° de tomacorrientes disponibles_Porcentaje_Ceros` &lt;dbl&gt; 35.2
+$ `N° de tomacorrientes disponibles_Valores_Unicos`   &lt;int&gt; 8
+$ `Cant. de luminarias_Porcentaje_NA`                 &lt;dbl&gt; 0
+$ `Cant. de luminarias_Porcentaje_Ceros`              &lt;dbl&gt; 68
+$ `Cant. de luminarias_Valores_Unicos`                &lt;int&gt; 4
+$ Propósito_Porcentaje_NA                             &lt;dbl&gt; 0
+$ Propósito_Porcentaje_Ceros                          &lt;lgl&gt; NA
+$ Propósito_Valores_Unicos                            &lt;int&gt; 2
+$ `Fuente de luz_Porcentaje_NA`                       &lt;dbl&gt; 0
+$ `Fuente de luz_Porcentaje_Ceros`                    &lt;lgl&gt; NA
+$ `Fuente de luz_Valores_Unicos`                      &lt;int&gt; 3
+$ `Fuente de ruido_Porcentaje_NA`                     &lt;dbl&gt; 0
+$ `Fuente de ruido_Porcentaje_Ceros`                  &lt;lgl&gt; NA
+$ `Fuente de ruido_Valores_Unicos`                    &lt;int&gt; 3
+$ Distractores_Porcentaje_NA                          &lt;dbl&gt; 0
+$ Distractores_Porcentaje_Ceros                       &lt;lgl&gt; NA
+$ Distractores_Valores_Unicos                         &lt;int&gt; 3
+$ `Frecuencia de uso_Porcentaje_NA`                   &lt;dbl&gt; 0
+$ `Frecuencia de uso_Porcentaje_Ceros`                &lt;dbl&gt; 0
+$ `Frecuencia de uso_Valores_Unicos`                  &lt;int&gt; 3
+$ `Nivel de conservación_Porcentaje_NA`               &lt;dbl&gt; 0
+$ `Nivel de conservación_Porcentaje_Ceros`            &lt;dbl&gt; 0
+$ `Nivel de conservación_Valores_Unicos`              &lt;int&gt; 5
+$ `Nivel de comodidad_Porcentaje_NA`                  &lt;dbl&gt; 0
+$ `Nivel de comodidad_Porcentaje_Ceros`               &lt;dbl&gt; 0
+$ `Nivel de comodidad_Valores_Unicos`                 &lt;int&gt; 5
+$ `Facilidad para estudiar_Porcentaje_NA`             &lt;dbl&gt; 0
+$ `Facilidad para estudiar_Porcentaje_Ceros`          &lt;dbl&gt; 0
+$ `Facilidad para estudiar_Valores_Unicos`            &lt;int&gt; 5
+$ `Intensidad de la luz_Porcentaje_NA`                &lt;dbl&gt; 0
+$ `Intensidad de la luz_Porcentaje_Ceros`             &lt;dbl&gt; 0
+$ `Intensidad de la luz_Valores_Unicos`               &lt;int&gt; 3</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>Radiografia</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 57
+  ID_Porcentaje_NA ID_Porcentaje_Ceros ID_Valores_Unicos Grupo_Porcentaje_NA
+             &lt;dbl&gt; &lt;lgl&gt;                           &lt;int&gt;               &lt;dbl&gt;
+1                0 NA                                 20                   0
+# ℹ 53 more variables: Grupo_Porcentaje_Ceros &lt;lgl&gt;,
+#   Grupo_Valores_Unicos &lt;int&gt;, Piso_Porcentaje_NA &lt;dbl&gt;,
+#   Piso_Porcentaje_Ceros &lt;dbl&gt;, Piso_Valores_Unicos &lt;int&gt;,
+#   Ambiente_Porcentaje_NA &lt;dbl&gt;, Ambiente_Porcentaje_Ceros &lt;dbl&gt;,
+#   Ambiente_Valores_Unicos &lt;int&gt;,
+#   `Nivel de presión sonora (dB)_Porcentaje_NA` &lt;dbl&gt;,
+#   `Nivel de presión sonora (dB)_Porcentaje_Ceros` &lt;lgl&gt;, …</code></pre>
+</div>
+</div>
+</section>
+<section id="validación-de-tipos-de-variables" class="level3">
+<h3 class="anchored" data-anchor-id="validación-de-tipos-de-variables">Validación de tipos de variables</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(resultados_grupo1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 125
+Columns: 19
+$ ID                                 &lt;chr&gt; "9A3-2904-13", "9A3-3004-13", "3A1-…
+$ Grupo                              &lt;chr&gt; "Grupo 1", "Grupo 1", "Grupo 1", "G…
+$ Piso                               &lt;dbl&gt; 9, 9, 3, 3, 3, 3, 9, 9, 9, 9, 3, 3,…
+$ Ambiente                           &lt;dbl&gt; 3, 3, 1, 1, 1, 2, 3, 4, 3, 3, 1, 1,…
+$ `Nivel de presión sonora (dB)`     &lt;chr&gt; "-53.7", "131.29", "145.18", "145.1…
+$ `Nivel de iluminancia`             &lt;chr&gt; "11.88", "435.16", "347.06", "347.0…
+$ `Temp. Amb.`                       &lt;dbl&gt; 26, 22, 21, 21, 21, 22, 22, 21, 22,…
+$ `N° de personas presentes`         &lt;dbl&gt; 12, 5, 1, 1, 1, 3, 5, 4, 5, 5, 1, 1…
+$ `N° de tomacorrientes disponibles` &lt;dbl&gt; 6, 10, 2, 2, 2, 2, 10, 1, 10, 10, 2…
+$ `Cant. de luminarias`              &lt;int&gt; 5, 5, 0, 0, 0, 0, 5, 0, 5, 5, 0, 0,…
+$ Propósito                          &lt;chr&gt; "Estudio", "Estudio", "Tránsito", "…
+$ `Fuente de luz`                    &lt;chr&gt; "Mixta", "Mixta", "Natural", "Natur…
+$ `Fuente de ruido`                  &lt;chr&gt; "Charla de estudiantes", "Charla de…
+$ Distractores                       &lt;chr&gt; "Tecnológicos", "Tecnológicos", "Au…
+$ `Frecuencia de uso`                &lt;dbl&gt; 2, 2, 3, 2, 1, 1, 3, 1, 2, 1, 1, 2,…
+$ `Nivel de conservación`            &lt;dbl&gt; 4, 1, 4, 4, 4, 3, 4, 4, 4, 5, 2, 2,…
+$ `Nivel de comodidad`               &lt;dbl&gt; 3, 4, 4, 3, 3, 2, 3, 2, 3, 4, 3, 3,…
+$ `Facilidad para estudiar`          &lt;dbl&gt; 4, 4, 4, 2, 1, 3, 4, 2, 3, 3, 2, 2,…
+$ `Intensidad de la luz`             &lt;dbl&gt; 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 3, 2,…</code></pre>
+</div>
+</div>
+</section>
+<section id="codificación-de-variables" class="level3">
+<h3 class="anchored" data-anchor-id="codificación-de-variables">Codificación de variables</h3>
+<p>Las variables categóricas ordinales fueron transformadas en factores ordenados, mientras que las variables nominales fueron convertidas en factores categóricos para garantizar un tratamiento adecuado durante el análisis estadístico.</p>
+</section>
+<section id="cuantitativas-discretas" class="level3">
+<h3 class="anchored" data-anchor-id="cuantitativas-discretas">Cuantitativas Discretas</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">N° de tomacorrientes disponibles</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">as.numeric</span>(<span class="st">`</span><span class="at">N° de tomacorrientes disponibles</span><span class="st">`</span>),</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">N° de personas presentes</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">as.numeric</span>(<span class="st">`</span><span class="at">N° de personas presentes</span><span class="st">`</span>)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<section id="cuantitativas-continuas" class="level4">
+<h4 class="anchored" data-anchor-id="cuantitativas-continuas">Cuantitativas Continuas</h4>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Nivel de presión sonora (dB)</span><span class="st">`</span> <span class="ot">=</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>      <span class="fu">round</span>(<span class="fu">as.numeric</span>(<span class="st">`</span><span class="at">Nivel de presión sonora (dB)</span><span class="st">`</span>), <span class="dv">2</span>),</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Nivel de iluminancia</span><span class="st">`</span> <span class="ot">=</span></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>      <span class="fu">round</span>(<span class="fu">as.numeric</span>(<span class="st">`</span><span class="at">Nivel de iluminancia</span><span class="st">`</span>), <span class="dv">2</span>)</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="factores-ordinales" class="level4">
+<h4 class="anchored" data-anchor-id="factores-ordinales">Factores Ordinales</h4>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Variables con escala del 1 al 5</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Nivel de conservación</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">factor</span>(<span class="st">`</span><span class="at">Nivel de conservación</span><span class="st">`</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>), <span class="at">ordered =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Nivel de comodidad</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">factor</span>(<span class="st">`</span><span class="at">Nivel de comodidad</span><span class="st">`</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>), <span class="at">ordered =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Facilidad para estudiar</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">factor</span>(<span class="st">`</span><span class="at">Facilidad para estudiar</span><span class="st">`</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>), <span class="at">ordered =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Variables con escala del 1 al 3</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Intensidad de la luz</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">factor</span>(<span class="st">`</span><span class="at">Intensidad de la luz</span><span class="st">`</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>), <span class="at">ordered =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Frecuencia de uso</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">factor</span>(<span class="st">`</span><span class="at">Frecuencia de uso</span><span class="st">`</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>), <span class="at">ordered =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="factores-nominales" class="level4">
+<h4 class="anchored" data-anchor-id="factores-nominales">Factores Nominales</h4>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>  Propósito <span class="ot">=</span> <span class="fu">as.factor</span>(Propósito),</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Fuente de luz</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">as.factor</span>(<span class="st">`</span><span class="at">Fuente de luz</span><span class="st">`</span>),</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Fuente de ruido</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">as.factor</span>(<span class="st">`</span><span class="at">Fuente de ruido</span><span class="st">`</span>),</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Distractores =</span> <span class="fu">as.factor</span>(Distractores),</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">Ambiente =</span> <span class="fu">as.factor</span>(Ambiente)</span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+</section>
+<section id="validación" class="level3">
+<h3 class="anchored" data-anchor-id="validación">Validación</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(resultados_grupo1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>tibble [125 × 19] (S3: tbl_df/tbl/data.frame)
+ $ ID                              : chr [1:125] "9A3-2904-13" "9A3-3004-13" "3A1-3004-13" "3A1-3004-13" ...
+ $ Grupo                           : chr [1:125] "Grupo 1" "Grupo 1" "Grupo 1" "Grupo 1" ...
+ $ Piso                            : num [1:125] 9 9 3 3 3 3 9 9 9 9 ...
+ $ Ambiente                        : Factor w/ 5 levels "1","2","3","4",..: 3 3 1 1 1 2 3 4 3 3 ...
+ $ Nivel de presión sonora (dB)    : num [1:125] -53.7 131.3 145.2 145.2 145.2 ...
+ $ Nivel de iluminancia            : num [1:125] 11.9 435.2 347.1 347.1 347.1 ...
+ $ Temp. Amb.                      : num [1:125] 26 22 21 21 21 22 22 21 22 22 ...
+ $ N° de personas presentes        : num [1:125] 12 5 1 1 1 3 5 4 5 5 ...
+ $ N° de tomacorrientes disponibles: num [1:125] 6 10 2 2 2 2 10 1 10 10 ...
+ $ Cant. de luminarias             : int [1:125] 5 5 0 0 0 0 5 0 5 5 ...
+ $ Propósito                       : Factor w/ 2 levels "Estudio","Tránsito": 1 1 2 2 2 2 1 2 1 1 ...
+ $ Fuente de luz                   : Factor w/ 3 levels "Artificial","Mixta",..: 2 2 3 3 3 3 2 3 2 2 ...
+ $ Fuente de ruido                 : Factor w/ 3 levels "Charla de estudiantes",..: 1 1 3 3 3 3 1 3 1 1 ...
+ $ Distractores                    : Factor w/ 3 levels "Auditivos","Tecnológicos",..: 2 2 1 1 1 1 2 1 2 2 ...
+ $ Frecuencia de uso               : Ord.factor w/ 3 levels "1"&lt;"2"&lt;"3": 2 2 3 2 1 1 3 1 2 1 ...
+ $ Nivel de conservación           : Ord.factor w/ 5 levels "1"&lt;"2"&lt;"3"&lt;"4"&lt;..: 4 1 4 4 4 3 4 4 4 5 ...
+ $ Nivel de comodidad              : Ord.factor w/ 5 levels "1"&lt;"2"&lt;"3"&lt;"4"&lt;..: 3 4 4 3 3 2 3 2 3 4 ...
+ $ Facilidad para estudiar         : Ord.factor w/ 5 levels "1"&lt;"2"&lt;"3"&lt;"4"&lt;..: 4 4 4 2 1 3 4 2 3 3 ...
+ $ Intensidad de la luz            : Ord.factor w/ 3 levels "1"&lt;"2"&lt;"3": 2 2 1 2 2 2 2 2 2 2 ...
+ - attr(*, "na.action")= 'omit' Named int [1:3] 14 16 23
+  ..- attr(*, "names")= chr [1:3] "14" "16" "23"</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 125 × 19
+   ID         Grupo  Piso Ambiente Nivel de presión son…¹ `Nivel de iluminancia`
+   &lt;chr&gt;      &lt;chr&gt; &lt;dbl&gt; &lt;fct&gt;                     &lt;dbl&gt;                  &lt;dbl&gt;
+ 1 9A3-2904-… Grup…     9 3                         -53.7                   11.9
+ 2 9A3-3004-… Grup…     9 3                         131.                   435. 
+ 3 3A1-3004-… Grup…     3 1                         145.                   347. 
+ 4 3A1-3004-… Grup…     3 1                         145.                   347. 
+ 5 3A1-3004-… Grup…     3 1                         145.                   347. 
+ 6 3A2-3004-… Grup…     3 2                         162.                    74.7
+ 7 9A3-3004-… Grup…     9 3                         131.                   435. 
+ 8 9A4-3004-… Grup…     9 4                         148.                   899. 
+ 9 9A3-3004-… Grup…     9 3                         131.                   435. 
+10 9A3-3004-… Grup…     9 3                         131.                   435. 
+# ℹ 115 more rows
+# ℹ abbreviated name: ¹​`Nivel de presión sonora (dB)`
+# ℹ 13 more variables: `Temp. Amb.` &lt;dbl&gt;, `N° de personas presentes` &lt;dbl&gt;,
+#   `N° de tomacorrientes disponibles` &lt;dbl&gt;, `Cant. de luminarias` &lt;int&gt;,
+#   Propósito &lt;fct&gt;, `Fuente de luz` &lt;fct&gt;, `Fuente de ruido` &lt;fct&gt;,
+#   Distractores &lt;fct&gt;, `Frecuencia de uso` &lt;ord&gt;,
+#   `Nivel de conservación` &lt;ord&gt;, `Nivel de comodidad` &lt;ord&gt;, …</code></pre>
+</div>
+</div>
+</section>
+<section id="exportación" class="level3">
+<h3 class="anchored" data-anchor-id="exportación">Exportación</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(resultados_grupo1, <span class="st">"base_limpia_grupo1.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

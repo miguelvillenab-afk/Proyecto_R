@@ -1,6 +1,5 @@
 "0","resultados_grupo1 <- resultados_grupo1 %>% rename("
 "0","    `Grupo` = `GrupoEncuestador`,"
-"0","    `Torre` = `¿En qué torre se encuentra?`,"
 "0","    `Temp. Amb.` = `Temperatura ambiental`,"
 "0","    `Cant. de iluminarias` = `Cantidad de luminarias (focos) funcionando`,"
 "0","    `Propósito` = `Propósito en la comunidad`,"

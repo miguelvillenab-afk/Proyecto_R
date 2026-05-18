@@ -13,13 +13,18 @@ library(dplyr)
 #1 BASE DE DATOS
 #Encuentas <- read_csv("CAUTECResBien_1.csv")
 #Ambientales<- read_csv("CAUTECResBien1_1.csv")
-Encuentas <- read_csv("Encuestas_Bien.csv")
-Ambientales <- read_csv("Mediciones_Bien.csv")
+Encuentas <- read_csv("EncuestasB.csv")
+Ambientales <- read_csv("MedicionesB.csv")
 ```
 
 ```{r}
 #Tablas Joinneadas
 resultado <- inner_join(Encuentas, Ambientales , by = "ID")
+```
+```{r}
+cat("Filas en Encuestas:", nrow(Encuentas), "\n")
+cat("Filas en Ambientales:", nrow(Ambientales), "\n")
+cat("Filas después del join:", nrow(resultado), "\n")
 ```
 
 ```{r}
@@ -39,18 +44,16 @@ names(resultados_grupo1)
 
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>%
-  # 1. Borramos las columnas ".y" y una de las de "Grupo"
   select(
     -`Marca temporal.y`,
+    -`Marca temporal.x`,
     -`¿En qué horario está llenando el formulario?.y`,
     -`¿En qué torre se encuentra?.y`,
     -Piso.y,
     -Ambiente.y,
     -Grupo # Conservamos GrupoEncuestador, así que borramos Grupo
   ) %>%
-  # 2. Le quitamos la ".x" a las columnas que nos quedamos
   rename(
-    `Marca temporal` = `Marca temporal.x`,
     `¿En qué horario está llenando el formulario?` = `¿En qué horario está llenando el formulario?.x`,
     `¿En qué torre se encuentra?` = `¿En qué torre se encuentra?.x`,
     Piso = Piso.x,
@@ -69,14 +72,13 @@ names(resultados_grupo1)
 
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>% select(
-  `ID`, `GrupoEncuestador`,`¿En qué torre se encuentra?`, `Piso`,`Ambiente`,`Nivel de presión sonora (dB)`,`Nivel de iluminancia`,`Temperatura ambiental`, `N° de personas presentes`,`N° de tomacorrientes disponibles`,`Cantidad de luminarias (focos) funcionando`,`Propósito en la comunidad`,`Fuente de luz`,`Fuente principal de ruido`,`Tipo de distractores no relacionados con su propósito`,`Frecuencia de uso del ambiente`,`Nivel de conservación`,`Nivel de comodidad`,`Nivel de facilidad para estudiar en el ambiente`, `Intensidad de la luz`
+  `ID`, `GrupoEncuestador`, `Piso`,`Ambiente`,`Nivel de presión sonora (dB)`,`Nivel de iluminancia`,`Temperatura ambiental`, `N° de personas presentes`,`N° de tomacorrientes disponibles`,`Cantidad de luminarias (focos) funcionando`,`Propósito en la comunidad`,`Fuente de luz`,`Fuente principal de ruido`,`Tipo de distractores no relacionados con su propósito`,`Frecuencia de uso del ambiente`,`Nivel de conservación`,`Nivel de comodidad`,`Nivel de facilidad para estudiar en el ambiente`, `Intensidad de la luz`
 )
 ```
 
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>% rename(
     `Grupo` = `GrupoEncuestador`,
-    `Torre` = `¿En qué torre se encuentra?`,
     `Temp. Amb.` = `Temperatura ambiental`,
     `Cant. de iluminarias` = `Cantidad de luminarias (focos) funcionando`,
     `Propósito` = `Propósito en la comunidad`,
@@ -114,7 +116,7 @@ Radiografia
 ```{r}
 # Eliminando variables sin variabilidad
 resultados_sin_varianza <- resultados_grupo1 %>%
-  select(-Grupo, -Torre)
+  select(-Grupo)
 resultados_sin_varianza
 ```
 
@@ -144,10 +146,8 @@ resultados_codificado <- resultados_sin_varianza %>%
     
   )
 ```
+
 ```{r}
-data_1_ <- read_csv("resultados_grupo1.csv")
-data_1_1 <-read_csv("resultados_grupo1_1.csv")
-dim(data_1_)
-dim(data_1_1)
+resultados_sin_varianza
 ```
 

@@ -17,7 +17,7 @@ library(dplyr)
 ## Paso 1: Lectura de datos
 
 ```{r, message=FALSE}
-DF_TablaMala <- read_csv("Condiciones.csv")
+DF_TablaMala <- read_csv("MedicionesM.csv")
 ```
 
 Creamos una función que compruebe que por cada columna de "pregunta repetida" solo hay un valor valido (!is.na) y verificamos que solo sea 1.
@@ -152,11 +152,11 @@ DF_MedicionesBuena <- DF_TablaMala %>%
 Si deseamos también podemos guardar la nueva tabla en un .csv
 
 ```{r,,eval=FALSE}
-write_csv(DF_TablaBuena, "Encuestas_Bien.csv")
+write_csv(DF_TablaBuena, "EncuestasB.csv")
 ```
 
 ```{r}
-write_csv(DF_MedicionesBuena, "Mediciones_Bien.csv")
+write_csv(DF_MedicionesBuena, "MedicionesB.csv")
 ```
 
 Para la tabla de mediciones se sigue el mismo procedimiento, pero se hacen los cambios donde sea pertinente (principalmente detalles en los nombres de las columnas)
