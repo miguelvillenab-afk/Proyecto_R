@@ -81,7 +81,7 @@ Todos los grupos **participarán en la recolección de datos**, contribuyendo a 
 
 ```{r echo=FALSE}
 libreta_codigos <- data.frame(
-  Variable = c("Nivel de Presión Sonora (dB)", "Temperatura Ambiental (°C)", "Nivel de Iluminancia (lux)", "N° de personas presentes", "N° de tomacorrientes disponibles", "Cantidad de luminarias", "Frecuencia de uso","Nivel de Conservación", "Nivel de Comodidad", "Facilidad para estudiar", "Intensidad de luz", "Tipo de ambiente", "Fuente de luz","Fuente de ruido","Distractores"),
+  Variable = c("Nivel de Presión Sonora", "Temperatura Ambiental", "Nivel de Iluminancia", "N° de personas presentes", "N° de tomacorrientes disponibles", "Cantidad de luminarias", "Frecuencia de uso","Nivel de Conservación", "Nivel de Comodidad", "Facilidad para estudiar", "Intensidad de luz", "Propósito de ambiente", "Fuente de luz","Fuente de ruido","Distractores"),
   Tipo = c("Cuantitativa Continua", "Cuantitativa Continua", "Cuantitativa Continua", "Cuantitativa  Discreta", "Cuantitativa  Discreta", "Cuantitativa  Discreta", "Cualitativa Ordinal", "Cualitativa Ordinal","Cualitativa Ordinal","Cualitativa Ordinal","Cualitativa    Ordinal","Cualitativa  Nominal","Cualitativa  Nominal","Cualitativa  Nominal","Cualitativa  Nominal"),
   Valores_Válidos = c(
     "Se medirá con el intrumento de medición en (dB)",
@@ -90,8 +90,19 @@ libreta_codigos <- data.frame(
     "Se contabilizará cada elemento",
     "Se contabilizará cada elemento",
     "Se contabilizará cada elemento",
-    "Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)",
-    "Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)","Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)","Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)","Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)","Aula / Oficina / Laboratorio","Natura / Artificial / Mixta","Tráfico / Charla / Obras / Pasillos","Auditivos / Visuales / Tecnológicos / Olfativos"
+    "**1 - Bajo**: El espacio lo utiliza de manera ocasional o poco frecuente, **2 - Medio**: El espacio lo usa de manera moderada a lo largo del tiempo, **3 - Alto**: El espacio es utilizado de manera constante o frecuente por los estudiantes",
+    
+    "**1 - Muy deteriorado**: Suciedad evidente y orden generalizado, **2 - Deteriorado**: Suciedad visible y poco orden, **3 - Regular**: Limpieza básica y orden parcial, **4 - Conservado**: Espacio limpio y ordenado, **5 - Excelente estado**: Muy limpio y totalmente ordenado",
+    
+    "**1 - Muy incómodo**:  Mobiliario inadecuado, ruido alto, **2 - Incómodo**: Varias condiciones afectan (sillas duras, calor/frío, distracciones), **3 - Neutral**:  Condiciones aceptables pero no optimizadas, **4 - Cómodo**: Mobiliario adecuado, pocas molestias, **5 - Muy cómodo**: Ergonomía correcta, ambiente agradable.",
+    
+    "**1 - Muy difícil**: El ambiente dificulta totalmente el estudio, **2 - Difícil**: Hay varias condiciones que dificultan estudiar, **3 - Regular**: Se puede estudiar, pero con limitaciones, **4 - Fácil**:  El ambiente permite estudiar con pocas dificultades, **5 - Muy fácil**: El ambiente es óptimo para estudiar",
+    
+    "**1 - Tenue**: Luz baja, poco adecuada para estudiar, **2 - Adecuado** :Iluminación óptima para actividades académicas, **3 - Deslumbrante**: Luz fuerte, puede generar incomodidad leve",
+    "Estudio / Tránsito / Descanso / Socialización / Alimentación / Esparcimiento",
+    "Natura / Artificial / Mixta",
+    "Tráfico / Charla / Obras / Pasillos",
+    "Auditivos / Visuales / Tecnológicos / Olfativos"
   )
 )
 
