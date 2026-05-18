@@ -276,8 +276,8 @@ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 </div>
 </section>
 </section>
-<section id="detección-de-malos-datos-en-la-variable-de-ilumarias" class="level3">
-<h3 class="anchored" data-anchor-id="detección-de-malos-datos-en-la-variable-de-ilumarias">Detección de malos datos en la variable de ilumarias</h3>
+<section id="detección-de-datos-inconsistentes-en-la-variable-de-luminarias" class="level3">
+<h3 class="anchored" data-anchor-id="detección-de-datos-inconsistentes-en-la-variable-de-luminarias">Detección de datos inconsistentes en la variable de luminarias</h3>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> resultados_grupo1 <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="st">`</span><span class="at">Cant. de luminarias</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">case_when</span>(</span>
 <span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Cant. de luminarias</span><span class="st">`</span> <span class="sc">==</span> <span class="st">'Todos'</span> <span class="sc">~</span> <span class="cn">NA</span>,</span>
@@ -335,8 +335,7 @@ N° de tomacorrientes disponibles              Cant. de luminarias
                                0 </code></pre>
 </div>
 </div>
-<p>Se identificaron valores faltantes significativos en las variables consideradas para el estudio.</p>
-<p>Limpiamos los NA</p>
+<p>Se identificaron algunos valores faltantes e inconsistentes en la variable de luminarias, los cuales fueron tratados antes del análisis estadístico. Limpiamos los NA</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>resultados_grupo1 <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(resultados_grupo1)</span>
 <span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>

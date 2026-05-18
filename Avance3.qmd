@@ -11,14 +11,14 @@ library(dplyr)
 ```
 
 ###Carga de la base de datos
-```{r}
+```{r, message=FALSE}
 #Encuentas <- read_csv("CAUTECResBien_1.csv")
 #Ambientales<- read_csv("CAUTECResBien1_1.csv")
 Encuentas <- read_csv("EncuestasB.csv")
 Ambientales <- read_csv("MedicionesB.csv")
 ```
 #### Unión de bases de datos
-```{r}
+```{r, message=FALSE}
 resultado <- inner_join(Encuentas, Ambientales , by = "ID")
 ```
 #### Resultados
@@ -44,10 +44,7 @@ resultado <- resultado %>% select(
   -...21
 )
 ```
-
-```{r}
-names(resultado)
-```
+### Renombramiento y Selección
 ```{r}
 resultado <- resultado %>% rename(
     'Torre' = `¿En qué torre se encuentra?.y`,
@@ -65,17 +62,57 @@ resultado <- resultado %>% select(
   ID, Grupo, Torre, Ambiente, `Nivel de presión sonora (dB)`, `Nivel de iluminancia`, `Temperatura ambiental`, `N° de personas presentes`, `N° de tomacorrientes disponibles`, `Cant de luminarias`, `Fuente de luz` , `Fuente de ruido`,Propósito, Distractores, `Frecuencia de uso del ambiente` , `Nivel de conservación`,`Nivel de comodidad`, `Facilidad para estudiar`, `Intensidad de la luz`
 )
 ```
-
+# Limpieza
 ```{r}
 resultado <- resultado %>% mutate(`Cant de luminarias` = case_when(
   `Cant de luminarias` == 'Todos' ~ NA,
   TRUE ~ `Cant de luminarias`
 )) %>% mutate(`Cant de luminarias` = strtoi(`Cant de luminarias`))
 ```
-
 ```{r}
 colSums(is.na(resultado))
 sum(is.na(resultado))
+```
+```{r}
+resultado <- na.omit(resultado)
+```
+
+```{r}
+### Cuantitativas Discretas
+resultado<- resultado %>% mutate(
+  `N° de tomacorrientes disponibles` = as.numeric(`N° de tomacorrientes disponibles`),
+  `N° de personas presentes` = as.numeric(`N° de personas presentes`)
+)
+#### Cuantitativas Continuas
+resultado<- resultado %>%
+  mutate(
+    `Nivel de presión sonora (dB)` =
+      round(as.numeric(`Nivel de presión sonora (dB)`), 2),
+
+    `Nivel de iluminancia` =
+      round(as.numeric(`Nivel de iluminancia`), 2)
+  )
+
+#### Factores Ordinales
+resultado <- resultado %>%
+  mutate(
+    # Variables con escala del 1 al 5
+    `Nivel de conservación` = factor(`Nivel de conservación`, levels = c(1:5), ordered = TRUE),
+    `Nivel de comodidad` = factor(`Nivel de comodidad`, levels = c(1:5), ordered = TRUE),
+    `Facilidad para estudiar` = factor(`Facilidad para estudiar`, levels = c(1:5), ordered = TRUE),
+    
+    # Variables con escala del 1 al 3
+    `Intensidad de la luz` = factor(`Intensidad de la luz`, levels = c(1:3), ordered = TRUE),
+    `Frecuencia de uso del ambiente` = factor(`Frecuencia de uso del ambiente`, levels = c(1:3), ordered = TRUE)
+  )
+#### Factores Nominales
+resultado <- resultado%>% mutate(
+  Propósito = as.factor(Propósito),
+  `Fuente de luz` = as.factor(`Fuente de luz`),
+  `Fuente de ruido` = as.factor(`Fuente de ruido`),
+  Distractores = as.factor(Distractores),
+  Ambiente = as.factor(Ambiente)
+)
 ```
 
 

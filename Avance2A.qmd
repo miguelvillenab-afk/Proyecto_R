@@ -74,7 +74,7 @@ resultados_grupo1 <- resultados_grupo1 %>% rename(
 
 resultados_grupo1
 ```
-### Detección de malos datos en la variable de ilumarias
+### Detección de datos inconsistentes en la variable de luminarias
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>% mutate(`Cant. de luminarias` = case_when(
   `Cant. de luminarias` == 'Todos' ~ NA,
@@ -88,8 +88,7 @@ resultados_grupo1 <- resultados_grupo1 %>% mutate(`Cant. de luminarias` = case_w
 resultados_grupo1
 colSums(is.na(resultados_grupo1))
 ```
-Se identificaron valores faltantes significativos en las variables consideradas para el estudio.
-
+Se identificaron algunos valores faltantes e inconsistentes en la variable de luminarias, los cuales fueron tratados antes del análisis estadístico.
 Limpiamos los NA
 ```{r}
 resultados_grupo1 <- na.omit(resultados_grupo1)
