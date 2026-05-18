@@ -79,10 +79,10 @@ Todos los grupos **participarán en la recolección de datos**, contribuyendo a 
 
 ### Libreta de códigos
 
-```{r}
+```{r echo=FALSE}
 libreta_codigos <- data.frame(
   Variable = c("Nivel de Presión Sonora (dB)", "Temperatura Ambiental (°C)", "Nivel de Iluminancia (lux)", "N° de personas presentes", "N° de tomacorrientes disponibles", "Cantidad de luminarias", "Frecuencia de uso","Nivel de Conservación", "Nivel de Comodidad", "Facilidad para estudiar", "Intensidad de luz", "Tipo de ambiente", "Fuente de luz","Fuente de ruido","Distractores"),
-  Tipo = c("Cuantitativa Continua", "Cuantitativa Continua", "Cuantitativa Continua", "Cuantitativa  Discreta", "Cuantitativa  Discreta", "Cuantitativa  Discreta", "Cuantitativa Ordinal", "Cuantitativa Ordinal","Cuantitativa Ordinal","Cuantitativa Ordinal","Cuantitativa    Ordinal","Cuantitativa  Nominal","Cuantitativa  Nominal","Cuantitativa  Nominal","Cuantitativa  Nominal"),
+  Tipo = c("Cuantitativa Continua", "Cuantitativa Continua", "Cuantitativa Continua", "Cuantitativa  Discreta", "Cuantitativa  Discreta", "Cuantitativa  Discreta", "Cualitativa Ordinal", "Cualitativa Ordinal","Cualitativa Ordinal","Cualitativa Ordinal","Cualitativa    Ordinal","Cualitativa  Nominal","Cualitativa  Nominal","Cualitativa  Nominal","Cualitativa  Nominal"),
   Valores_Válidos = c(
     "Se medirá con el intrumento de medición en (dB)",
     "Se medirá con el intrumento de medición en (Lux)",

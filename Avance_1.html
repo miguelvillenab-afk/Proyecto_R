@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 }
-
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-{ counter-reset: source-line 0; }
-pre.numberSource code > span
-{ position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-{ content: counter(source-line);
-position: relative; left: -1em; text-align: right; vertical-align: baseline;
-border: none; display: inline-block;
--webkit-touch-callout: none; -webkit-user-select: none;
--khtml-user-select: none; -moz-user-select: none;
--ms-user-select: none; user-select: none;
-padding: 0 4px; width: 4em;
-}
-pre.numberSource { margin-left: 3em; padding-left: 4px; }
-div.sourceCode
-{ }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -2314,28 +2279,12 @@ vertical-align: -.125em;
 <section id="libreta-de-códigos" class="level3" data-number="4.4">
 <h3 data-number="4.4" class="anchored" data-anchor-id="libreta-de-códigos"><span class="header-section-number">4.4</span> Libreta de códigos</h3>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>libreta_codigos <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">Variable =</span> <span class="fu">c</span>(<span class="st">&quot;Nivel de Presión Sonora (dB)&quot;</span>, <span class="st">&quot;Temperatura Ambiental (°C)&quot;</span>, <span class="st">&quot;Nivel de Iluminancia (lux)&quot;</span>, <span class="st">&quot;N° de personas presentes&quot;</span>, <span class="st">&quot;N° de tomacorrientes disponibles&quot;</span>, <span class="st">&quot;Cantidad de luminarias&quot;</span>, <span class="st">&quot;Frecuencia de uso&quot;</span>,<span class="st">&quot;Nivel de Conservación&quot;</span>, <span class="st">&quot;Nivel de Comodidad&quot;</span>, <span class="st">&quot;Facilidad para estudiar&quot;</span>, <span class="st">&quot;Intensidad de luz&quot;</span>, <span class="st">&quot;Tipo de ambiente&quot;</span>, <span class="st">&quot;Fuente de luz&quot;</span>,<span class="st">&quot;Fuente de ruido&quot;</span>,<span class="st">&quot;Distractores&quot;</span>),</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Tipo =</span> <span class="fu">c</span>(<span class="st">&quot;Cuantitativa Continua&quot;</span>, <span class="st">&quot;Cuantitativa Continua&quot;</span>, <span class="st">&quot;Cuantitativa Continua&quot;</span>, <span class="st">&quot;Cuantitativa  Discreta&quot;</span>, <span class="st">&quot;Cuantitativa  Discreta&quot;</span>, <span class="st">&quot;Cuantitativa  Discreta&quot;</span>, <span class="st">&quot;Cuantitativa Ordinal&quot;</span>, <span class="st">&quot;Cuantitativa Ordinal&quot;</span>,<span class="st">&quot;Cuantitativa Ordinal&quot;</span>,<span class="st">&quot;Cuantitativa Ordinal&quot;</span>,<span class="st">&quot;Cuantitativa    Ordinal&quot;</span>,<span class="st">&quot;Cuantitativa  Nominal&quot;</span>,<span class="st">&quot;Cuantitativa  Nominal&quot;</span>,<span class="st">&quot;Cuantitativa  Nominal&quot;</span>,<span class="st">&quot;Cuantitativa  Nominal&quot;</span>),</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  Valores_Válidos <span class="ot">=</span> <span class="fu">c</span>(</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Se medirá con el intrumento de medición en (dB)&quot;</span>,</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Se medirá con el intrumento de medición en (Lux)&quot;</span>,</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Se medirá con el intrumento de medición en (°C)&quot;</span>,</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Se contabilizará cada elemento&quot;</span>,</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Se contabilizará cada elemento&quot;</span>,</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Se contabilizará cada elemento&quot;</span>,</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)&quot;</span>,</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)&quot;</span>,<span class="st">&quot;Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)&quot;</span>,<span class="st">&quot;Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)&quot;</span>,<span class="st">&quot;Del 1 al 5 (donde el  nivel más bajo y el 5 el más alto)&quot;</span>,<span class="st">&quot;Aula / Oficina / Laboratorio&quot;</span>,<span class="st">&quot;Natura / Artificial / Mixta&quot;</span>,<span class="st">&quot;Tráfico / Charla / Obras / Pasillos&quot;</span>,<span class="st">&quot;Auditivos / Visuales / Tecnológicos / Olfativos&quot;</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(libreta_codigos, <span class="at">caption =</span> <span class="st">&quot;Libreta de códigos del estudio del análisis estadístico de las condiciones ambientales y factores de concurrencia en las distintas áreas del campus UTEC&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <caption>Libreta de códigos del estudio del análisis estadístico de las condiciones ambientales y factores de concurrencia en las distintas áreas del campus UTEC</caption>
 <colgroup>
-<col style="width: 28%">
-<col style="width: 21%">
+<col style="width: 29%">
+<col style="width: 20%">
 <col style="width: 50%">
 </colgroup>
 <thead>
@@ -2378,47 +2327,47 @@ vertical-align: -.125em;
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Frecuencia de uso</td>
-<td style="text-align: left;">Cuantitativa Ordinal</td>
+<td style="text-align: left;">Cualitativa Ordinal</td>
 <td style="text-align: left;">Del 1 al 5 (donde el nivel más bajo y el 5 el más alto)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Nivel de Conservación</td>
-<td style="text-align: left;">Cuantitativa Ordinal</td>
+<td style="text-align: left;">Cualitativa Ordinal</td>
 <td style="text-align: left;">Del 1 al 5 (donde el nivel más bajo y el 5 el más alto)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Nivel de Comodidad</td>
-<td style="text-align: left;">Cuantitativa Ordinal</td>
+<td style="text-align: left;">Cualitativa Ordinal</td>
 <td style="text-align: left;">Del 1 al 5 (donde el nivel más bajo y el 5 el más alto)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Facilidad para estudiar</td>
-<td style="text-align: left;">Cuantitativa Ordinal</td>
+<td style="text-align: left;">Cualitativa Ordinal</td>
 <td style="text-align: left;">Del 1 al 5 (donde el nivel más bajo y el 5 el más alto)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Intensidad de luz</td>
-<td style="text-align: left;">Cuantitativa Ordinal</td>
+<td style="text-align: left;">Cualitativa Ordinal</td>
 <td style="text-align: left;">Del 1 al 5 (donde el nivel más bajo y el 5 el más alto)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Tipo de ambiente</td>
-<td style="text-align: left;">Cuantitativa Nominal</td>
+<td style="text-align: left;">Cualitativa Nominal</td>
 <td style="text-align: left;">Aula / Oficina / Laboratorio</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Fuente de luz</td>
-<td style="text-align: left;">Cuantitativa Nominal</td>
+<td style="text-align: left;">Cualitativa Nominal</td>
 <td style="text-align: left;">Natura / Artificial / Mixta</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Fuente de ruido</td>
-<td style="text-align: left;">Cuantitativa Nominal</td>
+<td style="text-align: left;">Cualitativa Nominal</td>
 <td style="text-align: left;">Tráfico / Charla / Obras / Pasillos</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Distractores</td>
-<td style="text-align: left;">Cuantitativa Nominal</td>
+<td style="text-align: left;">Cualitativa Nominal</td>
 <td style="text-align: left;">Auditivos / Visuales / Tecnológicos / Olfativos</td>
 </tr>
 </tbody>
