@@ -1,0 +1,2 @@
+"0","#Tablas Joinneadas"
+"0","resultado <- inner_join(Encuentas, Ambientales , by = ""ID"")"

@@ -1,0 +1,2 @@
+"0","#filtrado por grupo 1"
+"0","resultados_grupo1 <- filter(resultado, GrupoEncuestador  == ""Grupo 1"")"

@@ -1,0 +1,153 @@
+---
+title: "Avance2"
+format: html
+editor: visual
+---
+
+```{r}
+library(readr)
+library(dplyr)
+```
+
+```{r}
+#1 BASE DE DATOS
+#Encuentas <- read_csv("CAUTECResBien_1.csv")
+#Ambientales<- read_csv("CAUTECResBien1_1.csv")
+Encuentas <- read_csv("Encuestas_Bien.csv")
+Ambientales <- read_csv("Mediciones_Bien.csv")
+```
+
+```{r}
+#Tablas Joinneadas
+resultado <- inner_join(Encuentas, Ambientales , by = "ID")
+```
+
+```{r}
+#Renombrando la columna de ¿Qué grupo lo/la está encuestando?
+resultado <- rename(resultado, GrupoEncuestador = `¿Qué grupo lo/la está encuestando?`)
+```
+
+```{r}
+#filtrado por grupo 1
+resultados_grupo1 <- filter(resultado, GrupoEncuestador  == "Grupo 1")
+```
+
+```{r}
+resultados_grupo1
+names(resultados_grupo1)
+```
+
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>%
+  # 1. Borramos las columnas ".y" y una de las de "Grupo"
+  select(
+    -`Marca temporal.y`,
+    -`¿En qué horario está llenando el formulario?.y`,
+    -`¿En qué torre se encuentra?.y`,
+    -Piso.y,
+    -Ambiente.y,
+    -Grupo # Conservamos GrupoEncuestador, así que borramos Grupo
+  ) %>%
+  # 2. Le quitamos la ".x" a las columnas que nos quedamos
+  rename(
+    `Marca temporal` = `Marca temporal.x`,
+    `¿En qué horario está llenando el formulario?` = `¿En qué horario está llenando el formulario?.x`,
+    `¿En qué torre se encuentra?` = `¿En qué torre se encuentra?.x`,
+    Piso = Piso.x,
+    Ambiente = Ambiente.x
+  )
+```
+
+```{r}
+resultados_grupo1
+```
+
+```{r}
+#Filtrando las variables que necesitamos
+names(resultados_grupo1)
+```
+
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>% select(
+  `ID`, `GrupoEncuestador`,`¿En qué torre se encuentra?`, `Piso`,`Ambiente`,`Nivel de presión sonora (dB)`,`Nivel de iluminancia`,`Temperatura ambiental`, `N° de personas presentes`,`N° de tomacorrientes disponibles`,`Cantidad de luminarias (focos) funcionando`,`Propósito en la comunidad`,`Fuente de luz`,`Fuente principal de ruido`,`Tipo de distractores no relacionados con su propósito`,`Frecuencia de uso del ambiente`,`Nivel de conservación`,`Nivel de comodidad`,`Nivel de facilidad para estudiar en el ambiente`, `Intensidad de la luz`
+)
+```
+
+```{r}
+resultados_grupo1 <- resultados_grupo1 %>% rename(
+    `Grupo` = `GrupoEncuestador`,
+    `Torre` = `¿En qué torre se encuentra?`,
+    `Temp. Amb.` = `Temperatura ambiental`,
+    `Cant. de iluminarias` = `Cantidad de luminarias (focos) funcionando`,
+    `Propósito` = `Propósito en la comunidad`,
+    `Fuente de ruido` = `Fuente principal de ruido`,
+    `Distractores`= `Tipo de distractores no relacionados con su propósito`,
+    `Frecuencia de uso`=`Frecuencia de uso del ambiente`,
+    `Facilidad para estudiar`=`Nivel de facilidad para estudiar en el ambiente`
+  )
+```
+
+```{r}
+resultados_grupo1
+```
+
+```{r}
+write_csv(resultados_grupo1, "result_grupo1_N.csv")
+```
+
+```{r}
+# Radiografía
+Radiografia <- resultados_grupo1 %>%
+  summarise(across(everything(), list(
+    Porcentaje_NA = ~ mean(is.na(.)) * 100,
+    
+    Porcentaje_Ceros = ~ mean(. == 0, na.rm = TRUE) * 100,
+    
+    # 3. Calcula la cardinalidad (valores únicos)
+    Valores_Unicos = ~ n_distinct(.)
+  )))
+
+glimpse(Radiografia)
+Radiografia
+```
+
+```{r}
+# Eliminando variables sin variabilidad
+resultados_sin_varianza <- resultados_grupo1 %>%
+  select(-Grupo, -Torre)
+resultados_sin_varianza
+```
+
+```{r}
+#variables nulos
+colSums(is.na(resultados_sin_varianza))
+
+```
+
+```{r}
+names(resultados_sin_varianza)
+```
+
+```{r}
+#2- VARIABLES
+# Codificando las variables Ordinales en R (ACTUALIZADO SEGÚN LIBRETA OFICIAL)
+resultados_codificado <- resultados_sin_varianza %>%
+  mutate(
+    # Variables con escala del 1 al 5
+    `Nivel de conservación` = factor(`Nivel de conservación`, levels = c(1, 2, 3, 4, 5), ordered = TRUE),
+    `Nivel de comodidad` = factor(`Nivel de comodidad`, levels = c(1, 2, 3, 4, 5), ordered = TRUE),
+    `Facilidad para estudiar` = factor(`Facilidad para estudiar`, levels = c(1, 2, 3, 4, 5), ordered = TRUE),
+    
+    # Variables con escala del 1 al 3
+    `Intensidad de la luz` = factor(`Intensidad de la luz`, levels = c(1, 2, 3), ordered = TRUE),
+    `Frecuencia de uso` = factor(`Frecuencia de uso`, levels = c(1, 2, 3), ordered = TRUE)
+    
+  )
+```
+```{r}
+data_1_ <- read_csv("resultados_grupo1.csv")
+data_1_1 <-read_csv("resultados_grupo1_1.csv")
+dim(data_1_)
+dim(data_1_1)
+```
+

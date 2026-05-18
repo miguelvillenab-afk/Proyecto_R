@@ -1,0 +1,6 @@
+"0","#Solo hay 1 valor valido por fila para las columnas de piso?"
+"0","all(contar_validos(DF_TablaMala, ""¿En qué piso se encuentra?"") == 1)"
+"1","[1]"
+"1"," TRUE"
+"1","
+"

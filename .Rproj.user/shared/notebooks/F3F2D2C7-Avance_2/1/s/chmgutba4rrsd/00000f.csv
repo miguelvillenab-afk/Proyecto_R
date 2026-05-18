@@ -1,0 +1,87 @@
+"0","# Radiografía"
+"0","Radiografia <- resultados_grupo1 %>%"
+"0","  summarise(across(everything(), list("
+"0","    # 1. Calcula el porcentaje de NAs"
+"0","    Porcentaje_NA = ~ mean(is.na(.)) * 100,"
+"0","    "
+"0","    # 2. Calcula el porcentaje de Ceros (solo para numéricas, ignora NAs)"
+"0","    Porcentaje_Ceros = ~ mean(. == 0, na.rm = TRUE) * 100,"
+"0","    "
+"0","    # 3. Calcula la cardinalidad (valores únicos)"
+"0","    Valores_Unicos = ~ n_distinct(.)"
+"0","  )))"
+"0",""
+"0","# Si quieres ver el resultado transpuesto (como en tu dibujo)"
+"0","glimpse(Radiografia)"
+"1","Rows: 1"
+"1",""
+"1","
+"
+"1","Columns: 60"
+"1",""
+"1","
+"
+"1","$ ID_Porcentaje_NA                                    [3m[38;5;246m<dbl>[39m[23m 0
+$ ID_Porcentaje_Ceros                                 [3m[38;5;246m<dbl>[39m[23m 0
+$ ID_Valores_Unicos                                   [3m[38;5;246m<int>[39m[23m 6
+$ Grupo_Porcentaje_NA                                 [3m[38;5;246m<dbl>[39m[23m 0
+$ Grupo_Porcentaje_Ceros                              [3m[38;5;246m<dbl>[39m[23m 0
+$ Grupo_Valores_Unicos                                [3m[38;5;246m<int>[39m[23m 1
+$ Torre_Porcentaje_NA                                 [3m[38;5;246m<dbl>[39m[23m 0
+$ Torre_Porcentaje_Ceros                              [3m[38;5;246m<dbl>[39m[23m 0
+$ Torre_Valores_Unicos                                [3m[38;5;246m<int>[39m[23m 1
+$ Piso_Porcentaje_NA                                  [3m[38;5;246m<dbl>[39m[23m 0
+$ Piso_Porcentaje_Ceros                               [3m[38;5;246m<dbl>[39m[23m 0
+$ Piso_Valores_Unicos                                 [3m[38;5;246m<int>[39m[23m 2
+$ Ambiente_Porcentaje_NA                              [3m[38;5;246m<dbl>[39m[23m 0
+$ Ambiente_Porcentaje_Ceros                           [3m[38;5;246m<dbl>[39m[23m 0
+$ Ambiente_Valores_Unicos                             [3m[38;5;246m<int>[39m[23m 4
+$ `Nivel de presión sonora (dB)_Porcentaje_NA`        [3m[38;5;246m<dbl>[39m[23m 0
+$ `Nivel de presión sonora (dB)_Porcentaje_Ceros`     [3m[38;5;246m<dbl>[39m[23m 0
+$ `Nivel de presión sonora (dB)_Valores_Unicos`       [3m[38;5;246m<int>[39m[23m 7
+$ `Nivel de iluminancia_Porcentaje_NA`                [3m[38;5;246m<dbl>[39m[23m 0
+$ `Nivel de iluminancia_Porcentaje_Ceros`             [3m[38;5;246m<dbl>[39m[23m 0
+$ `Nivel de iluminancia_Valores_Unicos`               [3m[38;5;246m<int>[39m[23m 7
+$ `Temp. Amb._Porcentaje_NA`                          [3m[38;5;246m<dbl>[39m[23m 0
+$ `Temp. Amb._Porcentaje_Ceros`                       [3m[38;5;246m<dbl>[39m[23m 0
+$ `Temp. Amb._Valores_Unicos`                         [3m[38;5;246m<int>[39m[23m 4
+$ `N° de personas presentes_Porcentaje_NA`            [3m[38;5;246m<dbl>[39m[23m 0
+$ `N° de personas presentes_Porcentaje_Ceros`         [3m[38;5;246m<dbl>[39m[23m 0
+$ `N° de personas presentes_Valores_Unicos`           [3m[38;5;246m<int>[39m[23m 7
+$ `N° de tomacorrientes disponibles_Porcentaje_NA`    [3m[38;5;246m<dbl>[39m[23m 0
+$ `N° de tomacorrientes disponibles_Porcentaje_Ceros` [3m[38;5;246m<dbl>[39m[23m 0
+$ `N° de tomacorrientes disponibles_Valores_Unicos`   [3m[38;5;246m<int>[39m[23m 5
+$ `Cant. de iluminarias_Porcentaje_NA`                [3m[38;5;246m<dbl>[39m[23m 0
+$ `Cant. de iluminarias_Porcentaje_Ceros`             [3m[38;5;246m<dbl>[39m[23m 54.16667
+$ `Cant. de iluminarias_Valores_Unicos`               [3m[38;5;246m<int>[39m[23m 4
+$ Propósito_Porcentaje_NA                             [3m[38;5;246m<dbl>[39m[23m 0
+$ Propósito_Porcentaje_Ceros                          [3m[38;5;246m<dbl>[39m[23m 0
+$ Propósito_Valores_Unicos                            [3m[38;5;246m<int>[39m[23m 2
+$ `Fuente de luz_Porcentaje_NA`                       [3m[38;5;246m<dbl>[39m[23m 0
+$ `Fuente de luz_Porcentaje_Ceros`                    [3m[38;5;246m<dbl>[39m[23m 0
+$ `Fuente de luz_Valores_Unicos`                      [3m[38;5;246m<int>[39m[23m 2
+$ `Fuente de ruido_Porcentaje_NA`                     [3m[38;5;246m<dbl>[39m[23m 0
+$ `Fuente de ruido_Porcentaje_Ceros`                  [3m[38;5;246m<dbl>[39m[23m 0
+$ `Fuente de ruido_Valores_Unicos`                    [3m[38;5;246m<int>[39m[23m 2
+$ Distractores_Porcentaje_NA                          [3m[38;5;246m<dbl>[39m[23m 0
+$ Distractores_Porcentaje_Ceros                       [3m[38;5;246m<dbl>[39m[23m 0
+$ Distractores_Valores_Unicos                         [3m[38;5;246m<int>[39m[23m 3
+$ `Frecuencia de uso_Porcentaje_NA`                   [3m[38;5;246m<dbl>[39m[23m 0
+$ `Frecuencia de uso_Porcentaje_Ceros`                [3m[38;5;246m<dbl>[39m[23m 0
+$ `Frecuencia de uso_Valores_Unicos`                  [3m[38;5;246m<int>[39m[23m 3
+$ `Nivel de conservación_Porcentaje_NA`               [3m[38;5;246m<dbl>[39m[23m 0
+$ `Nivel de conservación_Porcentaje_Ceros`            [3m[38;5;246m<dbl>[39m[23m 0
+$ `Nivel de conservación_Valores_Unicos`              [3m[38;5;246m<int>[39m[23m 5
+$ `Nivel de comodidad_Porcentaje_NA`                  [3m[38;5;246m<dbl>[39m[23m 0
+$ `Nivel de comodidad_Porcentaje_Ceros`               [3m[38;5;246m<dbl>[39m[23m 0
+$ `Nivel de comodidad_Valores_Unicos`                 [3m[38;5;246m<int>[39m[23m 3
+$ `Facilidad para estudiar_Porcentaje_NA`             [3m[38;5;246m<dbl>[39m[23m 0
+$ `Facilidad para estudiar_Porcentaje_Ceros`          [3m[38;5;246m<dbl>[39m[23m 0
+$ `Facilidad para estudiar_Valores_Unicos`            [3m[38;5;246m<int>[39m[23m 5
+$ `Intensidad de la luz_Porcentaje_NA`                [3m[38;5;246m<dbl>[39m[23m 0
+$ `Intensidad de la luz_Porcentaje_Ceros`             [3m[38;5;246m<dbl>[39m[23m 0
+$ `Intensidad de la luz_Valores_Unicos`               [3m[38;5;246m<int>[39m[23m 3"
+"1",""
+"1","
+"
+"0","Radiografia"

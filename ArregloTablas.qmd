@@ -1,0 +1,175 @@
+---
+title: "Limpieza de Tablas"
+author: "Baltazar Andrés Chávez Esnaola"
+format: html
+editor: visual
+---
+
+## Instalando dependencias
+
+Se llama a las bibliotecas "readr" para leer los datos de la tabla y "dplyr" para utilizar la función mutate y crear una nueva tabla.
+
+```{r}
+library(readr)
+library(dplyr)
+```
+
+## Paso 1: Lectura de datos
+
+```{r, message=FALSE}
+DF_TablaMala <- read_csv("Condiciones.csv")
+```
+
+Creamos una función que compruebe que por cada columna de "pregunta repetida" solo hay un valor valido (!is.na) y verificamos que solo sea 1.
+
+```{r}
+contar_validos <- function(data, nombre_base) {
+  cols <- names(data)[startsWith(names(data), nombre_base)]
+  rowSums(!is.na(data[, cols]) & data[, cols] != "")
+}
+```
+
+Para los pisos:
+
+```{r}
+#Solo hay 1 valor valido por fila para las columnas de piso?
+all(contar_validos(DF_TablaMala, "¿En qué piso se encuentra?") == 1)
+```
+
+Para los ambientes:
+
+```{r}
+#Solo hay 1 valor valido por fila para las columnas de ambiente?
+all(contar_validos(DF_TablaMala, "¿En qué ambiente se encuentra?") == 1)
+```
+
+Luego creamos una función general que nos permita acceder a la tabla segun el nombre de la columna que se repite.
+
+```{r}
+unificar_columnas <- function(data, nombre_base) {
+  
+  # Asi solo detecta columnas de esa pregunta aunque incluyan .1, .2, etc.
+  cols <- names(data)[startsWith(names(data), nombre_base)]
+  
+  #Ahora creamos una funcion que recorra la fila y detecte el primer valor distinto a N/A entre las columnas definidas anteriormente.
+  apply(data[, cols], 1, function(fila) {
+    valores <- fila[!is.na(fila) & fila != ""]
+    #Si se encuentra el v
+    if (length(valores) > 0) valores[1] else NA
+  })
+}
+```
+
+## Paso 2: Retabulación de los datos
+
+Recuperamos los datos de la tabla mala en una buena.
+
+En primera instancia definimos una lista de las columnas que están repetidas y no queremos en nuestra tabla limpia.
+
+```{r}
+cols_piso <- names(DF_TablaMala)[startsWith(names(DF_TablaMala), "¿En qué piso se encuentra?")]
+cols_ambiente <- names(DF_TablaMala)[startsWith(names(DF_TablaMala), "¿En qué ambiente se encuentra?")]
+```
+
+Luego creamos y completamos la tabla limpia con la función "mutate" y nuestra nueva función de "unificar_columnas"
+
+```{r}
+DF_TablaBuena <- DF_TablaMala %>%
+  mutate(
+    Piso = unificar_columnas(., "¿En qué piso se encuentra?"),
+    Ambiente = unificar_columnas(., "¿En qué ambiente se encuentra?"),
+    
+    ID = paste0(
+      Piso,
+      `¿En qué torre se encuentra?`,
+      Ambiente,
+      "-",
+      format(as.POSIXct(`Marca temporal`, format = "%d/%m/%Y %H:%M:%S"), "%d%m"),
+      "-",
+      gsub("[^0-9]", "", `¿En qué horario está llenando el formulario?`)
+    )
+  ) %>%
+  #Aqui removemos las columnas que definimos antes.
+  select(
+    -all_of(cols_piso),
+    -all_of(cols_ambiente)
+  ) %>%
+  #Re-ordenamos las variables para que sea más sencillo leer la tabla
+  relocate(
+    ID,
+    `Marca temporal`,
+    `¿Qué grupo lo/la está encuestando?`,
+    `¿En qué horario está llenando el formulario?`,
+    `¿En qué torre se encuentra?`,
+    Piso,
+    Ambiente
+  )
+```
+
+```{r}
+# Suponiendo que leíste tu archivo CSV como DF_MedicionesMala
+DF_MedicionesBuena <- DF_TablaMala %>%
+  mutate(
+    # Tus funciones de unificar_columnas siguen funcionando perfecto aquí
+    Piso = unificar_columnas(., "¿En qué piso se encuentra?"),
+    Ambiente = unificar_columnas(., "¿En qué ambiente se encuentra?"),
+    
+    # La creación del ID queda exactamente igual
+    ID = paste0(
+      Piso,
+      `¿En qué torre se encuentra?`,
+      Ambiente,
+      "-",
+      format(as.POSIXct(`Marca temporal`, format = "%d/%m/%Y %H:%M:%S"), "%d%m"),
+      "-",
+      gsub("[^0-9]", "", `¿En qué horario está llenando el formulario?`)
+    )
+  ) %>%
+  # Limpiamos las columnas repetidas que guardaste en tus listas previas
+  select(
+    -all_of(cols_piso),
+    -all_of(cols_ambiente)
+  ) %>%
+  # AQUÍ ESTÁ EL CAMBIO IMPORTANTE: Renombramos la columna larguísima
+  rename(
+    Numero_mobiliario = `Número de mobiliario disponible: Se toma el recurso principal o el paquete del recurso principal (cubículo (silla + mesa))`
+  ) %>%
+  # Reordenamos la tabla usando directamente "Grupo" que ya viene en el CSV
+  relocate(
+    ID,
+    `Marca temporal`,
+    Grupo, 
+    `¿En qué horario está llenando el formulario?`,
+    `¿En qué torre se encuentra?`,
+    Piso,
+    Ambiente,
+    `Nivel de presión sonora (dB)`,
+    `Temperatura ambiental`,
+    Numero_mobiliario
+  )
+```
+
+Si deseamos también podemos guardar la nueva tabla en un .csv
+
+```{r,,eval=FALSE}
+write_csv(DF_TablaBuena, "Encuestas_Bien.csv")
+```
+
+```{r}
+write_csv(DF_MedicionesBuena, "Mediciones_Bien.csv")
+```
+
+Para la tabla de mediciones se sigue el mismo procedimiento, pero se hacen los cambios donde sea pertinente (principalmente detalles en los nombres de las columnas)
+
+```{r, , eval=FALSE}
+#Como ejemplo
+relocate(
+    ID,
+    `Marca temporal`,
+    `¿Qué grupo lo/la está encuestando?`, #Esta variable cambia a "Grupo"    
+    `¿En qué horario está llenando el formulario?`,
+    `¿En qué torre se encuentra?`,
+    Piso,
+    Ambiente
+  )
+```

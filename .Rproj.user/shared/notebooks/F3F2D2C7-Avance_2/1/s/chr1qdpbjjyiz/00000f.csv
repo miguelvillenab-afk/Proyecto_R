@@ -1,0 +1,3 @@
+"0","resultados_grupo1 <- resultados_grupo1 %>% select("
+"0","  `ID`, `GrupoEncuestador`,`¿En qué torre se encuentra?`, `Piso`,`Ambiente`,`Nivel de presión sonora (dB)`,`Nivel de iluminancia`,`Temperatura ambiental`, `N° de personas presentes`,`N° de tomacorrientes disponibles`,`Cantidad de luminarias (focos) funcionando`,`Propósito en la comunidad`,`Fuente de luz`,`Fuente principal de ruido`,`Tipo de distractores no relacionados con su propósito`,`Frecuencia de uso del ambiente`,`Nivel de conservación`,`Nivel de comodidad`,`Nivel de facilidad para estudiar en el ambiente`, `Intensidad de la luz`"
+"0",")"

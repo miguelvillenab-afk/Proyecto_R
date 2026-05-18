@@ -1,0 +1,4 @@
+"0","contar_validos <- function(data, nombre_base) {"
+"0","  cols <- names(data)[startsWith(names(data), nombre_base)]"
+"0","  rowSums(!is.na(data[, cols]) & data[, cols] != """")"
+"0","}"

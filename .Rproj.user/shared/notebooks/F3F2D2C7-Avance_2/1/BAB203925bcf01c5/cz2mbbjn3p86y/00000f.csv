@@ -1,0 +1,3 @@
+"0","#1 BASE DE DATOS"
+"0","Encuentas <- read_csv(""CAUTECResBien_1.csv"")"
+"0","Ambientales<- read_csv(""CAUTECResBien1_1.csv"")"

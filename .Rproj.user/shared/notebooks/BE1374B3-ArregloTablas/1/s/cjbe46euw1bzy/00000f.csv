@@ -1,0 +1,2 @@
+"0","cols_piso <- names(DF_TablaMala)[startsWith(names(DF_TablaMala), ""¿En qué piso se encuentra?"")]"
+"0","cols_ambiente <- names(DF_TablaMala)[startsWith(names(DF_TablaMala), ""¿En qué ambiente se encuentra?"")]"

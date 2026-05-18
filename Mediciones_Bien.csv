@@ -1,0 +1,233 @@
+ID,Marca temporal,Grupo,¿En qué horario está llenando el formulario?,¿En qué torre se encuentra?,Piso,Ambiente,Nivel de presión sonora (dB),Temperatura ambiental,Numero_mobiliario,Frecuencia sonora,Nivel de iluminancia,Cantidad de luminarias (focos) funcionando,N° de personas presentes,N° de tomacorrientes disponibles,Tipo de ventilación,Fuente principal de ruido,Fuente de luz,Propósito en la comunidad,Tipo de distractores no relacionados con su propósito,...37,...38
+5B1-2704-09,27/4/2026 10:13:02,Grupo 4,09,B,5,1,52.8,22,"13 mesas son 10 sillas cada una, otras 6 mesas con solo 6 sillas 10 sillones",281.25,503.35,94,62,214,Mecánica (aire acondicionado),Charla de estudiantes,Mixta,Estudio,Auditivos,NA,NA
+5B1-2704-18,27/4/2026 17:37:28,Grupo 4,18,B,5,1,58.7,22,No cambia,118.64,496,194,154,96,Mecánica (aire acondicionado),Charla de estudiantes,Mixta,Estudio,Tecnológicos,NA,NA
+5A1-2804-09,28/4/2026 9:12:19,Grupo 5,09,A,5,1,137.4,22,31,77.31,17.39,0,14,62,Natural,Tráfico vehicular,Natural,Estudio,Auditivos,NA,NA
+1A1-2804-09,28/4/2026 9:26:07,Grupo 4,09,A,1,1,79.2,22.5,36 mesas 6 cojines grandes,369.15,276,194,24,22,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Descanso,Auditivos,NA,Inconsistencia de recolección
+5A2-2804-09,28/4/2026 9:29:58,Grupo 5,09,A,5,2,144.16,24,14,165.04,2.12,0,15,5,Natural,Tráfico vehicular,Mixta,Estudio,Auditivos,NA,NA
+10A2-2804-09,28/4/2026 11:43:07,Grupo 6,09,A,10,2,115.97,21,18,0.01,149.68,14,4,30,Mecánica (aire acondicionado),Pasillos,Mixta,Descanso,Tecnológicos,NA,Error de formato (solucionable)
+10A1-2804-09,28/4/2026 11:46:37,Grupo 6,09,A,10,1,118.99,21,24,0.02,146.68,11,10,28,Mecánica (aire acondicionado),Pasillos,Mixta,Estudio,Tecnológicos,NA,NA
+11A3-2804-09,28/4/2026 11:49:23,Grupo 6,09,A,11,3,121.62,20,0,0.02,162.56,0,0,0,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,Errores de medición (frecuencia negativa es imposible)
+5A2-2804-13,28/4/2026 13:16:48,Grupo 5,13,A,5,2,130.56,23,16,138.67,28.1,8,14,4,Natural,Pasillos,Mixta,Estudio,Auditivos,NA,NA
+5A1-2804-13,28/4/2026 13:28:17,Grupo 5,13,A,5,1,137.88,21,31,115.68,62.8,0,16,62,Natural,Charla de estudiantes,Natural,Estudio,Auditivos,NA,NA
+8A2-2804-13,28/4/2026 13:29:28,Grupo 4,13,A,8,2,10dB,20,24,20dB,"100,5",10,14,30,Híbrida,Charla de estudiantes,Natural,Estudio,Auditivos,NA,NA
+1A1-2804-13,28/4/2026 14:29:56,Grupo 4,13,A,1,1,161.6,21,29,1200,425.63,66,43,11,Híbrida,Charla de estudiantes,Artificial,Socialización,Auditivos,NA,NA
+11A3-2804-09,28/4/2026 14:44:04,Grupo 6,09,A,11,3,-23.14,23.8,3,423.94,10960.988,0,4,3,Natural,Pasillos,Natural,Descanso,Tecnológicos,NA,NA
+11A1-2804-09,28/4/2026 14:54:47,Grupo 6,09,A,11,1,-16.97,19.6,"No exactamente sillas, pero hay butacas.",63.53,6534,0,5,5,Natural,Charla de estudiantes,Natural,Descanso,Tecnológicos,NA,NA
+11A1-2804-13,28/4/2026 15:28:30,Grupo 6,13,A,11,1,139.73,25,1,273.09,1976.88,0,16,4,Natural,Charla de estudiantes,Natural,Descanso,Tecnológicos,NA,NA
+11A2-2804-13,28/4/2026 15:32:56,Grupo 6,13,A,11,2,126.13,25,1,205.55,1944.71,0,10,3,Natural,Charla de estudiantes,Natural,Descanso,Tecnológicos,NA,NA
+11A3-2804-13,28/4/2026 15:37:05,Grupo 6,13,A,11,3,136.72,25,1,309.58,2293.45,0,9,2,Natural,Charla de estudiantes,Natural,Descanso,Tecnológicos,NA,NA
+10A1-2804-13,28/4/2026 15:38:03,Grupo 6,13,A,10,1,119.81,22,24,0.02,3338.86,11,13,20,Mecánica (aire acondicionado),Charla de estudiantes,Mixta,Estudio,Tecnológicos,NA,NA
+10A2-2804-13,28/4/2026 15:39:32,Grupo 6,13,A,10,2,118.98,22,18,0.03,0.03,14,14,30,Mecánica (aire acondicionado),Charla de estudiantes,Mixta,Descanso,Auditivos,NA,NA
+5A2-2804-18,28/4/2026 18:04:05,Grupo 5,18,A,5,2,147.5,23,15,213.23,22.38,8,15,10,Natural,Pasillos,Artificial,Estudio,Auditivos,NA,NA
+5A1-2804-18,28/4/2026 18:14:22,Grupo 5,18,A,5,1,155.3,23,31,288.22,103.8,6,21,62,Natural,Charla de estudiantes,Natural,Estudio,Auditivos,NA,NA
+1A1-2804-18,28/4/2026 18:31:17,Grupo 4,18,A,1,1,141.7,21,58,12000,261.76,61,55,45,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+1A1-2804-18,28/4/2026 18:31:18,Grupo 4,18,A,1,1,141.7,21,58,12000,261.76,61,55,45,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+11A1-2804-18,28/4/2026 21:13:34,Grupo 6,18,A,11,1,132.32,19,1,256.58,138.86,3,5,4,Natural,Charla de estudiantes,Artificial,Descanso,Auditivos,NA,NA
+11A3-2804-18,28/4/2026 21:17:24,Grupo 6,18,A,11,3,136.36,19,1,216.38,120.9,2,3,2,Natural,Charla de estudiantes,Artificial,Descanso,Auditivos,NA,NA
+11A2-2804-18,28/4/2026 21:20:49,Grupo 6,18,A,11,2,129.44,19,1,232.81,113.6,3,6,4,Natural,Charla de estudiantes,Artificial,Descanso,Auditivos,NA,NA
+1B2-2904-09,29/4/2026 9:25:07,Grupo 5,09,B,1,2,149.25,27,24,132.98,2551.51,0,10,0,Natural,Pasillos,Natural,Descanso,Auditivos,NA,NA
+8A3-2904-09,29/4/2026 9:27:05,Grupo 7,09,A,8,3,55.23,NA,50,198.55,287,5,15,53,Híbrida,Charla de estudiantes,Mixta,Estudio,Tecnológicos,NA,NA
+1A2-2904-09,29/4/2026 9:33:50,Grupo 4,09,A,1,2,135.58,23,627,12000,80,16,46,15,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Tecnológicos,NA,NA
+10A1-2904-09,29/4/2026 10:00:57,Grupo 6,09,A,10,1,"114,97",22,10,"113,51",149.01,0,16,20,Híbrida,Pasillos,Natural,Estudio,Tecnológicos,NA,NA
+2A2-2904-09,29/4/2026 10:09:02,Grupo 3,09,A,2,2,62,24,45,-44.5,324,3,35,4,Natural,Charla de estudiantes,NA,Socialización,Tecnológicos,NA,NA
+2A1-2904-13,29/4/2026 10:20:15,Grupo 3,13,A,2,1,45,23,30,-34,400.45,4,35,6,Híbrida,Obras de construcción,Mixta,Descanso,Visuales,NA,NA
+2A2-2904-09,29/4/2026 10:34:06,Grupo 3,09,A,2,2,-36,20,45,2,315,6,32,7,Híbrida,Charla de estudiantes,Mixta,Descanso,Tecnológicos,NA,NA
+2B2-2904-09,29/4/2026 10:38:52,Grupo 3,09,B,2,2,-30,24,0,12,450,9,12,10,Híbrida,Charla de estudiantes,Mixta,Descanso,Tecnológicos,NA,NA
+2A2-2904-09,29/4/2026 10:47:45,Grupo 3,09,A,2,2,-26,20,30,12,500,10,46,6,Mecánica (aire acondicionado),Charla de estudiantes,Natural,Esparcimiento,Visuales,NA,NA
+2A2-2904-09,29/4/2026 11:22:20,Grupo 3,09,A,2,2,-40,20,45,24,450,5,26,5,Mecánica (aire acondicionado),Charla de estudiantes,Natural,Socialización,Tecnológicos,NA,NA
+1B3-2904-13,29/4/2026 13:18:09,Grupo 5,13,B,1,3,150.15,22,7,300.31,572.88,0,17,0,Natural,Charla de estudiantes,Natural,Alimentación,Auditivos,NA,NA
+2A2-2904-13,29/4/2026 13:55:23,Grupo 3,13,A,2,2,155,24,18,211.45,833.2,6,1,6,Natural,Tráfico vehicular,Mixta,Estudio,Auditivos,NA,NA
+2A2-2904-13,29/4/2026 13:59:16,Grupo 3,13,A,2,2,155,23,18,210.9,840,6,3,6,Natural,Tráfico vehicular,Mixta,Estudio,Auditivos,NA,NA
+1A2-2904-13,29/4/2026 14:06:20,Grupo 4,13,A,1,2,132.21,23.5,612,18792,84,15,45,13,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Tecnológicos,NA,NA
+1S3-2904-13,29/4/2026 14:08:09,Grupo 3,13,S,1,3,146.4,24,0,282.35,185.5,3,2,1,Mecánica (aire acondicionado),Pasillos,Artificial,Tránsito,Visuales,NA,NA
+9A3-2904-13,29/4/2026 14:12:22,Grupo 1,13,A,9,3,-53.7,26,45,73.58,11.88,5,12,6,Natural,Charla de estudiantes,Mixta,Estudio,Tecnológicos,NA,NA
+1S3-2904-13,29/4/2026 14:19:48,Grupo 3,13,S,1,3,146,24,0,240.5,160,3,3,1,Mecánica (aire acondicionado),Pasillos,Artificial,Tránsito,Auditivos,NA,NA
+1S2-2904-13,29/4/2026 14:47:25,Grupo 3,13,S,1,2,146.5,25.3,290,293.3,602.4,6,50,144,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+1S2-2904-13,29/4/2026 14:47:25,Grupo 3,13,S,1,2,146.8,25.3,300,296.3,602.2,6,40,20,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+1A2-2904-18,29/4/2026 17:45:05,Grupo 4,18,A,1,2,165.4,23,35,117.19,66.47,15,209,11,Híbrida,Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+1B2-2904-18,29/4/2026 18:10:07,Grupo 5,18,B,1,2,148.64,19,8,185.51,35.01,0,2,0,Natural,Pasillos,Artificial,Descanso,Auditivos,NA,NA
+3B1-2904-18,29/4/2026 18:34:41,Grupo 8,18,B,3,1,30.24,18,4,"34,56",0.072,8,3,6,Híbrida,Pasillos,Artificial,Esparcimiento,Visuales,NA,NA
+3B1-2904-18,29/4/2026 18:38:33,Grupo 8,18,B,3,1,23.2,18,6,34.5,0.072,8,4,8,Híbrida,Pasillos,Artificial,Esparcimiento,Visuales,NA,NA
+1B3-3004-09,30/4/2026 9:08:43,Grupo 5,09,B,1,3,144.63,21,32,122.24,7607.21,0,4,10,Natural,Charla de estudiantes,Natural,Socialización,Auditivos,NA,NA
+1S2-3004-09,30/4/2026 9:32:30,Grupo 8,09,S,1,2,24.3,20,20,34.5,4.816,0,15,20,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+1A4-3004-09,30/4/2026 9:47:02,Grupo 4,09,A,1,4,134.47,21.5,39 sillas y 5 mesas,1200,374,16,19,10,Mecánica (aire acondicionado),Obras de construcción,Artificial,Estudio,Auditivos,NA,NA
+1A5-3004-09,30/4/2026 10:15:30,Grupo 4,09,A,1,5,135.03,20,5 sillones,1312.56,277,13,8,2,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Tránsito,Auditivos,NA,NA
+2A2-3004-09,30/4/2026 11:20:15,Grupo 3,09,A,2,2,-36,24,35,1.3,450,9,30,10,Híbrida,Obras de construcción,Mixta,Socialización,Visuales,NA,NA
+9A1-3004-13,30/4/2026 13:30:57,Grupo 8,13,A,9,1,05,25,35,05,05,Todos,20,24,Natural,Tráfico vehicular,Mixta,Estudio,Visuales,NA,NA
+1B3-3004-13,30/4/2026 13:34:11,Grupo 5,13,B,1,3,133.27,23,11,63.11,5575.21,0,21,10,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+6A2-3004-13,30/4/2026 14:12:57,Grupo 8,13,A,6,2,4,25,20,7,30,3,8,6,Híbrida,Charla de estudiantes,Natural,Estudio,Tecnológicos,NA,NA
+1A4-3004-13,30/4/2026 14:54:34,Grupo 4,13,A,1,4,171.9,20,62 cubiculos,93.75,1103.22,22,7,10,Híbrida,Pasillos,Artificial,Estudio,Visuales,NA,NA
+1A5-3004-13,30/4/2026 15:02:16,Grupo 4,13,A,1,5,170.3,21,2,70.31,541.78,13,4,0,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Tránsito,Auditivos,NA,NA
+6A2-3004-18,30/4/2026 15:11:10,Grupo 8,18,A,6,2,1.56,98.9,5,6.24,2.35,2.67,3,6,Natural,Tráfico vehicular,Artificial,Descanso,Visuales,NA,NA
+5B1-3004-13,30/4/2026 15:35:42,Grupo 8,13,B,5,1,10,20,7,No se,No se,2,3,6,Híbrida,Obras de construcción,Mixta,Estudio,Auditivos,NA,NA
+3A2-3004-13,30/4/2026 15:45:48,Grupo 1,13,A,3,2,162.37,22,1,0.26,74.71,0,3,2,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+3A1-3004-13,30/4/2026 16:18:06,Grupo 1,13,A,3,1,145.18,21,0,0.37,347.06,0,1,2,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+9A4-3004-13,30/4/2026 16:19:40,Grupo 1,13,A,9,4,147.78,21,0,0.24,898.95,0,4,1,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+9A3-3004-13,30/4/2026 16:31:35,Grupo 1,13,A,9,3,131.29,22,45,0.03,435.16,5,5,10,Natural,Charla de estudiantes,Mixta,Estudio,Tecnológicos,NA,NA
+9A5-3004-13,30/4/2026 16:52:31,Grupo 1,13,A,9,5,162.05,21,0,0.23,2475.09,0,3,0,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+9A1-3004-13,30/4/2026 17:06:31,Grupo 1,13,A,9,1,138.74,21,45,0.69,147.04,4,8,10,Natural,Charla de estudiantes,Mixta,Estudio,Tecnológicos,NA,NA
+1B3-3004-18,30/4/2026 18:04:42,Grupo 5,18,B,1,3,133.11,24,40,64.91,118,0,24,10,Natural,Charla de estudiantes,Natural,Socialización,Auditivos,NA,NA
+11A1-3004-18,30/4/2026 18:17:22,Grupo 6,18,A,11,1,132.32,19,0,256.58,138.86,3,5,4,Natural,Tráfico vehicular,Artificial,Descanso,Auditivos,NA,NA
+1B1-3004-18,30/4/2026 18:19:14,Grupo 5,18,B,1,1,137.77,26,174,210.38,177.87,31,6,0,Mecánica (aire acondicionado),Pasillos,Artificial,Alimentación,Auditivos,NA,NA
+1A4-3004-13,30/4/2026 18:19:43,Grupo 4,13,A,1,4,166.6,23,69,70.31,659.54,20,15,14,Mecánica (aire acondicionado),Pasillos,Artificial,Estudio,Visuales,NA,NA
+11A2-3004-18,30/4/2026 18:21:28,Grupo 6,18,A,11,2,134.42,19,0,254.63,131.78,3,4,4,Natural,Tráfico vehicular,Artificial,Descanso,Auditivos,NA,NA
+11A3-3004-18,30/4/2026 18:24:47,Grupo 6,18,A,11,3,133.73,19,0,217.54,118.72,2,0,2,Natural,Tráfico vehicular,Artificial,Tránsito,Auditivos,NA,NA
+1A5-3004-13,30/4/2026 18:25:00,Grupo 4,13,A,1,5,174.4,24,3,234.38,337.57,13,16,0,Mecánica (aire acondicionado),Pasillos,Artificial,Esparcimiento,Visuales,NA,NA
+1B1-3004-09,30/4/2026 18:29:32,Grupo 5,09,B,1,1,150.79,23,156,500.87,71.84,0,18,1,Mecánica (aire acondicionado),Charla de estudiantes,Mixta,Alimentación,Auditivos,NA,NA
+1B1-3004-13,30/4/2026 18:34:45,Grupo 5,13,B,1,1,152.67,23,48,436.28,28.74,2,126,1,Mecánica (aire acondicionado),Charla de estudiantes,Mixta,Alimentación,Auditivos,NA,NA
+10A1-3004-18,30/4/2026 18:48:41,Grupo 6,18,A,10,1,124.17,20,24,70.31,149.86,11,7,20,Mecánica (aire acondicionado),Pasillos,Mixta,Estudio,Tecnológicos,NA,NA
+10A2-3004-18,30/4/2026 18:52:19,Grupo 6,18,A,10,2,124.3,20,18,97.34,149.68,14,8,30,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Descanso,Tecnológicos,NA,NA
+8A3-0105-09,1/5/2026 18:46:04,Grupo 7,09,A,8,3,122.27,21,15,703.13,54.5,9,21,12,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+8A2-0105-18,1/5/2026 18:50:41,Grupo 7,18,A,8,2,105.83,23,15,695.72,83.25,15,20,10,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+3B1-0205-18,2/5/2026 18:08:55,Grupo 8,18,B,3,1,24.7,18,4,20.17,0.00069,5,3,8,Híbrida,Pasillos,Mixta,Esparcimiento,Auditivos,NA,NA
+3B2-0205-18,2/5/2026 18:13:42,Grupo 8,18,B,3,2,60,18,6,32.46,200.17,6,2,6,Natural,Tráfico vehicular,Mixta,Esparcimiento,Auditivos,NA,NA
+10A1-0405-09,4/5/2026 9:20:57,Grupo 6,09,A,10,1,128.17,23,24,0.14,21.5,11,7,20,Mecánica (aire acondicionado),Pasillos,Mixta,Estudio,Tecnológicos,NA,NA
+10A2-0405-09,4/5/2026 9:28:08,Grupo 6,09,A,10,2,128.29,23,18,0.68,30.3,14,12,30,Mecánica (aire acondicionado),Pasillos,Mixta,Descanso,Tecnológicos,NA,NA
+11A1-0405-09,4/5/2026 9:47:14,Grupo 6,09,A,11,1,128.45,24,0,12000,2.71,0,7,4,Natural,Charla de estudiantes,Natural,Esparcimiento,Auditivos,NA,NA
+11A3-0405-09,4/5/2026 13:19:45,Grupo 6,09,A,11,3,131.42,22,0,187.05,1775,0,10,4,Natural,Charla de estudiantes,Natural,Alimentación,Tecnológicos,NA,NA
+11A2-0405-09,4/5/2026 13:26:16,Grupo 6,09,A,11,2,131,22,0,12000,1968.98,0,22,4,Natural,Charla de estudiantes,Natural,Alimentación,Tecnológicos,NA,NA
+11A1-0405-13,4/5/2026 13:30:29,Grupo 6,13,A,11,1,129.47,22,0,1992.12,2000,0,16,4,Natural,Charla de estudiantes,Natural,Alimentación,Tecnológicos,NA,NA
+10A2-0405-13,4/5/2026 13:39:42,Grupo 6,13,A,10,2,127.31,23,18,12000,563.28,14,21,30,Mecánica (aire acondicionado),Pasillos,Mixta,Descanso,Tecnológicos,NA,NA
+10A1-0405-13,4/5/2026 13:49:40,Grupo 6,13,A,10,1,131.53,23,24,12000,296.77,11,15,20,Mecánica (aire acondicionado),Pasillos,Mixta,Estudio,Tecnológicos,NA,NA
+11A2-0405-13,4/5/2026 13:53:11,Grupo 6,13,A,11,2,131,24,0,12000,1968.98,0,22,4,Natural,Charla de estudiantes,Natural,Alimentación,Tecnológicos,NA,NA
+11A3-0405-13,4/5/2026 13:54:48,Grupo 6,13,A,11,3,131.42,24,0,187.05,1775,0,10,4,Natural,Charla de estudiantes,Natural,Alimentación,Tecnológicos,NA,NA
+10A1-0405-18,4/5/2026 18:10:54,Grupo 6,18,A,10,1,121.63,20,24,75.23,152.15,11,11,20,Mecánica (aire acondicionado),Pasillos,Artificial,Estudio,Tecnológicos,NA,NA
+10A2-0405-18,4/5/2026 18:15:48,Grupo 6,18,A,10,2,129.82,20,18,101.34,153.79,14,13,30,Mecánica (aire acondicionado),Pasillos,Artificial,Descanso,Tecnológicos,NA,NA
+10A1-0505-09,5/5/2026 10:04:13,Grupo 6,09,A,10,1,65,23,20,45,300,16,12,20,Mecánica (aire acondicionado),Charla de estudiantes,Mixta,Estudio,Tecnológicos,NA,NA
+10A2-0505-09,5/5/2026 10:06:52,Grupo 6,09,A,10,2,40,23,11,250,300,20,7,0,Mecánica (aire acondicionado),Charla de estudiantes,Mixta,Estudio,Auditivos,NA,NA
+11A3-0505-09,5/5/2026 10:10:23,Grupo 6,09,A,11,3,50,22,3,20,500,0,3,4,Natural,Pasillos,Natural,Socialización,Visuales,NA,NA
+11A2-0505-09,5/5/2026 10:12:36,Grupo 6,09,A,11,2,65,22,5,20,1000,0,5,4,Natural,Charla de estudiantes,Natural,Socialización,Auditivos,NA,NA
+11A1-0505-09,5/5/2026 10:15:57,Grupo 6,09,A,11,1,60,23,5,400,10000,0,8,8,Natural,Charla de estudiantes,Natural,Alimentación,Visuales,NA,NA
+1S1-0505-13,5/5/2026 13:03:38,Grupo 8,13,S,1,1,120.45,25,4,86.34,593.48,0,17,8,Natural,Charla de estudiantes,Natural,Descanso,Visuales,NA,NA
+1S1-0505-13,5/5/2026 13:05:42,Grupo 8,13,S,1,1,134.45,24,4,345.87,594.56,0,17,8,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0505-13,5/5/2026 13:07:07,Grupo 8,13,S,1,1,136.78,24,4,487.9,567.34,0,19,8,Natural,Charla de estudiantes,Natural,Socialización,Auditivos,NA,NA
+1S1-0505-13,5/5/2026 13:08:22,Grupo 8,13,S,1,1,124.67,24,4,345.89,678.93,0,24,8,Natural,Charla de estudiantes,Natural,Socialización,Auditivos,NA,NA
+1S1-0505-13,5/5/2026 13:09:53,Grupo 8,13,S,1,1,107.45,24,4,382.31,652.71,0,23,8,Natural,Tráfico vehicular,Natural,Socialización,Auditivos,NA,NA
+1S2-0505-13,5/5/2026 13:12:49,Grupo 8,13,S,1,2,63.21,18,120,140.63,53,12,24,60,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+1S2-0505-13,5/5/2026 13:14:15,Grupo 8,13,S,1,2,108.65,18,120,65,87.32,12,30,60,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+1S2-0505-13,5/5/2026 13:15:29,Grupo 8,13,S,1,2,83.46,18,120,134.78,34.76,12,43,60,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+1S2-0505-13,5/5/2026 13:17:32,Grupo 8,13,S,1,2,69.42,18,120,287.34,136.87,12,56,60,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+1S2-0505-13,5/5/2026 13:19:20,Grupo 8,13,S,1,2,57.23,18,120,125.67,106.85,12,85,60,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+3B1-0505-13,5/5/2026 13:21:00,Grupo 8,13,B,3,1,76.34,18,8,103.45,143.67,6,6,8,Híbrida,Pasillos,Mixta,Esparcimiento,Tecnológicos,NA,NA
+3B2-0505-13,5/5/2026 13:21:38,Grupo 8,13,B,3,2,123.56,20,2,256.73,350.53,0,4,2,Natural,Pasillos,Natural,Tránsito,Auditivos,NA,NA
+3B2-0505-13,5/5/2026 13:22:35,Grupo 8,13,B,3,2,130.78,20,4,206.39,386.59,0,3,2,Híbrida,Tráfico vehicular,Mixta,Esparcimiento,Auditivos,NA,NA
+3B2-0505-13,5/5/2026 13:24:19,Grupo 8,13,B,3,2,96.75,20,4,348.56,258.62,0,4,2,Híbrida,Tráfico vehicular,Natural,Esparcimiento,Visuales,NA,NA
+3B2-0505-13,5/5/2026 13:24:33,Grupo 8,13,B,3,2,124.22,20,4,255.97,350.78,0,3,2,Híbrida,Pasillos,Natural,Tránsito,Auditivos,NA,NA
+1S3-0505-18,5/5/2026 18:03:55,Grupo 8,18,S,1,3,72.47,16,0,127.84,257.87,4,9,4,Híbrida,Charla de estudiantes,Artificial,Esparcimiento,Visuales,NA,NA
+1S3-0505-18,5/5/2026 18:05:14,Grupo 8,18,S,1,3,87.37,17,0,173.87,204.78,4,8,2,Híbrida,Charla de estudiantes,Artificial,Esparcimiento,Tecnológicos,NA,NA
+1S3-0505-18,5/5/2026 18:07:51,Grupo 8,18,S,1,3,95.78,18,0,304.87,345.89,4,14,3,Híbrida,Charla de estudiantes,Artificial,Esparcimiento,Visuales,NA,NA
+1S3-0505-18,5/5/2026 18:09:45,Grupo 8,18,S,1,3,106.84,18,0,245.76,208.54,4,5,4,Híbrida,Pasillos,Artificial,Esparcimiento,Tecnológicos,NA,NA
+1S2-0505-18,5/5/2026 18:13:07,Grupo 8,18,S,1,2,34.76,16,120,109.56,356.8,8,18,60,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+1S2-0505-18,5/5/2026 18:14:51,Grupo 8,18,S,1,2,65.34,18,120,98.32,106.35,8,20,60,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+11A1-0505-18,5/5/2026 18:15:19,Grupo 6,18,A,11,1,137.58,21,0,269.01,0.0007,2,9,4,Natural,Charla de estudiantes,Artificial,Descanso,Auditivos,NA,NA
+1S2-0505-18,5/5/2026 18:16:07,Grupo 8,18,S,1,2,88.66,18,120,126.36,163.72,8,34,60,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+11A1-0505-18,5/5/2026 18:18:07,Grupo 6,18,A,11,1,137.58,21,0,269.01,21.25,2,9,4,Natural,Charla de estudiantes,Artificial,Descanso,Auditivos,NA,NA
+1S2-0505-18,5/5/2026 18:18:52,Grupo 8,18,S,1,2,34.23,16,120,153.87,256.87,10,40,60,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+11A2-0505-18,5/5/2026 18:21:14,Grupo 6,18,A,11,2,127.79,21,0,269.14,22.41,3,9,6,Natural,Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+3B2-0505-18,5/5/2026 18:24:07,Grupo 8,18,B,3,2,86.57,16,0,165.34,186.34,4,3,4,Híbrida,Charla de estudiantes,Artificial,Esparcimiento,Auditivos,NA,NA
+3B1-0505-18,5/5/2026 18:24:37,Grupo 8,18,B,3,1,56.78,16,8,147.13,168.79,8,2,8,Híbrida,Pasillos,Artificial,Tránsito,Tecnológicos,NA,NA
+11A3-0505-18,5/5/2026 18:26:26,Grupo 6,18,A,11,3,132.38,21,0,281.67,21.09,2,2,5,Natural,Tráfico vehicular,Artificial,Descanso,Auditivos,NA,NA
+3B2-0505-18,5/5/2026 18:26:37,Grupo 8,18,B,3,2,67.45,16,0,98.53,234.56,2,3,4,Híbrida,Pasillos,Artificial,Esparcimiento,Visuales,NA,NA
+3B1-0505-18,5/5/2026 18:26:44,Grupo 8,18,B,3,1,56.71,16,8,150.89,200.89,10,3,8,Híbrida,Pasillos,Artificial,Tránsito,Tecnológicos,NA,NA
+3B1-0505-18,5/5/2026 18:28:05,Grupo 8,18,B,3,1,52.67,16,8,144.78,189.09,10,2,8,Híbrida,Pasillos,Artificial,Tránsito,Tecnológicos,NA,NA
+3B2-0505-18,5/5/2026 18:28:11,Grupo 8,18,B,3,2,50.67,16,2,156.73,167.43,4,4,4,Híbrida,Pasillos,Artificial,Esparcimiento,Visuales,NA,NA
+10A1-0505-18,5/5/2026 18:32:24,Grupo 6,18,A,10,1,128.34,22,24,117.19,183.51,11,12,20,Mecánica (aire acondicionado),Pasillos,Artificial,Estudio,Tecnológicos,NA,NA
+10A2-0505-18,5/5/2026 18:35:17,Grupo 6,18,A,10,2,128.03,22,18,119.73,177.23,14,14,30,Mecánica (aire acondicionado),Pasillos,Artificial,Descanso,Tecnológicos,NA,NA
+6A4-0605-09,6/5/2026 10:08:14,Grupo 2,09,A,6,4,40.3,22,7,60.9,864.2,2,3,10,Natural,Tráfico vehicular,Natural,Descanso,Visuales,NA,NA
+3A1-0605-13,6/5/2026 12:43:48,Grupo 1,13,A,3,1,142.93,22,0,0.28,1870.68,0,2,2,Natural,Tráfico vehicular,Natural,Tránsito,Visuales,NA,NA
+3A2-0605-13,6/5/2026 12:52:05,Grupo 1,13,A,3,2,146.16,22,0,0.32,692.58,0,1,2,Natural,Tráfico vehicular,Natural,Tránsito,Visuales,NA,NA
+1B2-0605-13,6/5/2026 13:13:17,Grupo 5,13,B,1,2,132.64,22,8,153.67,470.57,0,17,0,Natural,Charla de estudiantes,Natural,Alimentación,Auditivos,NA,NA
+9A3-0605-13,6/5/2026 13:18:35,Grupo 1,13,A,9,3,136.45,25,45,0.06,175.7,4,2,15,Natural,Tráfico vehicular,Mixta,Estudio,Auditivos,NA,NA
+9A2-0605-13,6/5/2026 13:28:53,Grupo 1,13,A,9,2,132.25,23,45,0.07,344.7,4,1,15,Natural,Pasillos,Mixta,Estudio,Auditivos,NA,NA
+10A1-0605-13,6/5/2026 13:29:55,Grupo 6,13,A,10,1,30,23,20,500,500,11,8,20,Mecánica (aire acondicionado),Pasillos,Mixta,Estudio,Auditivos,NA,NA
+10A2-0605-13,6/5/2026 13:34:39,Grupo 6,13,A,10,2,40,23,9,200,979.02,16,7,0,Mecánica (aire acondicionado),Pasillos,Mixta,Descanso,Visuales,NA,NA
+9A1-0605-13,6/5/2026 13:39:10,Grupo 1,13,A,9,1,137.97,23,45,0.16,239.43,5,2,15,Natural,Tráfico vehicular,Mixta,Estudio,Auditivos,NA,NA
+11A3-0605-18,6/5/2026 13:41:39,Grupo 6,18,A,11,3,70,24,8,3000,10000,0,8,4,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+11A2-0605-13,6/5/2026 13:44:51,Grupo 6,13,A,11,2,70.2,23,10,2500,9964.86,0,10,6,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+11A1-0605-13,6/5/2026 13:47:22,Grupo 6,13,A,11,1,85,23,16,3000,10000,0,16,7,Natural,Charla de estudiantes,Natural,Alimentación,Tecnológicos,NA,NA
+9A1-0605-13,6/5/2026 13:47:57,Grupo 1,13,A,9,1,143.67,24,0,0.29,1002.45,0,1,0,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+9A4-0605-13,6/5/2026 13:55:32,Grupo 1,13,A,9,4,143.87,24,0,0.21,2256.97,0,1,0,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+3A1-0605-18,6/5/2026 17:06:47,Grupo 1,18,A,3,1,39.1,27,0,102.3,1.03,5,0,0,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+3A2-0605-18,6/5/2026 17:12:17,Grupo 1,18,A,3,2,40.2,26,1,56.3,1.12,5,1,1,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+1B2-0605-18,6/5/2026 18:17:16,Grupo 5,18,B,1,2,122.66,21,8,165.73,66.09,0,2,0,Natural,Pasillos,Artificial,Descanso,Auditivos,NA,NA
+3A3-0605-13,6/5/2026 19:36:50,Grupo 1,13,A,3,3,122.8,22,45,703.02,1002.45,6,4,45,Híbrida,Charla de estudiantes,Artificial,Estudio,Tecnológicos,NA,NA
+2A2-0705-09,7/5/2026 8:58:13,Grupo 3,09,A,2,2,35,23,40,60,500,7,35,7,Mecánica (aire acondicionado),Obras de construcción,Artificial,Descanso,Tecnológicos,NA,NA
+1B3-0705-09,7/5/2026 9:00:46,Grupo 5,09,B,1,3,122.8,20,18,93.33,612.99,0,7,4,Natural,Charla de estudiantes,Natural,Socialización,Auditivos,NA,NA
+2A1-0705-09,7/5/2026 9:00:56,Grupo 3,09,A,2,1,30,21,40,12,1200,10,26,6,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Estudio,Visuales,NA,NA
+2A2-0705-09,7/5/2026 9:04:20,Grupo 3,09,A,2,2,25.4,21,34,27,350,10,20,6,Natural,Charla de estudiantes,Artificial,Estudio,Auditivos,NA,NA
+11A3-0705-09,7/5/2026 9:25:56,Grupo 6,09,A,11,3,20,20,2,200,8000,0,2,5,Natural,Tráfico vehicular,Natural,Descanso,Tecnológicos,NA,NA
+2A2-0705-09,7/5/2026 9:27:27,Grupo 3,09,A,2,2,58,21,30,12,400,10,12,6,Híbrida,Obras de construcción,Artificial,Estudio,Tecnológicos,NA,NA
+11A2-0705-09,7/5/2026 9:40:43,Grupo 6,09,A,11,2,20,19,5,200,8000,0,0,5,Natural,Tráfico vehicular,Natural,Descanso,Tecnológicos,NA,NA
+11A1-0705-09,7/5/2026 9:41:56,Grupo 6,09,A,11,1,35,19,5,400,9000,0,2,6,Natural,Tráfico vehicular,Natural,Descanso,Visuales,NA,NA
+10A1-0705-09,7/5/2026 9:43:21,Grupo 6,09,A,10,1,55,23,10,500.5,9500,15,3,5,Mecánica (aire acondicionado),Pasillos,Mixta,Estudio,Auditivos,NA,NA
+10A2-0705-09,7/5/2026 9:44:35,Grupo 6,09,A,10,2,40,23,7,500,9000,12,2,0,Mecánica (aire acondicionado),Pasillos,Mixta,Descanso,Tecnológicos,NA,NA
+2A2-0705-09,7/5/2026 9:48:25,Grupo 3,09,A,2,2,65,22,43,12,550,12,16,7,Mecánica (aire acondicionado),Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+2A1-0705-09,7/5/2026 9:55:50,Grupo 3,09,A,2,1,23,22,32,12,300,7,12,12,Mecánica (aire acondicionado),Obras de construcción,Mixta,Socialización,Visuales,NA,NA
+2A1-0705-09,7/5/2026 9:58:21,Grupo 3,09,A,2,1,29,23,32,21,500,6,20,6,Mecánica (aire acondicionado),Obras de construcción,Natural,Tránsito,Olfativos,NA,NA
+2A1-0705-13,7/5/2026 12:57:48,Grupo 3,13,A,2,1,155.4,23,6,372.09,950.8,6,6,6,Natural,Tráfico vehicular,Mixta,Estudio,Auditivos,NA,NA
+2A1-0705-13,7/5/2026 13:01:55,Grupo 3,13,A,2,1,154.5,24,30,320.4,982.5,10,6,16,Mecánica (aire acondicionado),Tráfico vehicular,Mixta,Estudio,Auditivos,NA,NA
+1S3-0705-13,7/5/2026 13:11:24,Grupo 3,13,S,1,3,152.4,25,0,328.77,253.7,2,3,2,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Tránsito,Tecnológicos,NA,NA
+1B3-0705-13,7/5/2026 13:23:47,Grupo 5,13,B,1,3,132.25,22,40,74.73,3159.53,0,20,10,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0705-13,7/5/2026 13:26:37,Grupo 3,13,S,1,1,147.4,26,40,222.22,75910.2,8,8,7,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+10A1-0705-13,7/5/2026 13:37:34,Grupo 6,13,A,10,1,131.64,22,24,102.43,154.68,11,12,20,Mecánica (aire acondicionado),Pasillos,Mixta,Estudio,Tecnológicos,NA,NA
+10A2-0705-13,7/5/2026 13:40:43,Grupo 6,13,A,10,2,152.76,22,18,117.19,148.97,14,10,30,Mecánica (aire acondicionado),Pasillos,Mixta,Descanso,Tecnológicos,NA,NA
+11A1-0705-13,7/5/2026 14:16:53,Grupo 6,13,A,11,1,137.45,23,1,845.67,1537.42,0,16,4,Natural,Charla de estudiantes,Natural,Descanso,Auditivos,NA,NA
+11A2-0705-13,7/5/2026 14:25:45,Grupo 6,13,A,11,2,132.58,23,0,342.78,1284.63,0,7,4,Natural,Charla de estudiantes,Natural,Descanso,Auditivos,NA,NA
+11A3-0705-13,7/5/2026 14:30:41,Grupo 6,13,A,11,3,114.92,23,1,186.47,1196.84,0,4,2,Natural,Tráfico vehicular,Natural,Descanso,Auditivos,NA,NA
+1B3-0705-18,7/5/2026 18:00:13,Grupo 5,18,B,1,3,132.51,20,40,89.67,76.03,0,8,10,Natural,Tráfico vehicular,Natural,Socialización,Visuales,NA,NA
+1B1-0705-18,7/5/2026 18:22:43,Grupo 5,18,B,1,1,136.77,22,174,249.28,197.65,25,11,1,Mecánica (aire acondicionado),Charla de estudiantes,Artificial,Alimentación,Auditivos,NA,NA
+1B2-0705-09,7/5/2026 22:28:51,Grupo 5,09,B,1,2,135.59,23,18,274.93,1624.36,0,3,0,Natural,Charla de estudiantes,Natural,Socialización,Auditivos,NA,NA
+1B1-0705-09,7/5/2026 22:37:04,Grupo 5,09,B,1,1,143.82,23,158,486.24,83.57,0,16,1,Mecánica (aire acondicionado),Charla de estudiantes,Natural,Alimentación,Auditivos,NA,NA
+1B1-0705-13,7/5/2026 22:42:29,Grupo 5,13,B,1,1,154.79,22,17,428.32,27.58,2,157,1,Mecánica (aire acondicionado),Charla de estudiantes,Mixta,Alimentación,Auditivos,NA,NA
+10A2-0805-09,8/5/2026 9:03:28,Grupo 6,09,A,10,2,128.84,23,18,106.96,594.13,14,6,30,Mecánica (aire acondicionado),Pasillos,Mixta,Descanso,Tecnológicos,NA,NA
+10A1-0805-09,8/5/2026 9:08:04,Grupo 6,09,A,10,1,128.62,23,24,108.45,258.46,11,8,20,Mecánica (aire acondicionado),Pasillos,Mixta,Estudio,Tecnológicos,NA,NA
+11A3-0805-09,8/5/2026 9:17:57,Grupo 6,09,A,11,3,130.85,24,0,184.28,1159.2,0,4,4,Natural,Charla de estudiantes,Natural,Esparcimiento,Tecnológicos,NA,NA
+11A2-0805-09,8/5/2026 9:26:15,Grupo 6,09,A,11,2,126.85,24,0,70.61,1948.4,0,7,4,Natural,Charla de estudiantes,Natural,Esparcimiento,Tecnológicos,NA,NA
+1S1-0805-13,8/5/2026 13:05:51,Grupo 8,13,S,1,1,123.64,18,4,478.56,478.9,0,23,8,Natural,Charla de estudiantes,Natural,Socialización,Auditivos,NA,NA
+1S1-0805-13,8/5/2026 13:06:48,Grupo 8,13,S,1,1,118.67,18,4,245.78,523.87,0,19,8,Natural,Charla de estudiantes,Natural,Descanso,Visuales,NA,NA
+1S1-0805-13,8/5/2026 13:07:50,Grupo 8,13,S,1,1,98.76,18,4,287.64,478.9,0,20,8,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0805-13,8/5/2026 13:09:28,Grupo 8,13,S,1,1,89.76,18,4,245.67,435.76,0,20,8,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0805-13,8/5/2026 13:10:37,Grupo 8,13,S,1,1,103.45,18,4,354.12,298.67,0,23,0,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0805-13,8/5/2026 13:11:39,Grupo 8,13,S,1,1,114.55,18,4,265.65,476.58,0,22,8,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0805-13,8/5/2026 13:12:38,Grupo 8,13,S,1,1,96.46,18,4,232.56,348.91,0,21,8,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0805-13,8/5/2026 13:13:36,Grupo 8,13,S,1,1,124.67,18,4,356.78,382.34,0,19,8,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0805-13,8/5/2026 13:14:24,Grupo 8,13,S,1,1,87.56,18,4,234.45,245.89,0,18,8,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0805-13,8/5/2026 13:16:09,Grupo 8,13,S,1,1,112.55,18,4,236.87,356.89,0,15,8,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S1-0805-13,8/5/2026 13:17:24,Grupo 8,13,S,1,1,87.56,18,4,201.87,321.76,0,16,8,Natural,Charla de estudiantes,Natural,Socialización,Visuales,NA,NA
+1S3-0805-13,8/5/2026 13:21:36,Grupo 8,13,S,1,3,55.32,18,0,124.78,155.98,4,2,3,Híbrida,Tráfico vehicular,Artificial,Alimentación,Auditivos,NA,NA
+1S3-0805-13,8/5/2026 13:24:04,Grupo 8,13,S,1,3,56.78,18,0,126.89,155.76,4,3,3,Mecánica (aire acondicionado),Tráfico vehicular,Artificial,Tránsito,Auditivos,NA,NA
+1S3-0805-13,8/5/2026 13:24:19,Grupo 8,13,S,1,3,54.36,18,0,98.45,103.25,4,5,4,Híbrida,Charla de estudiantes,Mixta,Esparcimiento,Visuales,NA,NA
+1S3-0805-13,8/5/2026 13:25:00,Grupo 8,13,S,1,3,55.87,18,0,122.78,150.98,4,2,3,Mecánica (aire acondicionado),Tráfico vehicular,Artificial,Tránsito,Auditivos,NA,NA
+1S3-0805-13,8/5/2026 13:25:38,Grupo 8,13,S,1,3,85.37,18,0,108.98,156.78,4,2,4,Híbrida,Charla de estudiantes,Mixta,Esparcimiento,Tecnológicos,NA,NA
+1S3-0805-13,8/5/2026 13:26:16,Grupo 8,13,S,1,3,55.18,18,0,125.9,155.12,4,2,3,Mecánica (aire acondicionado),Tráfico vehicular,Artificial,Tránsito,Auditivos,NA,NA
+1S3-0805-13,8/5/2026 13:26:49,Grupo 8,13,S,1,3,96.36,18,0,98.75,134.23,4,3,4,Híbrida,Charla de estudiantes,Artificial,Socialización,Visuales,NA,NA
+1S3-0805-13,8/5/2026 13:27:06,Grupo 8,13,S,1,3,54.89,18,0,127.56,153.93,4,3,3,Mecánica (aire acondicionado),Tráfico vehicular,Artificial,Tránsito,Auditivos,NA,NA
+1S3-0805-13,8/5/2026 13:27:58,Grupo 8,13,S,1,3,76.37,18,0,104.78,134.87,0,5,4,Híbrida,Pasillos,Mixta,Esparcimiento,Tecnológicos,NA,NA
+1S3-0805-13,8/5/2026 13:29:38,Grupo 8,13,S,1,3,67.23,18,0,104.67,1978.87,4,4,4,Híbrida,Charla de estudiantes,Artificial,Esparcimiento,Visuales,NA,NA
+3B1-0905-18,9/5/2026 9:11:26,Grupo 8,18,B,3,1,54.68,16,4,109.76,134.88,0,4,8,Natural,Pasillos,Natural,Esparcimiento,Tecnológicos,NA,NA
+3B1-0905-09,9/5/2026 9:13:09,Grupo 8,09,B,3,1,102.35,16,4,154.24,245.98,0,4,8,Híbrida,Pasillos,Natural,Esparcimiento,Tecnológicos,NA,NA
+3B1-0905-09,9/5/2026 9:14:01,Grupo 8,09,B,3,1,87.95,16,4,165.21,187.69,0,4,8,Natural,Pasillos,Natural,Esparcimiento,Tecnológicos,NA,NA
+3B1-0905-09,9/5/2026 9:15:01,Grupo 8,09,B,3,1,86.78,16,4,106.79,268.64,0,4,8,Natural,Pasillos,Natural,Esparcimiento,Tecnológicos,NA,NA
+3B1-0905-09,9/5/2026 9:15:50,Grupo 8,09,B,3,1,96.45,16,4,112.32,232.21,0,4,8,Natural,Pasillos,Natural,Esparcimiento,Tecnológicos,NA,NA
+3B1-0905-09,9/5/2026 9:16:53,Grupo 8,09,B,3,1,106.87,16,4,256.31,236.24,0,4,8,Natural,Pasillos,Natural,Esparcimiento,Tecnológicos,NA,NA
+3B1-0905-09,9/5/2026 9:17:54,Grupo 8,09,B,3,1,78.54,16,4,98.65,203.56,0,4,8,Natural,Pasillos,Natural,Esparcimiento,Tecnológicos,NA,NA
+3B1-0905-09,9/5/2026 9:18:50,Grupo 8,09,B,3,1,105.67,16,4,135.64,189.57,0,4,8,Natural,Pasillos,Natural,Esparcimiento,Tecnológicos,NA,NA
+3B2-0905-09,9/5/2026 9:19:46,Grupo 8,09,B,3,2,165.89,16,0,189.65,468.59,0,5,2,Natural,Tráfico vehicular,Natural,Esparcimiento,Auditivos,NA,NA
+3B2-0905-09,9/5/2026 9:21:21,Grupo 8,09,B,3,2,94.52,16,0,126.45,387.54,0,4,2,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+3B2-0905-09,9/5/2026 9:22:33,Grupo 8,09,B,3,2,106.25,16,0,198.57,521.42,0,4,2,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+3B2-0905-09,9/5/2026 9:23:40,Grupo 8,09,B,3,2,98.54,16,0,106.21,368.54,0,4,2,Natural,Pasillos,Natural,Tránsito,Auditivos,NA,NA
+3B2-0905-09,9/5/2026 9:24:35,Grupo 8,09,B,3,2,105.64,16,0,201.54,465.21,0,4,2,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+3B2-0905-09,9/5/2026 9:25:20,Grupo 8,09,B,3,2,67.84,16,0,102.56,198.65,0,4,2,Natural,Pasillos,Natural,Tránsito,Auditivos,NA,NA
+3B2-0905-09,9/5/2026 9:26:15,Grupo 8,09,B,3,2,84.52,16,0,206.34,421.25,0,4,2,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+3B2-0905-09,9/5/2026 9:27:03,Grupo 8,09,B,3,2,97.65,16,0,156.24,368.54,0,4,2,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+1S1-0905-18,9/5/2026 18:24:44,Grupo 8,18,S,1,1,65.87,16,4,102.45,345.77,6,12,8,Natural,Charla de estudiantes,Mixta,Socialización,Auditivos,NA,NA
+1S1-0905-18,9/5/2026 18:25:35,Grupo 8,18,S,1,1,76.89,16,4,134.56,245.78,6,12,8,Natural,Tráfico vehicular,Mixta,Socialización,Auditivos,NA,NA
+1S1-0905-18,9/5/2026 18:26:30,Grupo 8,18,S,1,1,89.76,16,4,124.66,234.65,6,12,8,Natural,Tráfico vehicular,Mixta,Esparcimiento,Visuales,NA,NA
+1S1-0905-18,9/5/2026 18:27:40,Grupo 8,18,S,1,1,65.36,16,4,108.76,276.34,6,12,8,Natural,Tráfico vehicular,Mixta,Socialización,Visuales,NA,NA
+3A2-1405-09,14/5/2026 9:16:05,Grupo 1,09,A,3,2,152.46,24,0,0.26,269.12,0,2,2,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+3A1-1405-09,14/5/2026 9:28:42,Grupo 1,09,A,3,1,152.68,29,0,1.27,434,0,2,2,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+9A4-1405-09,14/5/2026 9:35:01,Grupo 1,09,A,9,4,75.14,26,0,0.29,628.5,0,2,0,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+9A3-1405-09,14/5/2026 9:44:33,Grupo 1,09,A,9,3,133.67,24,45,0.04,332,5,1,15,Natural,Pasillos,Mixta,Estudio,Auditivos,NA,NA
+9A2-1405-09,14/5/2026 9:54:18,Grupo 1,09,A,9,2,129.53,24,45,0.08,18.16,0,4,15,Natural,Pasillos,Natural,Estudio,Auditivos,NA,NA
+9A5-1405-09,14/5/2026 10:04:26,Grupo 1,09,A,9,5,145.96,25,0,0.26,31.58,0,1,0,Natural,Tráfico vehicular,Natural,Tránsito,Auditivos,NA,NA
+9A1-1405-09,14/5/2026 10:16:13,Grupo 1,09,A,9,1,132.78,26,45,0.07,147.4,4,1,15,Natural,Pasillos,Mixta,Estudio,Auditivos,NA,NA

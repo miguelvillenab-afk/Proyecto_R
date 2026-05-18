@@ -1,0 +1,2 @@
+"0","#Renombrando la columna de ¿Qué grupo lo/la está encuestando?"
+"0","resultado <- rename(resultado, GrupoEncuestador = `¿Qué grupo lo/la está encuestando?`)"
