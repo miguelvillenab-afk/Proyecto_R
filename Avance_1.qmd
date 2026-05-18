@@ -31,7 +31,7 @@ La relevancia del estudio radica en que se basa tanto en mediciones objetivas co
 
 ### Planificación
 
-Pendiente...
+La recolección de datos se realizará durante distintas franjas horarias dentro del campus UTEC. Posteriormente, se efectuará la limpieza, codificación y análisis descriptivo de la base de datos utilizando R y Quarto.
 
 ## Objetivos
 
@@ -84,15 +84,15 @@ libreta_codigos <- data.frame(
   Variable = c("Nivel de Presión Sonora", "Temperatura Ambiental", "Nivel de Iluminancia", "N° de personas presentes", "N° de tomacorrientes disponibles", "Cantidad de luminarias", "Frecuencia de uso","Nivel de Conservación", "Nivel de Comodidad", "Facilidad para estudiar", "Intensidad de luz", "Propósito de ambiente", "Fuente de luz","Fuente de ruido","Distractores"),
   Tipo = c("Cuantitativa Continua", "Cuantitativa Continua", "Cuantitativa Continua", "Cuantitativa  Discreta", "Cuantitativa  Discreta", "Cuantitativa  Discreta", "Cualitativa Ordinal", "Cualitativa Ordinal","Cualitativa Ordinal","Cualitativa Ordinal","Cualitativa    Ordinal","Cualitativa  Nominal","Cualitativa  Nominal","Cualitativa  Nominal","Cualitativa  Nominal"),
   Valores_Válidos = c(
-    "Se medirá con el intrumento de medición en (dB)",
-    "Se medirá con el intrumento de medición en (Lux)",
-    "Se medirá con el intrumento de medición en (°C)",
+    "Se medirá con el isntrumento de medición en (dB)",
+    "Se medirá con el isntrumento de medición en (°C)",
+    "Se medirá con el isntrumento de medición en (Lux)",
     "Se contabilizará cada elemento",
     "Se contabilizará cada elemento",
     "Se contabilizará cada elemento",
     "**1 - Bajo**: El espacio lo utiliza de manera ocasional o poco frecuente, **2 - Medio**: El espacio lo usa de manera moderada a lo largo del tiempo, **3 - Alto**: El espacio es utilizado de manera constante o frecuente por los estudiantes",
     
-    "**1 - Muy deteriorado**: Suciedad evidente y orden generalizado, **2 - Deteriorado**: Suciedad visible y poco orden, **3 - Regular**: Limpieza básica y orden parcial, **4 - Conservado**: Espacio limpio y ordenado, **5 - Excelente estado**: Muy limpio y totalmente ordenado",
+    "**1 - Muy deteriorado**: Suciedad evidente y desorden generalizado, **2 - Deteriorado**: Suciedad visible y poco orden, **3 - Regular**: Limpieza básica y orden parcial, **4 - Conservado**: Espacio limpio y ordenado, **5 - Excelente estado**: Muy limpio y totalmente ordenado",
     
     "**1 - Muy incómodo**:  Mobiliario inadecuado, ruido alto, **2 - Incómodo**: Varias condiciones afectan (sillas duras, calor/frío, distracciones), **3 - Neutral**:  Condiciones aceptables pero no optimizadas, **4 - Cómodo**: Mobiliario adecuado, pocas molestias, **5 - Muy cómodo**: Ergonomía correcta, ambiente agradable.",
     
@@ -100,7 +100,7 @@ libreta_codigos <- data.frame(
     
     "**1 - Tenue**: Luz baja, poco adecuada para estudiar, **2 - Adecuado** :Iluminación óptima para actividades académicas, **3 - Deslumbrante**: Luz fuerte, puede generar incomodidad leve",
     "Estudio / Tránsito / Descanso / Socialización / Alimentación / Esparcimiento",
-    "Natura / Artificial / Mixta",
+    "Natural / Artificial / Mixta",
     "Tráfico / Charla / Obras / Pasillos",
     "Auditivos / Visuales / Tecnológicos / Olfativos"
   )
