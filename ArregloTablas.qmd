@@ -17,7 +17,7 @@ library(dplyr)
 ## Paso 1: Lectura de datos
 
 ```{r, message=FALSE}
-DF_TablaMala <- read_csv("MedicionesM.csv")
+DF_TablaMala <- read_csv("EncuestasM.csv")
 ```
 
 Creamos una función que compruebe que por cada columna de "pregunta repetida" solo hay un valor valido (!is.na) y verificamos que solo sea 1.

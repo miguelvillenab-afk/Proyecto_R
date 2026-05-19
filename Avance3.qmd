@@ -5,23 +5,30 @@ editor: visual
 ---
 
 ### Librerías
-```{r}
+
+```{r message=FALSE}
 library(readr)
 library(dplyr)
+library(ggplot2)
 ```
 
-###Carga de la base de datos
+### Carga de la base de datos
+
 ```{r, message=FALSE}
 #Encuentas <- read_csv("CAUTECResBien_1.csv")
 #Ambientales<- read_csv("CAUTECResBien1_1.csv")
 Encuentas <- read_csv("EncuestasB.csv")
 Ambientales <- read_csv("MedicionesB.csv")
 ```
+
 #### Unión de bases de datos
+
 ```{r, message=FALSE}
 resultado <- inner_join(Encuentas, Ambientales , by = "ID")
 ```
+
 #### Resultados
+
 ```{r}
 cat("Filas en Encuestas:", nrow(Encuentas), "\n")
 cat("Filas en Ambientales:", nrow(Ambientales), "\n")
@@ -44,7 +51,9 @@ resultado <- resultado %>% select(
   -...21
 )
 ```
+
 ### Renombramiento y Selección
+
 ```{r}
 resultado <- resultado %>% rename(
     'Torre' = `¿En qué torre se encuentra?.y`,
@@ -57,27 +66,30 @@ resultado <- resultado %>% rename(
     'Fuente de ruido' = `Fuente principal de ruido`
 )
 ```
+
 ```{r}
 resultado <- resultado %>% select(
   ID, Grupo, Torre, Ambiente, `Nivel de presión sonora (dB)`, `Nivel de iluminancia`, `Temperatura ambiental`, `N° de personas presentes`, `N° de tomacorrientes disponibles`, `Cant de luminarias`, `Fuente de luz` , `Fuente de ruido`,Propósito, Distractores, `Frecuencia de uso del ambiente` , `Nivel de conservación`,`Nivel de comodidad`, `Facilidad para estudiar`, `Intensidad de la luz`
 )
 ```
-# Limpieza
+
+### Limpieza
+
 ```{r}
 resultado <- resultado %>% mutate(`Cant de luminarias` = case_when(
   `Cant de luminarias` == 'Todos' ~ NA,
   TRUE ~ `Cant de luminarias`
 )) %>% mutate(`Cant de luminarias` = strtoi(`Cant de luminarias`))
 ```
-```{r}
-colSums(is.na(resultado))
-sum(is.na(resultado))
-```
-```{r}
-resultado <- na.omit(resultado)
-```
 
 ```{r}
+sum(is.na(resultado))
+nrow(resultado)
+resultado <- na.omit(resultado)
+nrow(resultado)
+```
+
+```{r message=FALSE }
 ### Cuantitativas Discretas
 resultado<- resultado %>% mutate(
   `N° de tomacorrientes disponibles` = as.numeric(`N° de tomacorrientes disponibles`),
@@ -115,4 +127,77 @@ resultado <- resultado%>% mutate(
 )
 ```
 
+```{r}
+str(resultado)
+```
 
+## 1. Análisis Univariable
+
+**Nivel de presión sonora (dB) :**
+
+```{r echo=FALSE}
+cat("Media : ", round(mean(resultado$`Nivel de presión sonora (dB)`, na.rm = TRUE),2), "db\n")
+
+cat("Mediana : ", round(median(resultado$`Nivel de presión sonora (dB)`, na.rm = TRUE),2), "db\n")
+
+cat("Mínimo : ", min(resultado$`Nivel de presión sonora (dB)`, na.rm = TRUE), "db\n")
+
+cat("Máximo : ", max(resultado$`Nivel de presión sonora (dB)`, na.rm = TRUE), "db\n")
+
+cat("\n")
+
+cat("Desviación estándar : ",
+    round(sd(resultado$`Nivel de presión sonora (dB)`, na.rm = TRUE),2),
+    "db\n")
+
+cat("Rango intercuartílico : ",
+    round(IQR(resultado$`Nivel de presión sonora (dB)`, na.rm = TRUE),2),
+    "db\n")
+
+cv_ruido <- sd(resultado$`Nivel de presión sonora (dB)`, na.rm = TRUE) /
+             mean(resultado$`Nivel de presión sonora (dB)`, na.rm = TRUE) * 100
+
+cat("Coeficiente de variación : ",
+    round(cv_ruido,2),
+    "%\n")
+boxplot(
+  resultado$`Nivel de presión sonora (dB)`,
+  main = "Nivel de presión sonora",
+  ylab = "dB"
+)
+```
+
+
+**Nivel de Iluminancia : **
+```{r echo=FALSE}
+cat("Media : ", round(mean(resultado$`Nivel de iluminancia`, na.rm = TRUE),2), "lux\n")
+
+cat("Mediana : ", round(median(resultado$`Nivel de iluminancia`, na.rm = TRUE),2), "lux\n")
+
+cat("Mínimo : ", min(resultado$`Nivel de iluminancia`, na.rm = TRUE), "lux\n")
+
+cat("Máximo : ", max(resultado$`Nivel de iluminancia`, na.rm = TRUE), "lux\n")
+
+cat("\n")
+
+cat("Desviación estándar : ",
+    round(sd(resultado$`Nivel de iluminancia`, na.rm = TRUE),2),
+    "lux\n")
+
+cat("Rango intercuartílico : ",
+    round(IQR(resultado$`Nivel de iluminancia`, na.rm = TRUE),2),
+    "lux\n")
+
+cv_ilum <- sd(resultado$`Nivel de iluminancia`, na.rm = TRUE) /
+             mean(resultado$`Nivel de iluminancia`, na.rm = TRUE) * 100
+
+cat("Coeficiente de variación : ",
+    round(cv_ilum,2),
+    "%\n")
+
+boxplot(
+  resultado$`Nivel de iluminancia`,
+  main = "Nivel de iluminancia",
+  ylab = "Lux"
+)
+```

@@ -3,31 +3,41 @@ title: "Avance2_Arreglado"
 format: html
 editor: visual
 ---
+
 ### Librerías
+
 ```{r}
 library(readr)
 library(dplyr)
 ```
 
 ###Carga de la base de datos
+
 ```{r}
 #Encuentas <- read_csv("CAUTECResBien_1.csv")
 #Ambientales<- read_csv("CAUTECResBien1_1.csv")
 Encuentas <- read_csv("EncuestasB.csv")
 Ambientales <- read_csv("MedicionesB.csv")
 ```
+
 #### Unión de bases de datos
+
 ```{r}
 resultado <- inner_join(Encuentas, Ambientales , by = "ID")
 ```
+
 #### Resultados
+
 ```{r}
 cat("Filas en Encuestas:", nrow(Encuentas), "\n")
 cat("Filas en Ambientales:", nrow(Ambientales), "\n")
 cat("Filas después del join:", nrow(resultado), "\n")
 ```
+
 ### Filtrado del Grupo
+
 Se realizó un proceso de integración y depuración de las bases de datos provenientes de las encuestas y mediciones ambientales con el objetivo de construir una base consistente para el análisis estadístico.
+
 ```{r}
 #Renombrando la columna de ¿Qué grupo lo/la está encuestando?
 resultado <- rename(resultado, GrupoEncuestador = `¿Qué grupo lo/la está encuestando?`)
@@ -36,6 +46,7 @@ resultados_grupo1
 ```
 
 #### Quitamos columnas repetidas
+
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>%
   select(
@@ -56,6 +67,7 @@ resultados_grupo1 <- resultados_grupo1 %>%
 ```
 
 #### Seleccionamos y renombramos las columnas necesarios para el estudio
+
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>% select(
   `ID`, `GrupoEncuestador`, `Piso`,`Ambiente`,`Nivel de presión sonora (dB)`,`Nivel de iluminancia`,`Temperatura ambiental`, `N° de personas presentes`,`N° de tomacorrientes disponibles`,`Cantidad de luminarias (focos) funcionando`,`Propósito en la comunidad`,`Fuente de luz`,`Fuente principal de ruido`,`Tipo de distractores no relacionados con su propósito`,`Frecuencia de uso del ambiente`,`Nivel de conservación`,`Nivel de comodidad`,`Nivel de facilidad para estudiar en el ambiente`, `Intensidad de la luz`
@@ -74,7 +86,9 @@ resultados_grupo1 <- resultados_grupo1 %>% rename(
 
 resultados_grupo1
 ```
+
 ### Detección de datos inconsistentes en la variable de luminarias
+
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>% mutate(`Cant. de luminarias` = case_when(
   `Cant. de luminarias` == 'Todos' ~ NA,
@@ -82,22 +96,23 @@ resultados_grupo1 <- resultados_grupo1 %>% mutate(`Cant. de luminarias` = case_w
 )) %>% mutate(`Cant. de luminarias` = strtoi(`Cant. de luminarias`))
 ```
 
-
 ### Validación de nulos
+
 ```{r}
 resultados_grupo1
 colSums(is.na(resultados_grupo1))
 ```
-Se identificaron algunos valores faltantes e inconsistentes en la variable de luminarias, los cuales fueron tratados antes del análisis estadístico.
-Limpiamos los NA
+
+Se identificaron algunos valores faltantes e inconsistentes en la variable de luminarias, los cuales fueron tratados antes del análisis estadístico. Limpiamos los NA
+
 ```{r}
 resultados_grupo1 <- na.omit(resultados_grupo1)
 
 resultados_grupo1
 ```
 
-
 ### Radiografía
+
 ```{r}
 Radiografia <- resultados_grupo1 %>%
   summarise(across(everything(), list(
@@ -112,14 +127,19 @@ Radiografia <- resultados_grupo1 %>%
 glimpse(Radiografia)
 Radiografia
 ```
+
 ### Validación de tipos de variables
+
 ```{r}
 glimpse(resultados_grupo1)
 ```
+
 ### Codificación de variables
+
 Las variables categóricas ordinales fueron transformadas en factores ordenados, mientras que las variables nominales fueron convertidas en factores categóricos para garantizar un tratamiento adecuado durante el análisis estadístico.
 
 ### Cuantitativas Discretas
+
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>% mutate(
   `N° de tomacorrientes disponibles` = as.numeric(`N° de tomacorrientes disponibles`),
@@ -127,8 +147,8 @@ resultados_grupo1 <- resultados_grupo1 %>% mutate(
 )
 ```
 
-
 #### Cuantitativas Continuas
+
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>%
   mutate(
@@ -140,8 +160,8 @@ resultados_grupo1 <- resultados_grupo1 %>%
   )
 ```
 
-
 #### Factores Ordinales
+
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>%
   mutate(
@@ -158,6 +178,7 @@ resultados_grupo1 <- resultados_grupo1 %>%
 ```
 
 #### Factores Nominales
+
 ```{r}
 resultados_grupo1 <- resultados_grupo1 %>% mutate(
   Propósito = as.factor(Propósito),
@@ -167,14 +188,16 @@ resultados_grupo1 <- resultados_grupo1 %>% mutate(
   Ambiente = as.factor(Ambiente)
 )
 ```
+
 ### Validación
+
 ```{r}
 str(resultados_grupo1)
 resultados_grupo1
 ```
+
 ### Exportación
+
 ```{r}
 write_csv(resultados_grupo1, "base_limpia_grupo1.csv")
 ```
-
-
